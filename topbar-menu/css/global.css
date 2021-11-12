@@ -27,6 +27,7 @@ body {
 .logo {
     width: 100px;
     height: 34px;
+    margin-left: 10px;
 }
 
 .leftbox {
