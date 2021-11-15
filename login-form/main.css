@@ -6,16 +6,7 @@ body {
     height: 700px;
 }
 
-.btn-1 {
-    width: 380px;
-    height: 40px;
-    background: #FFFFFF;
-    border: 1px solid #AFB5B9;
-    box-sizing: border-box;
-    border-radius: 5px;
-}
-
-.btn-2 {
+.btn {
     width: 380px;
     height: 40px;
     background: #FFFFFF;
@@ -41,7 +32,7 @@ label {
     margin-right: 20px;
 }
 
-.main {
+.login-form-container {
     border: 1px solid #AFB5B9;
     border-radius: 5px;
     width: 400px;
