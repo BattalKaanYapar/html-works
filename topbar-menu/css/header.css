@@ -138,7 +138,7 @@ input:checked+.slider:before {
     height: 75px;
 }
 
-.centerbox .icons {
+.center-box .icons {
     height: 22px;
     width: 24px;
 }
@@ -149,12 +149,12 @@ input:checked+.slider:before {
     margin-left: 10px;
 }
 
-.leftbox {
+.left-box {
     float: left;
     padding: 20px;
 }
 
-.centerbox {
+.center-box {
     height: 75px;
     display: flex;
     text-align: center;
@@ -163,7 +163,7 @@ input:checked+.slider:before {
     margin: 0 auto;
 }
 
-.rightbox {
+.right-box {
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -171,7 +171,7 @@ input:checked+.slider:before {
     margin-right: 10px;
 }
 
-.inside-rightbox {
+.inside-right-box {
     margin-left: 25px;
 }
 
@@ -179,6 +179,6 @@ input:checked+.slider:before {
     border-radius: 20px;
 }
 
-.centerbox-link {
+.center-box-link {
     margin: 0 auto;
 }
