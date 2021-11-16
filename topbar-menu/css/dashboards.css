@@ -38,6 +38,11 @@
     margin-left: 13px;
 }
 
+.select-search {
+    width: max-content;
+    height: max-content;
+}
+
 #select {
     background-color: #547DF9;
     width: 160px;
@@ -61,4 +66,20 @@
 .bos {
     width: 200px;
     height: 50px;
+}
+
+.time-select {
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.organization-select {
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+label {
+    margin-left: 20px;
 }
