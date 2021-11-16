@@ -1,0 +1,54 @@
+.container-link {
+    margin: 20px;
+}
+
+.container-content-left-link a:visited {
+    color: #2F80ED;
+}
+
+.container-content-left-link {
+    float: left;
+}
+
+.container-content-right-link {
+    float: right;
+}
+
+.dashboard-btn {
+    background-color: #547DF9;
+    border: 1px solid #547DF9;
+    color: #FFF;
+    border-radius: 5px;
+    width: 134px;
+    height: 32px;
+}
+
+.set-main-dashboard {
+    width: 134px;
+    height: 32px;
+    border: 1px solid #EDEDED;
+    color: #6D6D6D;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.dortkenar {
+    width: 16px;
+    height: 16px;
+    margin-left: 13px;
+}
+
+.select {
+    background-color: #547DF9;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #547DF9;
+    color: black;
+}
+
+.search {
+    width: 745px;
+    height: 40px;
+    background-color: #FFF;
+}
