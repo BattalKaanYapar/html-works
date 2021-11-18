@@ -17,7 +17,7 @@
     <header class="navbar navbar-expand">
         <div class="topbar">
             <nav class="topbar-nav-navbar">
-                <div class="left-box box">
+                <div class="left-box">
                     <img src="../topbar-menu/logo/logo.png" alt="logo" class="logo">
                 </div>
                 <div class="center-box">
@@ -87,41 +87,81 @@
                 <button class="dashboard-btn"> + New Dashboard</button>
                 <button class="set-main-dashboard">Set Main Dashboard</button>
                 <img src="./images/dortkenar.png" class="dortkenar">
-            </div>
-            <div class="bos">
-            </div>
-            <div class="select-search">
-                <select name="select" id="select">
-                    <option>Select Dashboards</option>
-                    <option>Main Dashboards</option>
-                    <option>Soc Dashboards</option>
-                    <option>Home Dashboards</option>
-                </select>
-                <input type="search" name="search" value="Search" class="search">
-                <label for="organization">Organization</label>
-                <select name="organization" class="organization-select">
-                    <option>Select</option>
-                </select>
-                <label for="select">Time</label>
-                <select name="select" class="time-select">
-                    <option>3 Days</option>
-                </select>
-            </div>
-            <div class="dasboards-content">
-                <div class="box">
-                    <img src="./images/image1.png">
+            </div><br><br>
+            <div class="select-search-organization">
+                <div class="select">
+                    <select name="select" id="select-dashboards">
+                        <option>Select Dashboards</option>
+                        <option>Main Dashboards</option>
+                        <option>Soc Dashboards</option>
+                        <option>Home Dashboards</option>
+                    </select>
+                    <input type="search" placeholder="Search" class="search-btn">
                 </div>
-                <div class="box">
-                    <img src="./images/image2.png">
+                <div class="organization">
+                    <label for="organization">Organization</label>
+                    <select name="organization" id="org-select">
+                        <option value="">Select</option>
+                    </select>
+                    <label for="Time">Time</label>
+                    <select name="Time" id="time-select">
+                        <option>1 Days</option>
+                        <option>3 Days</option>
+                        <option>5 Days</option>
+                    </select>
+                </div><br><br><br>
+            </div>
+            <div class="dashboards-content">
+                <div class="dashboard-example">
+                    <div class="box">
+                        <div class="left-right">
+                            <div class="left-label">
+                                <label>Widget Name</label>
+                            </div>
+                            <div class="right-label">
+                                <label>Index Time: 24 Hours <img src="./images/pensandexit.png" alt=""> </label>
+                            </div>
+                        </div>
+                        <img src="./images/image1.png">
+                    </div>
                 </div>
-                <div class="box">
-                    <img src="./images/image3.png">
+                <div class="dashboard-example">
+                    <div class="box">
+                        <div class="left-label"><label>Widget Name</label></div>
+                        <div class="right-label"><label>Index Time: 24 Hours <img src="./images/pensandexit.png" alt=""></label></div>
+
+                        <img src="./images/image2.png">
+                    </div>
                 </div>
-                <div class="box">
+                <div class="dashboard-example">
+                    <div class="box">
+                        <div class="left-label"><label>Widget Name</label></div>
+                        <div class="right-label"><label>Index Time: 24 Hours <img src="./images/pensandexit.png" alt=""></label></div>
+                        <img src="./images/image3.png">
+                    </div>
+                </div>
+                <div class="dashboard-example">
+                    <div class="box">
+
+                        <div class="left-label">
+                            <label>Widget Name</label>
+                        </div>
+                        <div class="right-label">
+                            <label>Index Time: 24 Hours <img src="./images/pensandexit.png" alt=""></label>
+                        </div>
+                    </div>
                     <img src="./images/image4.png">
                 </div>
             </div>
+            <div class="dashboard-example">
+                <div class="box">
+                    <div class="left-label"><label>Widget Name</label></div>
+                    <div class="right-label"><label>Index Time: 24 Hours <img src="./images/pensandexit.png" alt=""></label></div>
+                    <img src="./images/image1.png">
+                </div>
+            </div>
         </div>
+    </div>
 </body>
 
 </html>
