@@ -58,7 +58,6 @@
     color: #6D6D6D;
     padding: 20px;
     border-radius: 5px;
-    margin-left: 20px;
     cursor: pointer;
 }
 
@@ -81,8 +80,8 @@
 }
 
 .dashboards-content {
-    display: flex;
     margin: 0 auto;
+    display: flex;
 }
 
 .select {
@@ -102,16 +101,14 @@
     width: 450px;
     height: 450px;
     background-color: #FFF;
-    justify-content: center;
     text-align: center;
     align-items: center;
     margin-right: 10px;
 }
 
-.left-right {}
-
 .box {
     padding: 10px;
+    justify-content: space-between;
 }
 
 .left-label {
@@ -120,4 +117,17 @@
 
 .right-label {
     float: right;
+}
+
+.images-hardrock {
+    margin-top: 100px;
+}
+
+.dashboard-example p {
+    width: 134px;
+    height: 74px;
+    color: #FB5B5B;
+    font-size: 70px;
+    margin-top: 200px;
+    margin-left: 120px;
 }
