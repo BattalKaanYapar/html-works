@@ -1,6 +1,5 @@
 .container-content {
-    margin-left: 0 auto;
-    padding: 20px;
+    margin: 20px;
 }
 
 .container-content-left-link a:visited {
@@ -39,6 +38,13 @@
     margin-left: 13px;
 }
 
+.select-search-organization {
+    display: flex;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 #select-dashboards {
     background-color: #547DF9;
     width: 160px;
@@ -46,18 +52,6 @@
     border-radius: 5px;
     border: 1px solid #547DF9;
     color: black;
-    cursor: pointer;
-}
-
-.search-btn {
-    width: 750px;
-    height: 40px;
-    background-color: #FFF;
-    border: 1px solid #6D6D6D;
-    border-radius: 5px;
-    color: #6D6D6D;
-    padding: 20px;
-    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -80,7 +74,8 @@
 }
 
 .dashboards-content {
-    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
 }
 
 .select {
@@ -102,25 +97,15 @@
     background-color: #FFF;
     text-align: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .box {
     padding: 10px;
-    justify-content: space-between;
 }
 
 .images-hardrock {
     margin-top: 100px;
-}
-
-.dashboard-example p {
-    width: 134px;
-    height: 74px;
-    color: #FB5B5B;
-    font-size: 70px;
-    margin-top: 200px;
-    margin-left: 120px;
 }
 
 .dashboard-example .box .label-alignment .left {
@@ -129,4 +114,45 @@
 
 .dashboard-example .box .label-alignment .right {
     float: right;
+}
+
+.search-btn {
+    margin: 0 auto;
+}
+
+.search {
+    width: 1440px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #91A4B3;
+    margin: 0 auto;
+}
+
+.select-item {
+    background-color: #547DF9;
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.organization-examples label {
+    font-style: bold;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.ex-select {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.day-select {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    margin: 0 auto;
 }
