@@ -181,4 +181,7 @@ input:checked+.slider:before {
 
 .center-box-link {
     margin: 0 auto;
+    display: inline-block;
+    width: 100px;
+    height: 75px;
 }
