@@ -17,11 +17,21 @@
 }
 
 .container-content-left-link .right-vec {
-    padding-right: 10px;
+    width: 6px;
+    height: 10px;
+    margin-right: 10px;
 }
 
 .container-content-right-link {
     float: right;
+}
+
+.center-box .link-box a {
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
 }
 
 .dashboard-btn {
@@ -38,13 +48,14 @@
 }
 
 .set-main-dashboard {
-    border: 1px solid #EDEDED;
+    background-color: #FAFAFA;
     color: #6D6D6D;
     border-radius: 4px;
     margin-left: 10px;
     padding: 5px;
     height: 35px;
     width: 150px;
+    border: 1px solid #E7EBED;
 }
 
 .extension {
@@ -108,7 +119,7 @@
 }
 
 .dashboard-example {
-    border: 1px solid #91A4B3;
+    border: 1px solid #E7EBED;
     width: 450px;
     height: 450px;
     background-color: #FFF;
@@ -212,9 +223,10 @@
     height: 40px;
     padding: 5px;
     margin: 0 auto;
-    background-color: #E5E5E5;
     border-radius: 4px;
+    background-color: #FAFAFA;
     color: #595959;
+    border: 1px solid #E7EBED;
 }
 
 .day-select {
@@ -222,9 +234,10 @@
     height: 40px;
     padding: 5px;
     margin: 0 auto;
-    background-color: #E5E5E5;
+    background-color: #FAFAFA;
     border-radius: 4px;
     margin-left: 5px;
+    border: 1px solid #E7EBED;
     color: #595959;
 }
 
@@ -259,7 +272,7 @@
 }
 
 .new-widget {
-    border: 1px solid #91A4B3;
+    border: 1px solid #E7EBED;
     width: 450px;
     height: 170px;
     background-color: #FFF;
