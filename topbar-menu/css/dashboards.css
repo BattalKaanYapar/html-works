@@ -3,11 +3,21 @@
 }
 
 .container-content-left-link a:visited {
-    color: #2F80ED;
+    color: black;
 }
 
 .container-content-left-link {
     float: left;
+}
+
+.container-content-left-link a {
+    padding-right: 10px;
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.container-content-left-link .right-vec {
+    padding-right: 10px;
 }
 
 .container-content-right-link {
@@ -18,18 +28,23 @@
     background-color: #547DF9;
     border: 1px solid #547DF9;
     color: #FFF;
-    border-radius: 5px;
+    border-radius: 4px;
     width: 134px;
     height: 32px;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .set-main-dashboard {
-    width: 134px;
-    height: 32px;
     border: 1px solid #EDEDED;
     color: #6D6D6D;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-left: 10px;
+    padding: 5px;
+    height: 35px;
+    width: 150px;
 }
 
 .dortkenar {
@@ -81,7 +96,6 @@
 }
 
 .select {
-    width: 20%;
     float: left;
 }
 
@@ -105,11 +119,43 @@
 }
 
 .box {
+    height: 450px;
+}
+
+.label-alignment {
     padding: 10px;
 }
 
-.images-hardrock {
-    margin-top: 100px;
+.label-alignment .right label {
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.pencil {
+    width: 18px;
+    height: 18px;
+}
+
+.close-square {
+    width: 20px;
+    height: 20px;
+}
+
+.percent-box {
+    height: 240px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.percent-box label {
+    color: #FB5B5B;
+    font-size: 80px;
+    position: relative;
+    top: 80px;
+    left: 20%;
 }
 
 .dashboard-example .box .label-alignment .left {
@@ -118,20 +164,24 @@
 
 .dashboard-example .box .label-alignment .right {
     float: right;
+    color: #6D6D6D;
+    display: flex;
 }
 
 .search-btn {
-    width: 80%;
     margin: 0 auto;
+    width: 90%;
 }
 
 .search {
-    width: 1440px;
     height: 40px;
     padding: 10px;
     border-radius: 6px;
     border: 1px solid #91A4B3;
     margin: 0 auto;
+    width: 99%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .select-item {
@@ -147,14 +197,14 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     display: flex;
+    margin-left: 20px;
 }
 
 .organization-examples label {
     font-style: bold;
-    line-height: 22px;
-    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .ex-select {
@@ -163,6 +213,8 @@
     padding: 5px;
     margin: 0 auto;
     background-color: #E5E5E5;
+    border-radius: 4px;
+    color: #595959;
 }
 
 .day-select {
@@ -171,4 +223,62 @@
     padding: 5px;
     margin: 0 auto;
     background-color: #E5E5E5;
+    border-radius: 4px;
+    margin-left: 5px;
+    color: #595959;
+}
+
+.box-bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 170px;
+}
+
+.box-bottom-icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 153px;
+}
+
+.images-hardrock {
+    width: 300px;
+    height: 240px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+
+.dropdown-content a {
+    text-align: left;
+}
+
+.hour-and-minute {
+    width: 300px;
+}
+
+.new-widget {
+    border: 1px solid #91A4B3;
+    width: 450px;
+    height: 170px;
+    background-color: #FFF;
+    text-align: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.widget {
+    color: #91A4B3;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.widget-box a {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
 }
