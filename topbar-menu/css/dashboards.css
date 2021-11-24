@@ -14,6 +14,8 @@
     padding-right: 10px;
     text-decoration: none;
     line-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .container-content-left-link .fa-angle-right {
@@ -124,7 +126,7 @@
     background-color: #FFF;
     text-align: center;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
 }
 
@@ -218,6 +220,7 @@
     border-radius: 6px;
     padding: 5px;
     color: #FFF;
+    border: 1px solid #547DF9;
 }
 
 .organization-examples {
@@ -226,6 +229,7 @@
     align-items: center;
     display: flex;
     margin-left: 20px;
+    font-weight: 700;
 }
 
 .organization-examples label {
