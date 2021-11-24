@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/dashboards.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Logsign menu coding</title>
 </head>
@@ -21,48 +21,48 @@
         <div class="center-box">
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/workbench.png" alt="workbench" class="icons"> <br> Workbench
+                    <img src="../topbar-menu/icons/workbench.png" alt="workbench" class="icons"><br>Workbench
                 </a>
             </div>
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/dashboards.png" alt="Dashboard" class="icons"> <br> Dashboards
+                    <img src="../topbar-menu/icons/dashboards.png" alt="Dashboard" class="icons"><br>Dashboards
                 </a>
             </div>
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/incidents.png" alt="incidents" class="icons"> <br> Incidents
+                    <img src="../topbar-menu/icons/incidents.png" alt="incidents" class="icons"><br>Incidents
                 </a>
             </div>
             <div class="dropdown link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/caches.png" alt="Cases" class="icons"> <br> Cases
+                    <img src="../topbar-menu/icons/caches.png" alt="Cases" class="icons"><br>Cases
                     <img src="../topbar-menu/icons/dropdownvec.png" alt="dropdown-toggle" class="dropdown-toggle" data-toggle="down-vector" data-hover="Shortcodes" alt="Shortcodes">
                 </a>
                 <button class="dropbtn"></button>
                 <div class="dropdown-content">
-                    <a href="#"><img src="../topbar-menu/icons/droprightvec.png" alt="Task-Boards" class="dropdown-inline"> Task Boards</a>
-                    <a href="#"><img src="../topbar-menu/icons/droprightvec.png" alt="Case-Groups" class="dropdown-inline"> Case Groups</a>
+                    <a href="#"><img src="../topbar-menu/icons/droprightvec.png" alt="Task-Boards" class="dropdown-inline">Task Boards</a>
+                    <a href="#"><img src="../topbar-menu/icons/droprightvec.png" alt="Case-Groups" class="dropdown-inline">Case Groups</a>
                 </div>
             </div>
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/reports.png" alt="Reports" class="icons"> <br> Reports
+                    <img src="../topbar-menu/icons/reports.png" alt="Reports" class="icons"><br>Reports
                 </a>
             </div>
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/identity.png" alt="Identity" class="icons"> <br> Identity
+                    <img src="../topbar-menu/icons/identity.png" alt="Identity" class="icons"><br>Identity
                 </a>
             </div>
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/assest.png" alt="assest" class="icons"> <br> Assest
+                    <img src="../topbar-menu/icons/assest.png" alt="assest" class="icons"><br>Assest
                 </a>
             </div>
             <div class="link-box">
                 <a href="#">
-                    <img src="../topbar-menu/icons/knowledge.png" alt="Knowledge" class="icons"> <br> Knowledge
+                    <img src="../topbar-menu/icons/knowledge.png" alt="Knowledge" class="icons"><br>Knowledge
                 </a>
             </div>
         </div>
@@ -93,9 +93,9 @@
     <div class="container-content">
         <div class="container-link">
             <div class="container-content-left-link">
-                <a href="#">Home </a><img src="./icons/droprightvec.png" class="right-vec" alt="right-vec">
-                <a href="#">Dashboards </a><img src="./icons/droprightvec.png" class="right-vec" alt="right-vec">
-                <a href="#">Main Dashboard</a><img src="./icons/droprightvec.png" class="right-vec" alt="right-vec">
+                <a href="#">Home </a><i class="fas fa-angle-right"></i>
+                <a href="#">Dashboards </a><i class="fas fa-angle-right"></i>
+                <a href="#">Main Dashboard</a><i class="fas fa-angle-right"></i>
                 <a href="#">Soc Dashboard</a>
             </div>
             <div class="container-content-right-link">
@@ -113,8 +113,11 @@
                     <option>Home Dashboards</option>
                 </select>
             </div>
-            <div class="search-btn">
-                <input type="search" name="search" placeholder="Search" class="search">
+            <div class="example">
+                <input type="text" placeholder="Search" name="search" class="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <!-- <input type="text" name="search" placeholder="Search" class="search">
+                <button type="submit" class="search-icon-btn"><i class="fa fa-search"></i></button> -->
             </div>
             <div class="organization-examples">
                 <label>Organization</label>
@@ -240,6 +243,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
