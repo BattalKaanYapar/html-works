@@ -11,24 +11,24 @@
     justify-content: space-between;
 }
 
-.left-box {
+.logsign-logo {
     padding-left: 20px;
 }
 
-.center-box {
+.topnav-links {
     display: flex;
 }
 
-.center-box .icons {
+.topnav-links .icons {
     height: 22px;
     width: 24px;
 }
 
-.link-box :hover {
+.topnav-link-item :hover {
     background-color: #262626;
 }
 
-.link-box a {
+.topnav-link-item a {
     display: inline-block;
     width: 100px;
     height: 75px;
@@ -37,33 +37,33 @@
     padding-top: 1rem;
 }
 
-.link-box a:active {
+.topnav-link-item a:active {
     color: #FFFFFF;
     border-bottom: 3px solid #547DF9;
 }
 
-.link-box a:visited {
+.topnav-link-item a:visited {
     color: #FAFAFA;
 }
 
-.right-box {
+.topnav-switch-bar {
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
 
-.right-box a {
+.topnav-switch-bar a {
     text-decoration: none;
     font-weight: 400;
     line-height: 24px;
 
 }
 
-.inside-right-box {
+.topnav-inside-item {
     margin-left: 20px;
 }
 
-.right-box a:visited {
+.topnav-switch-bar a:visited {
     color: #FFFFFF;
 }
 
