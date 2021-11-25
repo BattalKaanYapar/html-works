@@ -185,11 +185,12 @@
     margin: 0 auto;
     width: 99%;
     margin-left: 20px;
-    border:1px solid #AFB5B9;
+    border: 1px solid #AFB5B9;
     border-radius: 6px;
     justify-content: space-between;
     display: flex;
 }
+
 .search-btn input[type=text] {
     padding-left: 10px;
     width: 95%;
@@ -197,7 +198,8 @@
     border: none;
     height: 40px;
     display: inline-block;
-  }
+}
+
 .search-btn button {
     background: #FFF;
     color: #A2A5A7;
@@ -205,14 +207,13 @@
     cursor: pointer;
     height: 40px;
     width: 50px;
-
-  }
+}
 
 .example::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .select-item {
     background-color: #547DF9;
