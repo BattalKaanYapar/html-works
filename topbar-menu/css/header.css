@@ -12,9 +12,11 @@
 }
 
 .topbar-menu a {
+    color: #FFF;
     font-weight: 400;
-    font-size: 14px;
+    font-style: normal;
     line-height: 24px;
+    font-size: 14px;
 }
 
 .logsign-logo {

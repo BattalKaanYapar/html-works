@@ -2,10 +2,6 @@
     margin: 20px;
 }
 
-.link-groups-inside-containe a:visited {
-    color: black;
-}
-
 .link-groups-inside-container {
     float: left;
 }
@@ -13,6 +9,7 @@
 .link-groups-inside-container a {
     padding-right: 10px;
     text-decoration: none;
+    font-family: Roboto;
     line-height: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -29,14 +26,9 @@
     float: right;
 }
 
-.topbar-menu .link-box a {
-    color: #FFF;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 24px;
-}
-
 .dashboard-btn {
+    font-family: Roboto;
+    font-weight: 400;
     background-color: #547DF9;
     border: 1px solid #547DF9;
     color: #FFF;
@@ -50,6 +42,9 @@
 }
 
 .set-main-dashboard-btn {
+    line-height: 22px;
+    font-family: Roboto;
+    font-weight: 400;
     background-color: #FAFAFA;
     color: #6D6D6D;
     border-radius: 4px;
@@ -72,6 +67,14 @@
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.organization-options label {
+    color: #595959;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 #select-dashboards {
@@ -173,12 +176,20 @@
 
 .dashboard-cards .card-sizes .card-labels-alignment .label-left {
     float: left;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .dashboard-cards .card-sizes .card-labels-alignment .label-right {
     float: right;
     color: #6D6D6D;
     display: flex;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .search-btn {
