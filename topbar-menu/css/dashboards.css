@@ -64,7 +64,7 @@
 .select-search-organization {
     width: 100%;
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -142,15 +142,11 @@
     padding: 10px;
 }
 
-.card-labels-alignment .right label {
-    padding-left: 10px;
-    align-items: center;
-    text-align: center;
-}
-
 .pencil {
     width: 18px;
     height: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .close-square {
@@ -167,6 +163,9 @@
 }
 
 .percent-box label {
+    font-family: Roboto;
+    line-height: 82px;
+    font-weight: 700;
     color: #FB5B5B;
     font-size: 80px;
     position: relative;
@@ -190,6 +189,9 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
 }
 
 .search-btn {
