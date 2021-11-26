@@ -5,9 +5,9 @@
     left: 0px;
     top: 0px;
     display: flex;
+    text-align: center;
     margin: 0 auto;
     align-items: center;
-    text-align: center;
     justify-content: space-between;
 }
 
@@ -152,6 +152,10 @@ input:checked+.slider:before {
     display: inline-block;
 }
 
+.dropdown:hover {
+    background-color: #262626;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -187,6 +191,7 @@ input:checked+.slider:before {
 }
 
 .dropdown-toggle {
-    position: relative;
-    left: 10px;
+    position: absolute;
+    top: 52px;
+    left: 76px;
 }
