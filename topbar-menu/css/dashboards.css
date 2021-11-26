@@ -9,7 +9,7 @@
 .link-groups-inside-container a {
     padding-right: 10px;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: 'Roboto';
     line-height: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -27,7 +27,7 @@
 }
 
 .dashboard-btn {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 400;
     background-color: #547DF9;
     border: 1px solid #547DF9;
@@ -43,7 +43,7 @@
 
 .set-main-dashboard-btn {
     line-height: 22px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 400;
     background-color: #FAFAFA;
     color: #6D6D6D;
@@ -67,11 +67,16 @@
     margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+
+.instrument-panel-selection {
+    float: left;
 }
 
 .organization-options label {
     color: #595959;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
@@ -111,7 +116,7 @@
     flex-wrap: wrap;
 }
 
-.instrument-panel-selection {
+.selected {
     float: left;
 }
 
@@ -163,7 +168,7 @@
 }
 
 .percent-box label {
-    font-family: Roboto;
+    font-family: 'Roboto';
     line-height: 82px;
     font-weight: 700;
     color: #FB5B5B;
@@ -175,7 +180,7 @@
 
 .dashboard-cards .card-sizes .card-labels-alignment .label-left {
     float: left;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -185,7 +190,7 @@
     float: right;
     color: #6D6D6D;
     display: flex;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -234,8 +239,18 @@
     height: 40px;
     border-radius: 6px;
     padding: 5px;
+    padding-right: 10px;
     color: #FFF;
     border: 1px solid #547DF9;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url('../images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px);
 }
 
 .organization-options {
@@ -262,6 +277,13 @@
     background-color: #FAFAFA;
     color: #595959;
     border: 1px solid #E7EBED;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../images/down-arrow-gray.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px);
+    background-size: 10px;
 }
 
 .time-select {
@@ -274,22 +296,29 @@
     margin-left: 5px;
     border: 1px solid #E7EBED;
     color: #595959;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../images/down-arrow-gray.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px);
+    background-size: 10px;
 }
 
+
+}
 .bottom-of-cards {
     display: flex;
     justify-content: space-between;
     position: relative;
     top: 170px;
 }
-
 .box-bottom-icons {
     display: flex;
     justify-content: space-between;
     position: relative;
     top: 153px;
 }
-
 .images-hardrock {
     width: 300px;
     height: 240px;
@@ -297,15 +326,12 @@
     left: 10px;
     top: 50px;
 }
-
 .dropdown-content a {
     text-align: left;
 }
-
 .hour-and-minute {
     width: 300px;
 }
-
 .new-widget {
     border: 1px solid #E7EBED;
     width: 450px;
@@ -318,13 +344,11 @@
     display: flex;
     justify-content: center;
 }
-
 .widget {
     color: #91A4B3;
     font-size: 24px;
     line-height: 28px;
 }
-
 .widget-box a {
     text-decoration: none;
     cursor: pointer;
