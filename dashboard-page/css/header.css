@@ -145,7 +145,6 @@ input:checked+.slider:before {
     background-color: #414659;
     border: none;
     cursor: pointer;
-    position: relative;
 }
 
 .dropdown {
