@@ -270,6 +270,9 @@
     padding: 5px;
     margin: 0 auto;
     border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
     background-color: #FAFAFA;
     color: #595959;
     border: 1px solid #E7EBED;
@@ -287,6 +290,9 @@
     height: 40px;
     padding: 5px;
     margin: 0 auto;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 22px;
     background-color: #FAFAFA;
     border-radius: 4px;
     margin-left: 5px;
