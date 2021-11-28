@@ -83,7 +83,6 @@
     line-height: 22px;
 }
 
-
 .dashboard-content-cards {
     margin-top: 20px;
     display: flex;
@@ -117,7 +116,7 @@
     height: 450px;
 }
 
-.card-labels-alignment {
+.dashboard-card-alignment {
     padding: 10px;
 }
 
@@ -152,7 +151,7 @@
     left: 20%;
 }
 
-.dashboard-cards .card-sizes .card-labels-alignment .label-left {
+.dashboard-cards .card-sizes .dashboard-card-alignment .widget-top-left {
     float: left;
     font-family: 'Roboto';
     font-weight: 500;
@@ -160,7 +159,7 @@
     line-height: 24px;
 }
 
-.dashboard-cards .card-sizes .card-labels-alignment .label-right {
+.dashboard-cards .card-sizes .dashboard-card-alignment .widget-top-right {
     float: right;
     color: #6D6D6D;
     display: flex;
@@ -281,14 +280,14 @@
     background-size: 10px;
 }
 
-.bottom-of-cards {
+.widget-footer {
     display: flex;
     justify-content: space-between;
     position: relative;
     top: 170px;
 }
 
-.box-bottom-icons {
+.widget-footer-icons {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -324,7 +323,7 @@
     justify-content: center;
 }
 
-.widget {
+.create-widget {
     color: #91A4B3;
     font-size: 24px;
     line-height: 28px;
