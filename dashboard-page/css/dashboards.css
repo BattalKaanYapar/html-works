@@ -71,7 +71,7 @@
     font-family: 'Roboto';
 }
 
-.instrument-panel-selection {
+.dashboard-panel-selection {
     float: left;
 }
 
@@ -83,33 +83,6 @@
     line-height: 22px;
 }
 
-#select-dashboards {
-    background-color: #547DF9;
-    width: 160px;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid #547DF9;
-    color: black;
-    cursor: pointer;
-}
-
-#org-select {
-    width: 150px;
-    height: 40px;
-    padding: 10px;
-    margin: 0px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#time-select {
-    width: 150px;
-    height: 40px;
-    padding: 10px;
-    margin: 0px 5px;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 .dashboard-content-cards {
     margin-top: 20px;
@@ -283,6 +256,7 @@
     background-repeat: no-repeat;
     background-position: calc(100% - 10px);
     background-size: 10px;
+    cursor:pointer;
 }
 
 .time-select {
