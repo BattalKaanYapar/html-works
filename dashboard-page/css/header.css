@@ -32,11 +32,11 @@
     width: 24px;
 }
 
-.top-nav-link-item :hover {
+.link-categories :hover {
     background-color: #262626;
 }
 
-.top-nav-link-item a {
+.link-categories a {
     display: inline-block;
     width: 100px;
     height: 75px;
@@ -45,12 +45,12 @@
     padding-top: 1rem;
 }
 
-.top-nav-link-item a:active {
+.link-categories a:active {
     color: #FFFFFF;
     border-bottom: 3px solid #547DF9;
 }
 
-.top-nav-link-item a:visited {
+.link-categories a:visited {
     color: #FAFAFA;
 }
 
