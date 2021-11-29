@@ -1,1 +1,42 @@
-@media screen and (max-width:600px) {}
+@media(max-width:768px) {
+    .dashboard-panel-selection {
+        display: flex;
+        width: 50%;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .select-search-organization {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px) {
+    .dashboard-btn-groups-inside-container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:768px) {
+    .search-btn {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .dashboard-filter-box {
+        display: block;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
