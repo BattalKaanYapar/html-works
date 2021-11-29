@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/dashboards.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Logsign menu coding</title>
+</head>
+
+<body>
+    <nav class="topbar-menu">
+        <div class="logsign-logo">
+            <img src="../dashboard-page/logo/logo.png" alt="Logsign-logo">
+        </div>
+        <div class="top-nav-links">
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/workbench.png" alt="workbench" class="icons"><br>Workbench
+                </a>
+            </div>
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/dashboards.png" alt="Dashboard" class="icons"><br>Dashboards
+                </a>
+            </div>
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/incidents.png" alt="incidents" class="icons"><br>Incidents
+                </a>
+            </div>
+            <div class="dropdown link-categories">
+                <a href="#" class="link-item-cases">
+                    <img src="../dashboard-page/icons/caches.png" alt="Cases" class="icons"><br>Cases
+                </a>
+                <img src="../dashboard-page/icons/dropdownvec.png" alt="dropdown-toggle" class="dropdown-toggle">
+                <div class="dropdown-content">
+                    <a href="#"><img src="../dashboard-page/icons/droprightvec.png" alt="Task-Boards" class="dropdown-inline">Task Boards</a>
+                    <a href="#"><img src="../dashboard-page/icons/droprightvec.png" alt="Case-Groups" class="dropdown-inline">Case Groups</a>
+                </div>
+            </div>
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/reports.png" alt="Reports" class="icons"><br>Reports
+                </a>
+            </div>
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/identity.png" alt="Identity" class="icons"><br>Identity
+                </a>
+            </div>
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/assest.png" alt="assest" class="icons"><br>Assest
+                </a>
+            </div>
+            <div class="link-categories">
+                <a href="#">
+                    <img src="../dashboard-page/icons/knowledge.png" alt="Knowledge" class="icons"><br>Knowledge
+                </a>
+            </div>
+        </div>
+        <div class="top-nav-switch-bar">
+            <div class="switch">
+                <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+            </div>
+            <div class="top-nav-inside-item">
+                <a href="#">Agent Status</a>
+            </div>
+            <div class="top-nav-inside-item">
+                <img src="../dashboard-page/icons/group.png" class="icons" alt="group">
+            </div>
+            <div class="top-nav-inside-item">
+                <img src="../dashboard-page/icons/image.png" class="user-page" alt="image">
+            </div>
+            <div class="top-nav-inside-item">
+                <img src="../dashboard-page/icons/settings.png" class="icons" alt="settings">
+            </div>
+            <div class="top-nav-inside-item">
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-content">
+        <div class="content-links">
+            <div class="link-groups-inside-container">
+                <a href="#">Home </a><i class="fas fa-angle-right"></i>
+                <a href="#">Dashboards </a><i class="fas fa-angle-right"></i>
+                <a href="#">Main Dashboard</a><i class="fas fa-angle-right"></i>
+                <a href="#">Soc Dashboard</a>
+            </div>
+            <div class="dashboard-btn-groups-inside-container">
+                <button class="dashboard-btn"> + New Dashboard</button>
+                <button class="set-main-dashboard-btn">Set Main Dashboard</button>
+                <img src="./images/directional.png" class="extension">
+            </div>
+        </div><br>
+        <div class="select-search-organization">
+            <div class="dashboard-panel-selection">
+                <select name="select" class="select-item">
+                    <option>Select Dashboard</option>
+                    <option>Dashboard Category 1</option>                  
+                    <option>Dashboard Category 2</option>
+                    <option>Dashboard Category 3</option>
+                    <option>Dashboard Category 4</option>
+                </select>
+            </div>
+            <div class="search-btn">
+                <input type="text" placeholder="Search" name="search">
+            </div>
+            <div class="dashboard-filter-box">
+                <div class="filter-box-btn">Organization</div>
+                <select name="select" class="org-select">
+                    <option>Select</option>
+                    <option>Examples</option>
+                </select>
+                <div class="filter-box-btn">Time</div>
+                <select name="select" class="time-select">
+                    <option>3 Days</option>
+                    <option>5 Days</option>
+                </select>
+            </div>
+        </div>
+        <div class="dashboard-content-cards">
+            <div class="dashboard-cards">
+                <div class="dashboard-card-alignment">
+                    <div class="widget-top-left">Widget Name</div>
+                    <div class="widget-top-right">Index Time: 24 Hours
+                        <div><img src="../dashboard-page/images/pencil.png" class="pencil"></div>
+                        <div><img src="../dashboard-page/images/close-square.png" class="close-square"></div>
+                    </div>
+                </div>
+                <div class="dashboard-inside-widget"><img src="./images/image1.png"></div>
+                <div class="widget-footer">
+                    <img src="../dashboard-page/images/Vector.png">
+                    <img src="../dashboard-page/images/corner-icon.png">
+                </div>
+            </div>
+            <div class="dashboard-cards">
+                <div class="dashboard-card-alignment">
+                    <div class="widget-top-left">Widget Name</div>
+                    <div class="widget-top-right">Index Time: 24 Hours
+                        <div><img src="../dashboard-page/images/pencil.png" class="pencil"></div>
+                        <div><img src="../dashboard-page/images/close-square.png" class="close-square"></div>
+                    </div>
+                </div>
+                <div class="dashboard-inside-widget"><img src="./images/image2.png"></div>
+                <div class="widget-footer">
+                    <img src="../dashboard-page/images/Vector.png">
+                    <img src="../dashboard-page/images/corner-icon.png">
+                </div>
+            </div>
+            <div class="dashboard-cards">
+                <div class="dashboard-card-alignment">
+                    <div class="widget-top-left">Widget Name</div>
+                    <div class="widget-top-right">Index Time: 24 Hours
+                        <div><img src="../dashboard-page/images/pencil.png" class="pencil"></div>
+                        <div><img src="../dashboard-page/images/close-square.png" class="close-square"></div>
+                    </div>
+                </div>
+                <div class="dashboard-inside-widget"><img src="./images/image3.png"></div>
+                <div class="widget-footer">
+                    <img src="../dashboard-page/images/Vector.png">
+                    <img src="../dashboard-page/images/corner-icon.png">
+                </div>
+            </div>
+            <div class="dashboard-cards">
+                <div class="dashboard-card-alignment">
+                    <div class="widget-top-left">Widget Name</div>
+                    <div class="widget-top-right">Index Time: 24 Hours
+                        <div><img src="../dashboard-page/images/pencil.png" class="pencil"></div>
+                        <div><img src="../dashboard-page/images/close-square.png" class="close-square"></div>
+                    </div>
+                </div>
+                <div class="dashboard-inside-widget"><img src="./images/image4.png"></div>
+                <div class="widget-footer">
+                    <img src="../dashboard-page/images/Vector.png">
+                    <img src="../dashboard-page/images/corner-icon.png">
+                </div>
+            </div>
+            <div class="dashboard-cards">
+                <div class="dashboard-card-alignment">
+                    <div class="widget-top-left">Widget Name</div>
+                    <div class="widget-top-right">Index Time: 24 Hours
+                        <div><img src="../dashboard-page/images/pencil.png" class="pencil"></div>
+                        <div><img src="../dashboard-page/images/close-square.png" class="close-square"></div>
+                    </div>
+                </div>
+                <div class="percent-box">
+                    <label>%72</label>
+                </div>
+                <div class="widget-footer">
+                    <img src="../dashboard-page/images/Vector.png">
+                    <img src="../dashboard-page/images/corner-icon.png">
+                </div>
+            </div>
+            <div class="dashboard-cards">
+                <div class="dashboard-card-alignment">
+                    <div class="widget-top-left">Widget Name</div>
+                    <div class="widget-top-right">Index Time: 24 Hours
+                        <div><img src="../dashboard-page/images/pencil.png" class="pencil"></div>
+                        <div><img src="../dashboard-page/images/close-square.png" class="close-square"></div>
+                    </div>
+                </div>
+                <div class="hour-and-minute percent-box">
+                    <label>6h 32m</label>
+                </div>
+                <div class="widget-footer widget-footer-icons">
+                    <img src="../dashboard-page/images/Vector.png">
+                    <img src="../dashboard-page/images/corner-icon.png">
+                </div>
+            </div>
+            <div class="new-widget">
+                <div class="widget-add-box">
+                    <a href="#">
+                        <img src="../dashboard-page/images/arti.png" alt="add-new-widget"><br>
+                        <div class="create-widget">New Widget</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
