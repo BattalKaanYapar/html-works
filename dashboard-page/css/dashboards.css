@@ -194,6 +194,13 @@
     border-radius: 5px;
 }
 
+.filter-box-btn {
+    font-weight: 700;
+    font-family: 'Roboto';
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
 .example::after {
     content: "";
     clear: both;
