@@ -1,3 +1,13 @@
+* {
+    font-family: 'Roboto';
+}
+
+.alignment-items {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-content {
     margin: 20px;
 }
@@ -9,7 +19,6 @@
 .link-groups-inside-container a {
     padding-right: 10px;
     text-decoration: none;
-    font-family: 'Roboto';
     line-height: 16px;
     font-weight: 500;
     font-size: 14px;
@@ -28,7 +37,6 @@
 }
 
 .dashboard-btn {
-    font-family: 'Roboto';
     font-weight: 400;
     background-color: #547DF9;
     border: 1px solid #547DF9;
@@ -37,14 +45,10 @@
     width: 134px;
     height: 32px;
     font-size: 14px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .set-main-dashboard-btn {
     line-height: 22px;
-    font-family: 'Roboto';
     font-weight: 400;
     background-color: #FAFAFA;
     color: #6D6D6D;
@@ -68,7 +72,6 @@
     margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
-    font-family: 'Roboto';
 }
 
 .dashboard-panel-selection {
@@ -77,7 +80,6 @@
 
 .dashboard-filter-box label {
     color: #595959;
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
@@ -109,8 +111,6 @@
     width: 450px;
     height: 450px;
     background-color: #FFF;
-    text-align: center;
-    align-items: center;
     margin-right: 10px;
     margin-bottom: 20px;
 }
@@ -133,14 +133,10 @@
 
 .percent-box {
     height: 240px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     display: flex;
 }
 
 .percent-box label {
-    font-family: 'Roboto';
     line-height: 82px;
     font-weight: 700;
     color: #FB5B5B;
@@ -152,7 +148,6 @@
 
 .dashboard-cards .dashboard-card-alignment .widget-top-left {
     float: left;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
@@ -162,13 +157,10 @@
     float: right;
     color: #6D6D6D;
     display: flex;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     padding-left: 10px;
-    align-items: center;
-    text-align: center;
 }
 
 .search-btn {
@@ -196,7 +188,6 @@
 
 .filter-box-btn {
     font-weight: 700;
-    font-family: 'Roboto';
     padding-right: 5px;
     padding-left: 20px;
 }
@@ -217,7 +208,6 @@
     padding-left: 10px;
     color: #FFF;
     border: 1px solid #547DF9;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     appearance: none;
@@ -229,9 +219,6 @@
 }
 
 .dashboard-filter-box {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     display: flex;
     margin-left: 20px;
     font-weight: 700;
@@ -243,7 +230,6 @@
     padding: 5px;
     margin: 0 auto;
     border-radius: 4px;
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 22px;
     background-color: #FAFAFA;
@@ -264,7 +250,6 @@
     height: 40px;
     padding: 5px;
     margin: 0 auto;
-    font-family: 'Roboto';
     font-size: 14px;
     line-height: 22px;
     background-color: #FAFAFA;
@@ -316,12 +301,9 @@
     width: 450px;
     height: 170px;
     background-color: #FFF;
-    text-align: center;
-    align-items: center;
     margin-right: 20px;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
 }
 
 .create-widget {
