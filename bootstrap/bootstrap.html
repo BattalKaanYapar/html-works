@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="bg-secondary">
     <!-- <div class="container bg-danger">
         <h1>Container</h1>
     </div> -->
@@ -53,12 +53,76 @@
         <span class="align-self-end"></span>
     </div> -->
     <!-- Background Text -->
-    <div class="bg-secondary py-2 text-light">Content</div>
+    <!-- <div class="bg-secondary py-2 text-light">Content</div>
     <div class="bg-light px-2 text-dark">Content</div>
     <div class="bg-warning m-1 text-light">Content</div>
     <div class="bg-danger my-2 text-light">Content</div>
     <div class="bg-success mx-2 text-light">Content</div>
-    <div class="bg-dark mx-auto text-light" style="max-width: 700px;">Content</div>
+    <div class="bg-dark mx-auto text-light" style="max-width: 700px;">Content</div> -->
+    <!-- Grid System/layout.
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-success">
+                Column
+            </div>
+            <div class="col-3 col-xs bg-primary">
+                Column
+            </div>
+            <div class="col-2 col-xxl- bg-danger">
+                Column
+            </div>
+        </div>
+    </div> -->
+    <div class="container mt-3 d-flex">
+        <div class="row">
+            <div class="col-md">
+                <div class="card">
+                    <!-- <div class="card-header">Card Header</div> -->
+                    <div class="card-body text-center">
+                        <img src="../topbar-menu/images/mountain.jpg" class="card-img-top" alt="#">
+                        <div class="card-title">
+                            <h4>Article 1</h4>
+                            <!--Alttan margin bırakıyor o yüzden heading içersinde yazdık başlığımızı -->
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ducimus!</p>
+                        </div>
+                        <a href="#" class="btn btn-primary d-block">Read More</a>
+                    </div>
+                    <!-- <div class="card-footer">Card Footer</div> -->
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="../topbar-menu/images/mountain.jpg" class="card-img-top" alt="#">
+                        <div class="card-title">
+                            <h4>Article 1</h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ducimus!</p>
+                        </div>
+                        <a href="#" class="btn btn-primary d-block">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="../topbar-menu/images/mountain.jpg" class="card-img-top" alt="#">
+                        <div class="card-title">
+                            <h4>Article 1</h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, ducimus!</p>
+                        </div>
+                        <a href="#" class="btn btn-primary d-block">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
