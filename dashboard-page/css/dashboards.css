@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto';
+    font-size: 14px;
 }
 
 .alignment-items {
@@ -12,20 +13,17 @@
     margin: 20px;
 }
 
-.link-groups-inside-container {
-    float: left;
-}
-
 .link-groups-inside-container a {
+    float: left;
     padding-right: 10px;
     text-decoration: none;
     line-height: 16px;
     font-weight: 500;
-    font-size: 14px;
     color: #595959;
 }
 
 .link-groups-inside-container .fa-angle-right {
+    float: left;
     width: 6px;
     height: 10px;
     margin-right: 10px;
@@ -44,7 +42,6 @@
     border-radius: 4px;
     width: 134px;
     height: 32px;
-    font-size: 14px;
 }
 
 .set-main-dashboard-btn {
@@ -69,23 +66,11 @@
 .select-search-organization {
     width: 100%;
     display: flex;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin:30px 20px 20px 0;
 }
 
 .dashboard-panel-selection {
     float: left;
-}
-
-.dashboard-filter-box label {
-    color: #595959;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    font-style: bold;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .dashboard-content-cards {
@@ -93,26 +78,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-.selected {
-    float: left;
-}
-
-.organization {
-    float: right;
-}
-
-.organization label {
-    font-style: bold;
-}
-
 .dashboard-cards {
     border: 1px solid #E7EBED;
     width: 450px;
     height: 450px;
     background-color: #FFF;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 0 10px 20px 0;
 }
 
 .dashboard-card-alignment {
@@ -122,8 +93,7 @@
 .pencil {
     width: 18px;
     height: 18px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .close-square {
@@ -136,7 +106,7 @@
     display: flex;
 }
 
-.percent-box label {
+.percent-box .percent-item {
     line-height: 82px;
     font-weight: 700;
     color: #FB5B5B;
@@ -148,8 +118,9 @@
 
 .dashboard-cards .dashboard-card-alignment .widget-top-left {
     float: left;
+}
+.widget-styles{
     font-weight: 500;
-    font-size: 14px;
     line-height: 24px;
 }
 
@@ -157,9 +128,6 @@
     float: right;
     color: #6D6D6D;
     display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
     padding-left: 10px;
 }
 
@@ -188,8 +156,7 @@
 
 .filter-box-btn {
     font-weight: 700;
-    padding-right: 5px;
-    padding-left: 20px;
+    padding: 0 5px 0 20px;
 }
 
 .example::after {
@@ -203,13 +170,10 @@
     width: 160px;
     height: 40px;
     border-radius: 6px;
-    padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding:5px;
     color: #FFF;
     border: 1px solid #547DF9;
     font-weight: 500;
-    font-size: 14px;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -230,7 +194,6 @@
     padding: 5px;
     margin: 0 auto;
     border-radius: 4px;
-    font-size: 14px;
     line-height: 22px;
     background-color: #FAFAFA;
     color: #595959;
@@ -250,7 +213,6 @@
     height: 40px;
     padding: 5px;
     margin: 0 auto;
-    font-size: 14px;
     line-height: 22px;
     background-color: #FAFAFA;
     border-radius: 4px;
@@ -274,9 +236,6 @@
 }
 
 .widget-footer-icons {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
     top: 153px;
 }
 
@@ -301,8 +260,7 @@
     width: 450px;
     height: 170px;
     background-color: #FFF;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin:0 20px 20px 0;
     display: flex;
 }
 
