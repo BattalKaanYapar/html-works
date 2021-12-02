@@ -88,9 +88,12 @@
     height: 450px;
     background-color: #FFF;
     margin: 0 10px 20px 0;
+    position: relative;
 }
 
 .dashboard-card-alignment {
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
 }
 
@@ -108,16 +111,15 @@
 .percent-box {
     height: 240px;
     display: flex;
+    margin: 50px auto;
 }
 
 .percent-box .percent-item {
     line-height: 82px;
     font-weight: 700;
     color: #FB5B5B;
-    font-size: 80px;
-    position: relative;
-    top: 80px;
-    left: 20%;
+    font-size: 70px;
+    display: flex;
 }
 
 .dashboard-cards .dashboard-card-alignment .widget-top-left {
@@ -226,14 +228,12 @@
 }
 
 .widget-footer {
-    display: flex;
+    width: 450px;
+    height: 18px;
+    position: absolute;
+    bottom: 0;
     justify-content: space-between;
-    position: relative;
-    top: 170px;
-}
-
-.widget-footer-icons {
-    top: 153px;
+    display: flex;
 }
 
 .dashboard-inside-widget {
@@ -246,10 +246,6 @@
 
 .dropdown-content a {
     text-align: left;
-}
-
-.hour-and-minute {
-    width: 300px;
 }
 
 .new-widget {
