@@ -1,6 +1,12 @@
 * {
     font-family: 'Roboto';
     font-size: 14px;
+    font-weight: 400;
+}
+
+.font-wght-styles {
+    font-weight: 500;
+    line-height: 24px;
 }
 
 .alignment-items {
@@ -18,7 +24,6 @@
     padding-right: 10px;
     text-decoration: none;
     line-height: 16px;
-    font-weight: 500;
     color: #595959;
 }
 
@@ -35,7 +40,6 @@
 }
 
 .dashboard-btn {
-    font-weight: 400;
     background-color: #547DF9;
     border: 1px solid #547DF9;
     color: #FFF;
@@ -46,7 +50,6 @@
 
 .set-main-dashboard-btn {
     line-height: 22px;
-    font-weight: 400;
     background-color: #FAFAFA;
     color: #6D6D6D;
     border-radius: 4px;
@@ -66,7 +69,7 @@
 .select-search-organization {
     width: 100%;
     display: flex;
-    margin:30px 20px 20px 0;
+    margin: 30px 20px 20px 0;
 }
 
 .dashboard-panel-selection {
@@ -78,6 +81,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .dashboard-cards {
     border: 1px solid #E7EBED;
     width: 450px;
@@ -118,10 +122,6 @@
 
 .dashboard-cards .dashboard-card-alignment .widget-top-left {
     float: left;
-}
-.widget-styles{
-    font-weight: 500;
-    line-height: 24px;
 }
 
 .dashboard-cards .dashboard-card-alignment .widget-top-right {
@@ -170,10 +170,9 @@
     width: 160px;
     height: 40px;
     border-radius: 6px;
-    padding:5px;
+    padding: 5px;
     color: #FFF;
     border: 1px solid #547DF9;
-    font-weight: 500;
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -185,7 +184,6 @@
 .dashboard-filter-box {
     display: flex;
     margin-left: 20px;
-    font-weight: 700;
 }
 
 .org-select {
@@ -216,7 +214,6 @@
     line-height: 22px;
     background-color: #FAFAFA;
     border-radius: 4px;
-    margin-left: 5px;
     border: 1px solid #E7EBED;
     color: #595959;
     appearance: none;
@@ -260,7 +257,7 @@
     width: 450px;
     height: 170px;
     background-color: #FFF;
-    margin:0 10px 20px 0;
+    margin: 0 10px 20px 0;
     display: flex;
 }
 
