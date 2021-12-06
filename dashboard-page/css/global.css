@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 14px;
     line-height: 24px;
+    font-family: 'Roboto';
 }
 
 body {
@@ -14,8 +15,4 @@ body {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Regular.ttf);
     font-style: normal;
-}
-
-a {
-    font-family: 'Roboto';
 }
