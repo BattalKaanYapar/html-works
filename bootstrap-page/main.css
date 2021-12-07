@@ -18,3 +18,7 @@ body {
 .card {
     border-radius: 0.5rem;
 }
+
+.main-item {
+    border-radius: 5rem;
+}
