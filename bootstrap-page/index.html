@@ -1,244 +1,201 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deneme</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
-    <title>Boostrap</title>
+    <link rel="stylesheet" href="./examples.css">
+
 </head>
 
-<body>
-    <div class="navbar-vertical fixed-start navbar navbar-expand-md navbar-light">
-        <div class="container-fluid">
-            <button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="#" class="navbar-brand"><img class="navbar-brand-img" src="../bootstrap-page/b-images/logo.svg" width="55px"></a>
-            <div class="d-md-none dropdown">
-                <div class="avatar avatar-sm avatar-online dropdown-toggle" aria-expanded="false" role="button">
-                    <img src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" class="avatar-img rounded-circle" width="40px">
+<body style="background-color: #F8FBFD;">
+    <div class="container-fluid">
+        <div class="col-md-3 col-xl-2 bg-white" style="border-right: 1px solid #E2EBF6; max-width: 250px;">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
+                <a href="/" class="d-flex align-items-center mx-5 text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline"><img src="../bootstrap-page/b-images/logo.svg"
+                            style="max-width: 55px;"></span>
+                </a>
+                <ul class="nav nav-pills flex-column navbar mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home ">
+                                <g>
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </g>
+                            </svg>
+                            <span class=" ms-1 d-none d-sm-inline ">Dashboards</span>
+                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
+                                <g>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="# " class="nav-link align-middle px-0 ">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file ">
+                                <g>
+                                    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                    <polyline points="13 2 13 9 20 9"></polyline>
+                                </g>
+                            </svg>
+                            <span class="ms-1 d-none d-sm-inline ">Pages</span>
+                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
+                                <g>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="# " class="nav-link align-middle px-0 ">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid ">
+                                <g>
+                                    <rect x="3" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="14" width="7" height="7"></rect>
+                                    <rect x="3" y="14" width="7" height="7"></rect>
+                                </g>
+                            </svg>
+                            <span class="ms-1 d-none d-sm-inline ">Widgets</span>
+
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="# " class="nav-link align-middle align-center px-0 ">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user ">
+                                <g>
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </g>
+                            </svg>
+                            <span class="ms-1 d-none d-sm-inline ">Authentication</span>
+                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
+                                <g>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </g>
+                            </svg>
+
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills flex-column navbar mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home ">
+                                <g>
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </g>
+                            </svg>
+                            <span class=" ms-1 d-none d-sm-inline ">Dashboards</span>
+                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
+                                <g>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class=" header " style=" border-bottom: 1px solid #e3ebf6; margin-bottom: 40px; margin-top: 20px; ">
+                <div class=" container-fluid">
+                    <div class=" header-body ">
+                        <div class=" row align-items-end">
+                            <div class=" col ">
+                                <h6 class=" header-pretitle text-muted ">Overwiew</h6>
+                                <h1 class=" header-title ">Dashboard</h1>
+                            </div>
+                            <div class=" col-auto p-4 ">
+                                <button type=" button " class=" lift btn btn-primary ">
+                                    Create Report
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <div>
-                    <div class="navbar-nav">
-                        <div class="nav-item">
-                            <a href="#" role="button" class="nav-link" tabindex="0">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home ">
-                                    <g>
-                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                    </g>
-                                </svg> Dashboards
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                    <g>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </g>
-                                </svg>
-                            </a>
+            <div class=" container-fluid ">
+                <div class=" row ">
+                    <div class=" col-xl col-md-6 col-12 ">
+                        <div class=" card ">
+                            <div class=" card-body ">
+                                <div class=" align-item-center row ">
+                                    <div class=" col ">
+                                        <h6 class=" text-uppercase text-muted mb-2 ">VALUE</h6>
+                                        <span class=" h2 mb-0 ">$24,500</span>
+                                        <span class=" mt-b1 ms-2 badge bg-success-soft text-success">+3.5%</span>
+                                    </div>
+                                    <div class=" col-auto ">
+                                        <i class=" fas fa-dollar-sign icons pt-3 " style=" font-size: 20px; "></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="nav-item">
-                            <a href="#" role="button" class="nav-link" tabindex="0">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file ">
-                                    <g>
-                                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
-                                        <polyline points="13 2 13 9 20 9"></polyline>
-                                    </g>
-                                </svg> Pages
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                    <g>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </g>
-                                </svg>
-                            </a>
+                    </div>
+                    <div class=" col-xl col-md-6 col-12 ">
+                        <div class=" card ">
+                            <div class=" card-body ">
+                                <div class=" align-item-center row ">
+                                    <div class=" col ">
+                                        <h6 class=" text-uppercase text-muted mb-2 ">TOTAL HOURS</h6>
+                                        <span class=" h2 mb-0 ">763.5</span>
+                                    </div>
+                                    <div class=" col-auto ">
+                                        <i class=" fas fa-briefcase icons pt-3 " style=" font-size: 20px; "></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="nav-item">
-                            <a href="#" role="button" class="nav-link" tabindex="0">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid ">
-                                    <g>
-                                        <rect x="3" y="3" width="7" height="7"></rect>
-                                        <rect x="14" y="3" width="7" height="7"></rect>
-                                        <rect x="14" y="14" width="7" height="7"></rect>
-                                        <rect x="3" y="14" width="7" height="7"></rect>
-                                    </g>
-                                </svg> Widgets
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                    <g>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </g>
-                                </svg>
-                            </a>
+                    </div>
+                    <div class=" col-xl col-md-6 col-12 ">
+                        <div class=" card ">
+                            <div class=" card-body ">
+                                <div class=" align-item-center row ">
+                                    <div class=" col ">
+                                        <h6 class=" text-uppercase text-muted mb-2 ">EXIT %</h6>
+                                        <span class=" h2 mb-0 ">35.5%</span>
+                                    </div>
+                                    <div class=" col-auto ">
+                                        <img src=" ../bootstrap-page/b-images/dashboard_files/dashboard-exit.png " width=" 75px " height=" 35px ">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="nav-item">
-                            <a href="#" role="button" class="nav-link" tabindex="0">
-                                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user ">
-                                    <g>
-                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                        <circle cx="12" cy="7" r="4"></circle>
-                                    </g>
-                                </svg> Authentication
-                                <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                    <g>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </g>
-                                </svg>
-                            </a>
+                    </div>
+                    <div class=" col-xl col-md-6 col-12 ">
+                        <div class=" card ">
+                            <div class=" card-body ">
+                                <div class=" align-item-center row ">
+                                    <div class=" col ">
+                                        <h6 class=" text-uppercase text-muted mb-2 ">AVG.TIME</h6>
+                                        <span class=" h2 mb-0 ">2:37</span>
+                                    </div>
+                                    <div class=" col-auto ">
+                                        <i class=" far fa-clock icons pt-3 " style=" font-size: 20px; "></i>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="main-content">
-        <div class="header">
-            <div class="container-fluid">
-                <div class="header-body">
-                    <div class="row align-items-end row">
-                        <div class="col">
-                            <h6 class="header-pretitle">Overwiew</h6>
-                            <h1 class="header-title">Dashboard</h1>
-                        </div>
-                        <div class="col-auto">
-                            <button type="button" class="lift btn btn-primary">
-                                Create Report
-                            </button>
-                        </div>
-                        <hr>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl col-md-6 col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="align-item-center row">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-muted mb-2">VALUE</h6>
-                                    <span class="h2 mb-0">$24,500</span>
-                                    <span class="mt-b1 ms-2 badge bg-success">+3.5%</span>
-                                </div>
-                                <div class="col-auto">
-                                    <i class="fas fa-dollar-sign icons pt-3" style="font-size: 20px;"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl col-md-6 col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="align-item-center row">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-muted mb-2 ">TOTAL HOURS</h6>
-                                    <span class="h2 mb-0">763.5</span>
-                                </div>
-                                <div class="col-auto ">
-                                    <i class="fas fa-briefcase icons pt-3 " style="font-size: 20px; "></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl col-md-6 col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="align-item-center row">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-muted mb-2 ">EXIT %</h6>
-                                    <span class="h2 mb-0">35.5%</span>
-                                </div>
-                                <div class=" col-auto ">
-                                    <img src="../bootstrap-page/b-images/dashboard_files/dashboard-exit.png" width="75px" height="35px">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl col-md-6 col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="align-item-center row">
-                                <div class="col">
-                                    <h6 class="text-uppercase text-muted mb-2 ">AVG.TIME</h6>
-                                    <span class="h2 mb-0">2:37</span>
-                                </div>
-                                <div class="col-auto ">
-                                    <i class="far fa-clock icons pt-3 " style="font-size: 20px; "></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-xl-8 col-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4 class="card-header-title">Conversions</h4>
-                            <span class="text-muted me-3">Last year comparision:</span>
-                            <div class="form-switch">
-                                <input type="checkbox" id="cardToggle" class="form-check-input" style="width: 45px; height: 25px;">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="chart"><img src="../bootstrap-page/b-images/dashboard_files/conversion-inside-1.png"></div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-            <div class="col-xl-4 col-12">
-                <div class="card">
-                    <div class="card-header" style="border-top-left-radius: 0.5rem; border-top-right-radius: 0.5rem;">
-                        <h4 class="card-header-title">Traffic Channels</h4>
-                        <div class="nav-tabs-sm nav card-header-tabs nav-tabs">
-                            <div class="nav-item">
-                                <a href="#" role="button" class="nav-link active" tabindex="0">All</a>
-                            </div>
-                            <div class="nav-item"><a href="#" role="button" class="nav-link" tabindex="0">Direct</a>
-                            </div>
 
-                        </div>
-                    </div>
-                    <div class="card-body ">
-                        <div class="chart chart-appended d-flex justify-content-center ">
-                            <img class="mb-5 " src="../bootstrap-page/b-images/surcle.png ">
-                        </div>
-                        <div class="chart-legend d-flex justify-content-center align-items-center text-center ">
-                            <div class="chart-legend-item mx-2 d-flex align-items-center ">
-                                <i class="fas fa-circle " style="color: #2C7BE5; font-size: 8px; "></i>
-                                <span class="text-muted ms-1 " style="font-size: 13px; ">Direct</span>
-                            </div>
-                            <div class="chart-legend-item mx-2 d-flex align-items-center ">
-                                <i class="fas fa-circle " style="color:#A6C5F7; font-size: 8px; "></i>
-                                <span class="text-muted ms-1 " style="font-size: 13px; ">Organic</span>
-                            </div>
-                            <div class="chart-legend-item mx-2 d-flex align-items-center ">
-                                <i class="fas fa-circle " style="color:#A6C5F7; font-size: 8px; "></i>
-                                <span class="text-muted ms-1 " style="font-size: 13px; ">Referral</span>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-
-        </div>
-    </div>
-    </div>
-
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
 </body>
-
-
 
 </html>

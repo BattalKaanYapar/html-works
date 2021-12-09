@@ -1,17 +1,14 @@
-.navbar-vertical,
-.fixed-start {
-    left: 0;
-    border-width: 0 1px 0 0;
+.bg-success-soft {
+    background-color: #bef0d4;
 }
 
-.navbar-vertical,
-.navbar-expand-md {
-    display: block;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    max-width: 250px;
-    padding: 0 1.5rem 0 1.5rem;
-    overflow-y: auto;
+.text-success {
+    color: #03c473;
+}
+
+.header-pretitle {
+    font-size: 26px;
+    line-height: 29px;
+    color: #12263f;
+    font-family: "Cerebri Sans";
 }
