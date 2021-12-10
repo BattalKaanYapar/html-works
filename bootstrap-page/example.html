@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
+    <title>Dashkit React</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/bootstrap-page/bootstrap.css">
+    <script src="/bootstrap-page/bootstrap.js"></script>
+</head>
+
+<body>
+    <nav class="navbar-vertical fixed-start navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="/" class="navbar-brand"><img class="navbar-brand-img" src="/img/logo.svg" alt="..."></a>
+            <div class="d-md-none dropdown">
+                <div class="avatar avatar-sm avatar-online dropdown-toggle" id="react-aria1312535882-32" aria-expanded="false" role="button"><img class="avatar-img rounded-circle" src="/img/avatars/profiles/avatar-1.jpg" alt="..."></div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <form class="mt-4 mb-3 d-md-none">
+                    <div class="input-group-merge input-group-reverse input-group-rounded input-group"><input type="search" placeholder="Search" aria-label="Search" class="form-control"><span class="input-group-text"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-search ">
+                                <g>
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </g>
+                            </svg></span></div>
+                </form>
+                <div>
+                    <div class="navbar-nav">
+                        <div class="nav-item"><a role="button" class="nav-link" tabindex="0"><svg width="17" height="17"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-home ">
+                                    <g>
+                                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                    </g>
+                                </svg>Dashboards<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-down ms-auto nav-chevron active">
+                                    <g>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </g>
+                                </svg></a>
+                            <div class="collapse show">
+                                <div class="nav nav-sm flex-column">
+                                    <div class="nav-item"><a href="/" data-rr-ui-event-key="/" class="nav-link active">Default</a></div>
+                                    <div class="nav-item"><a href="/dashboard-project-management" data-rr-ui-event-key="/dashboard-project-management" class="nav-link">Project Management</a></div>
+                                    <div class="nav-item"><a href="/dashboard-ecommerce" data-rr-ui-event-key="/dashboard-ecommerce" class="nav-link">E-Commerce</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item"><a role="button" class="nav-link" tabindex="0"><svg width="17" height="17"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-file ">
+                                    <g>
+                                        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                                        <polyline points="13 2 13 9 20 9"></polyline>
+                                    </g>
+                                </svg>Pages<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-down ms-auto nav-chevron false">
+                                    <g>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </g>
+                                </svg></a>
+                            <div class="collapse">
+                                <div class="nav nav-sm flex-column">
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Account<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/account-general" data-rr-ui-event-key="/account-general" class="nav-link">General</a></div>
+                                                <div class="nav-item"><a href="/account-billing" data-rr-ui-event-key="/account-billing" class="nav-link">Billing</a></div>
+                                                <div class="nav-item"><a href="/account-members" data-rr-ui-event-key="/account-members" class="nav-link">Members</a></div>
+                                                <div class="nav-item"><a href="/account-security" data-rr-ui-event-key="/account-security" class="nav-link">Security</a></div>
+                                                <div class="nav-item"><a href="/account-notifications" data-rr-ui-event-key="/account-notifications" class="nav-link">Notifications</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">CRM<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/crm-contacts" data-rr-ui-event-key="/crm-contacts" class="nav-link">Contacts</a></div>
+                                                <div class="nav-item"><a href="/crm-companies" data-rr-ui-event-key="/crm-companies" class="nav-link">Companies</a></div>
+                                                <div class="nav-item"><a href="/crm-deals" data-rr-ui-event-key="/crm-deals" class="nav-link">Deals</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Profile<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/profile-posts" data-rr-ui-event-key="/profile-posts" class="nav-link">Posts</a>
+                                                </div>
+                                                <div class="nav-item"><a href="/profile-groups" data-rr-ui-event-key="/profile-groups" class="nav-link">Groups</a></div>
+                                                <div class="nav-item"><a href="/profile-projects" data-rr-ui-event-key="/profile-projects" class="nav-link">Projects</a></div>
+                                                <div class="nav-item"><a href="/profile-files" data-rr-ui-event-key="/profile-files" class="nav-link">Files</a>
+                                                </div>
+                                                <div class="nav-item"><a href="/profile-subscribers" data-rr-ui-event-key="/profile-subscribers" class="nav-link">Subscribers</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Project<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/project-overview" data-rr-ui-event-key="/project-overview" class="nav-link">Overview</a></div>
+                                                <div class="nav-item"><a href="/project-files" data-rr-ui-event-key="/project-files" class="nav-link">Files</a>
+                                                </div>
+                                                <div class="nav-item"><a href="/project-reports" data-rr-ui-event-key="/project-reports" class="nav-link">Reports</a></div>
+                                                <div class="nav-item"><a href="/project-new" data-rr-ui-event-key="/project-new" class="nav-link">New
+                                                        project</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Team<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/team-overview" data-rr-ui-event-key="/team-overview" class="nav-link">Overview</a></div>
+                                                <div class="nav-item"><a href="/team-projects" data-rr-ui-event-key="/team-projects" class="nav-link">Projects</a></div>
+                                                <div class="nav-item"><a href="/team-members" data-rr-ui-event-key="/team-members" class="nav-link">Members</a></div>
+                                                <div class="nav-item"><a href="/team-new" data-rr-ui-event-key="/team-new" class="nav-link">New team</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Feed<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/feed" data-rr-ui-event-key="/feed" class="nav-link">Platform</a></div>
+                                                <div class="nav-item"><a href="/social-feed" data-rr-ui-event-key="/social-feed" class="nav-link">Social</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a href="/wizard" data-rr-ui-event-key="/wizard" class="nav-link">Wizard</a></div>
+                                    <div class="nav-item"><a href="/kanban" data-rr-ui-event-key="/kanban" class="nav-link">Kanban</a></div>
+                                    <div class="nav-item"><a href="/orders" data-rr-ui-event-key="/orders" class="nav-link">Orders</a></div>
+                                    <div class="nav-item"><a href="/invoice" data-rr-ui-event-key="/invoice" class="nav-link">Invoice</a></div>
+                                    <div class="nav-item"><a href="/pricing" data-rr-ui-event-key="/pricing" class="nav-link">Pricing</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item"><a href="/widgets" data-rr-ui-event-key="/widgets" class="nav-link"><svg
+                                    width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                    class="feather feather-grid ">
+                                    <g>
+                                        <rect x="3" y="3" width="7" height="7"></rect>
+                                        <rect x="14" y="3" width="7" height="7"></rect>
+                                        <rect x="14" y="14" width="7" height="7"></rect>
+                                        <rect x="3" y="14" width="7" height="7"></rect>
+                                    </g>
+                                </svg>Widgets</a></div>
+                        <div class="nav-item"><a role="button" class="nav-link" tabindex="0"><svg width="17" height="17"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-user ">
+                                    <g>
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </g>
+                                </svg>Authentication<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-down ms-auto nav-chevron false">
+                                    <g>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </g>
+                                </svg></a>
+                            <div class="collapse">
+                                <div class="nav nav-sm flex-column">
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Sign In<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/sign-in-cover" data-rr-ui-event-key="/sign-in-cover" class="nav-link">Cover</a>
+                                                </div>
+                                                <div class="nav-item"><a href="/sign-in-illustration" data-rr-ui-event-key="/sign-in-illustration" class="nav-link">Illustration</a></div>
+                                                <div class="nav-item"><a href="/sign-in" data-rr-ui-event-key="/sign-in" class="nav-link">Basic</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Sign Up<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/sign-up-cover" data-rr-ui-event-key="/sign-up-cover" class="nav-link">Cover</a>
+                                                </div>
+                                                <div class="nav-item"><a href="/sign-up-illustration" data-rr-ui-event-key="/sign-up-illustration" class="nav-link">Illustration</a></div>
+                                                <div class="nav-item"><a href="/sign-up" data-rr-ui-event-key="/sign-up" class="nav-link">Basic</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Password
+                                            Reset<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/password-reset-cover" data-rr-ui-event-key="/password-reset-cover" class="nav-link">Cover</a></div>
+                                                <div class="nav-item"><a href="/password-reset-illustration" data-rr-ui-event-key="/password-reset-illustration" class="nav-link">Illustration</a></div>
+                                                <div class="nav-item"><a href="/password-reset" data-rr-ui-event-key="/password-reset" class="nav-link">Basic</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item"><a role="button" class="nav-link" tabindex="0">Error<svg
+                                                width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                class="feather feather-chevron-down ms-auto nav-chevron false">
+                                                <g>
+                                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                                </g>
+                                            </svg></a>
+                                        <div class="collapse">
+                                            <div class="nav nav-sm flex-column">
+                                                <div class="nav-item"><a href="/error-illustration" data-rr-ui-event-key="/error-illustration" class="nav-link">Illustration</a></div>
+                                                <div class="nav-item"><a href="/error" data-rr-ui-event-key="/error" class="nav-link">Basic</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr class="navbar-divider">
+                    <h6 class="navbar-heading">Documentation</h6>
+                    <div class="navbar-nav">
+                        <div class="nav-item"><a role="button" class="nav-link" tabindex="0"><svg width="17" height="17"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-clipboard ">
+                                    <g>
+                                        <path
+                                            d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
+                                        </path>
+                                        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+                                    </g>
+                                </svg>Basics<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-down ms-auto nav-chevron false">
+                                    <g>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </g>
+                                </svg></a>
+                            <div class="collapse">
+                                <div class="nav nav-sm flex-column">
+                                    <div class="nav-item"><a href="/getting-started" data-rr-ui-event-key="/getting-started" class="nav-link">Getting Started</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/design-file" data-rr-ui-event-key="/design-file" class="nav-link">Design File</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item"><a role="button" class="nav-link" tabindex="0"><svg width="17" height="17"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-book-open ">
+                                    <g>
+                                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                    </g>
+                                </svg>Components<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="feather feather-chevron-down ms-auto nav-chevron false">
+                                    <g>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </g>
+                                </svg></a>
+                            <div class="collapse">
+                                <div class="nav nav-sm flex-column">
+                                    <div class="nav-item"><a href="/components#alerts" data-rr-ui-event-key="/components#alerts" class="nav-link">Alerts</a></div>
+                                    <div class="nav-item"><a href="/components#autosize" data-rr-ui-event-key="/components#autosize" class="nav-link">Autosize</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#avatars" data-rr-ui-event-key="/components#avatars" class="nav-link">Avatars</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#badges" data-rr-ui-event-key="/components#badges" class="nav-link">Badges</a></div>
+                                    <div class="nav-item"><a href="/components#breadcrumb" data-rr-ui-event-key="/components#breadcrumb" class="nav-link">Breadcrumb</a></div>
+                                    <div class="nav-item"><a href="/components#buttonGroup" data-rr-ui-event-key="/components#buttonGroup" class="nav-link">Button
+                                            Group</a></div>
+                                    <div class="nav-item"><a href="/components#buttons" data-rr-ui-event-key="/components#buttons" class="nav-link">Buttons</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#cards" data-rr-ui-event-key="/components#cards" class="nav-link">Cards</a></div>
+                                    <div class="nav-item"><a href="/components#charts" data-rr-ui-event-key="/components#charts" class="nav-link">Charts </a></div>
+                                    <div class="nav-item"><a href="/components#checklist" data-rr-ui-event-key="/components#checklist" class="nav-link">Checklist</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#dropdowns" data-rr-ui-event-key="/components#dropdowns" class="nav-link">Dropdowns</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#forms" data-rr-ui-event-key="/components#forms" class="nav-link">Forms</a></div>
+                                    <div class="nav-item"><a href="/components#icons" data-rr-ui-event-key="/components#icons" class="nav-link">Icons</a></div>
+                                    <div class="nav-item"><a href="/components#kanban" data-rr-ui-event-key="/components#kanban" class="nav-link">Kanban</a></div>
+                                    <div class="nav-item"><a href="/components#lists" data-rr-ui-event-key="/components#lists" class="nav-link">Lists</a></div>
+                                    <div class="nav-item"><a href="/components#map" data-rr-ui-event-key="/components#map" class="nav-link">Map</a></div>
+                                    <div class="nav-item"><a href="/components#modals" data-rr-ui-event-key="/components#modals" class="nav-link">Modals</a></div>
+                                    <div class="nav-item"><a href="/components#navbar" data-rr-ui-event-key="/components#navbar" class="nav-link">Navbar</a></div>
+                                    <div class="nav-item"><a href="/components#navs" data-rr-ui-event-key="/components#navs" class="nav-link">Navs</a></div>
+                                    <div class="nav-item"><a href="/components#pageHeaders" data-rr-ui-event-key="/components#pageHeaders" class="nav-link">Page
+                                            headers</a></div>
+                                    <div class="nav-item"><a href="/components#pagination" data-rr-ui-event-key="/components#pagination" class="nav-link">Pagination</a></div>
+                                    <div class="nav-item"><a href="/components#popovers" data-rr-ui-event-key="/components#popovers" class="nav-link">Popovers</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#progress" data-rr-ui-event-key="/components#progress" class="nav-link">Progress</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#spinners" data-rr-ui-event-key="/components#spinners" class="nav-link">Spinners</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#tables" data-rr-ui-event-key="/components#tables" class="nav-link">Tables</a></div>
+                                    <div class="nav-item"><a href="/components#toasts" data-rr-ui-event-key="/components#toasts" class="nav-link">Toasts</a></div>
+                                    <div class="nav-item"><a href="/components#tooltips" data-rr-ui-event-key="/components#tooltips" class="nav-link">Tooltips</a>
+                                    </div>
+                                    <div class="nav-item"><a href="/components#typography" data-rr-ui-event-key="/components#typography" class="nav-link">Typography</a></div>
+                                    <div class="nav-item"><a href="/components#utilities" data-rr-ui-event-key="/components#utilities" class="nav-link">Utilities</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item"><a href="/changelog" data-rr-ui-event-key="/changelog" class="nav-link"><svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-git-branch ">
+                                    <g>
+                                        <line x1="6" y1="3" x2="6" y2="15"></line>
+                                        <circle cx="18" cy="6" r="3"></circle>
+                                        <circle cx="6" cy="18" r="3"></circle>
+                                        <path d="M18 9a9 9 0 0 1-9 9"></path>
+                                    </g>
+                                </svg>Changelog</a></div>
+                    </div>
+                </div>
+                <div class="mt-auto mb-md-4"></div>
+                <div class="navbar-user d-none d-md-flex">
+                    <a class="navbar-user-link" role="button">
+                        <div class="icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell ">
+                                <g>
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                </g>
+                            </svg></div>
+                    </a>
+                    <div class="dropup">
+                        <div class="avatar avatar-sm avatar-online dropdown-toggle" id="react-aria1312535882-33" aria-expanded="false" role="button"><img class="avatar-img rounded-circle" src="/img/avatars/profiles/avatar-1.jpg" alt="..."></div>
+                    </div>
+                    <a class="navbar-user-link" role="button">
+                        <div class="icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search ">
+                                <g>
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </g>
+                            </svg></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
