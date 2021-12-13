@@ -6,105 +6,143 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
     <title>Dashkit React</title>
+    <link rel="stylesheet" href="./global.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./bootstrap.js">
     <link rel="stylesheet" href="../bootstrap-page/cerebri-sans-cufonfonts/Cerebri Sans Book.ttf">
-    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body style="background-color: #F8FBFD;">
-    <div class="justify-space-between d-flex">
-        <div class="col-md-3 col-xl-2 bg-white row" style="border-right: 1px solid #E2EBF6; max-width: 250px;">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
-                <a href="/" class="d-flex align-items-center mx-5 text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline"><img src="../bootstrap-page/b-images/logo.svg"
-                            style="max-width: 55px;"></span>
-                </a>
-                <ul class="nav nav-pills flex-column navbar mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0">
-                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home ">
-                                <g>
-                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                </g>
-                            </svg>
-                            <span class=" ms-1 d-none d-sm-inline ">Dashboards</span>
-                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                <g>
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="# " class="nav-link align-middle px-0 ">
-                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file ">
-                                <g>
-                                    <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
-                                    <polyline points="13 2 13 9 20 9"></polyline>
-                                </g>
-                            </svg>
-                            <span class="ms-1 d-none d-sm-inline ">Pages</span>
-                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                <g>
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="# " class="nav-link align-middle px-0 ">
-                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid ">
-                                <g>
-                                    <rect x="3" y="3" width="7" height="7"></rect>
-                                    <rect x="14" y="3" width="7" height="7"></rect>
-                                    <rect x="14" y="14" width="7" height="7"></rect>
-                                    <rect x="3" y="14" width="7" height="7"></rect>
-                                </g>
-                            </svg>
-                            <span class="ms-1 d-none d-sm-inline ">Widgets</span>
+    <div class="justify-space-between d-flex start-fixed">
+        <div class="nav nav-bar p-3 bg-white border-end d-flex  justify-content-center text-align center" style="width: 250px; min-width: 250px;">
+            <div class="nav-item" style="width: 250px; min-width: 250px;">
+                <div class="nav-link">
+                    <div class="nav-header" style="display: flex; justify-content: center; text-align: center;">
+                        <a href="#"><img src="../bootstrap-page/b-images/logo.svg" class="m-2" style="width: 55px;"></a>
+                    </div>
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class=" fas fa-home "></i>
+                        <a href="#" class="text-decoration-none text-muted ">Dashboard</a>
+                    </div>
 
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a href="# " class="nav-link align-middle align-center px-0 ">
-                            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user ">
-                                <g>
-                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="12" cy="7" r="4"></circle>
-                                </g>
-                            </svg>
-                            <span class="ms-1 d-none d-sm-inline ">Authentication</span>
-                            <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down ms-auto nav-chevron false">
-                                <g>
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </g>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+                    <div class="dropdown-icons ">
+                        <a href="#"><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class="far fa-file"></i>
+                        <a href="#" class="text-decoration-none text-muted ">Pages</a>
+                    </div>
+
+                    <div class="dropdown-icons ">
+                        <a href="#"><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class="fas fa-border-all"></i>
+                        <a href="#" class="text-decoration-none text-muted ">Widgets</a>
+                    </div>
+
+                    <div class="dropdown-icons ">
+                        <a href="# "><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class="fas fa-user"></i>
+                        <a href="#" class="text-decoration-none text-muted ">Authentication</a>
+                    </div>
+
+                    <div class="dropdown-icons">
+                        <a href="#"><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="p-3">
+                    <hr class="navbar-divider" style="color: #b8c0cc; ">
+                </div>
+                <div class="nav-header p-3" style="font-size: 10px; font-weight: 500; line-height: 11px; color: #95aac9;">
+                    DOCUMENTATION
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class="fas fa-border-all"></i>
+                        <a href="#" class="text-decoration-none text-muted ">Basics</a>
+                    </div>
+
+                    <div class="dropdown-icons ">
+                        <a href="# "><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class="fas fa-border-all"></i>
+                        <a href="#" class="text-decoration-none text-muted ">Components</a>
+                    </div>
+
+                    <div class="dropdown-icons ">
+                        <a href="# "><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div class="nav-link text-muted d-flex justify-content-between">
+                    <div>
+                        <i class="fas fa-border-all"></i>
+                        <a href="#" class="text-decoration-none text-muted ">Changelog</a>
+                    </div>
+
+                    <div class="dropdown-icons ">
+                        <a href="# "><i class="fas fa-angle-down text-muted"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <hr class="navbar-divider" style="color: #b8c0cc; ">
+                </div>
+                <div>
+                    <div class="footer-nav d-flex justify-content-evenly align-items-center text-center my-4">
+                        <div>
+                            <i class="far fa-bell text-muted" style="width: 17px;"></i>
+                        </div>
+                        <div>
+                            <img src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 40px;" class="avatar-img rounded-circle">
+                        </div>
+                        <div>
+                            <a class="navbar-user-link" role="button">
+                                <div class="icon"><i class="fas fa-search text-muted" style="width: 17px; height: 17px;"></i></div>
+
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
-        <div class="main-content container-fluid">
-            <div class="header">
-                <div class="container-fluid">
-                    <div class="header-body">
-                        <div class="row align-items-end row">
-                            <div class="col">
-                                <h6 class="header-pretitle text-muted">Overview</h6>
-                                <h1 class="header-title">Dashboard</h1>
+        <div class="main-content container-fluid my-4 me-1 ">
+            <div class="header ">
+                <div class="container-fluid ">
+                    <div class="header-body ">
+                        <div class="row align-items-end row ">
+                            <div class="col ">
+                                <h6 class="header-pretitle text-muted " style="font-size: 15px; line-height: 11px; font-weight: 400; ">Overview</h6>
+                                <h1 class="header-title " style="font-size: 26px; font-weight: 600; line-height: 29px; color: #12263f; ">
+                                    Dashboard</h1>
                             </div>
-                            <div class="col-auto p-2 "><button type="button " class="lift btn btn-primary ">Create
+                            <div class="col-auto p-2 "><button type="button " class="lift btn btn-primary vertical-align-middle p-2 " style="font-size: 15px; font-weight: 400; line-height: 23px; border-radius: 6px; width: 120px; height: 40px; ">Create
                                     Report</button></div>
                         </div>
                         <div class="btn-divider ">
-                            <hr class="divider ">
+                            <hr class="divider " style="color: #c6cfdb; ">
                         </div>
                     </div>
                 </div>
@@ -112,11 +150,12 @@
             <div class="container-fluid ">
                 <div class="row mb-4 ">
                     <div class="col-xl col-md-6 col-12 ">
-                        <div class="card ">
+                        <div class="card " style="border: 1px solid #EDF2F8; ">
                             <div class="card-body ">
                                 <div class="align-items-center row ">
-                                    <div class="col ">
-                                        <h6 class="text-uppercase text-muted mb-2 ">Value</h6><span class="h2 mb-0 ">$24,500</span><span class="mt-n1 ms-2 badge bg-success-soft ">+3.5%</span>
+                                    <div class="col " </div>
+                                        <h6 class="text-uppercase text-muted mb-2 " style="font-size: 10px; line-height: 11px; ">Value</h6>
+                                        <span class="h2 mb-0 " style="font-size: 20px; line-height: 22px; ">$24,500</span><span class="mt-n1 ms-2 badge bg-success-soft ">+3.5%</span>
                                     </div>
                                     <div class="col-auto "><svg width="20 " height="20 " viewBox="0 0 24 24 " fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round " class="feather feather-dollar-sign text-muted ">
                                             <g>
@@ -129,11 +168,11 @@
                         </div>
                     </div>
                     <div class="col-xl col-md-6 col-12 ">
-                        <div class="card ">
+                        <div class="card " style="border: 1px solid #EDF2F8; ">
                             <div class="card-body ">
                                 <div class="align-items-center row ">
                                     <div class="col ">
-                                        <h6 class="text-uppercase text-muted mb-2 ">Total hours</h6><span class="h2 mb-0 ">763.5</span>
+                                        <h6 class="text-uppercase text-muted mb-2 " style="font-size: 10px; line-height: 11px; ">Total hours</h6><span class="h2 mb-0 " style="font-size: 20px; line-height: 22px; ">763.5</span>
                                     </div>
                                     <div class="col-auto "><svg width="20 " height="20 " viewBox="0 0 24 24 " fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round " class="feather feather-briefcase text-muted ">
                                             <g>
@@ -146,11 +185,11 @@
                         </div>
                     </div>
                     <div class="col-xl col-md-6 col-12 ">
-                        <div class="card ">
+                        <div class="card " style="border: 1px solid #EDF2F8; ">
                             <div class="card-body ">
                                 <div class="align-items-center row ">
                                     <div class="col ">
-                                        <h6 class="text-uppercase text-muted mb-2 ">Exit %</h6><span class="h2 mb-0 ">35.5%</span>
+                                        <h6 class="text-uppercase text-muted mb-2 " style="font-size: 10px; line-height: 11px; ">Exit %</h6 style="font-size: 20px; line-height: 22px; "><span class="h2 mb-0 " style="font-size: 20px; line-height: 22px; ">35.5%</span>
                                     </div>
                                     <div class="col-auto ">
 
@@ -161,11 +200,11 @@
                         </div>
                     </div>
                     <div class="col-xl col-md-6 col-12 ">
-                        <div class="card ">
+                        <div class="card " style="border: 1px solid #EDF2F8; ">
                             <div class="card-body ">
                                 <div class="align-items-center row ">
                                     <div class="col ">
-                                        <h6 class="text-uppercase text-muted mb-2 ">Avg. Time</h6><span class="h2 mb-0 ">2:37</span>
+                                        <h6 class="text-uppercase text-muted mb-2 " style="font-size: 10px; line-height: 11px; ">Avg. Time</h6 style="font-size: 20px; line-height: 22px; "><span class="h2 mb-0 " style="font-size: 20px; line-height: 22px; ">2:37</span>
                                     </div>
                                     <div class="col-auto "><svg width="20 " height="20 " viewBox="0 0 24 24 " fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round " class="feather feather-clock text-muted ">
                                             <g>
@@ -180,11 +219,13 @@
                 </div>
                 <div class="row mb-4 ">
                     <div class="col-xl-8 col-12 ">
-                        <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-header-title ">Conversions</h4><span class="text-muted me-3 ">Last year
-                                    comparision:</span>
-                                <div class="form-switch "><input type="checkbox " id="cardToggle " class="form-check-input "></div>
+                        <div class="card " style="border: 1px solid #EDF2F8; ">
+                            <div class="card-header justify-content-between d-flex align-items-center p-3 " style="background-color: #fff; border-bottom:1px solid #EDF2F8; ">
+                                <h4 class="card-header-title" style="font-size: 15px; line-height: 17px; font-weight: 500; ">Conversions</h4>
+                                <div class="comp d-flex ">
+                                    <span class="text-muted me-3 ">Last year comparision:</span>
+                                    <div class="form-switch "><input type="checkbox " id="cardToggle " class="form-check-input "></div>
+                                </div>
                             </div>
                             <div class="card-body ">
 
@@ -219,16 +260,16 @@
                 </div>
                 <div class="row mb-4 ">
                     <div class="col-xl-4 col-12 ">
-                        <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-header-title ">Projects</h4><a class="small " href="/project-overview ">View all</a>
+                        <div class="card">
+                            <div class="card-header bg-white d-flex justify-content-between text-center align-items-center ">
+                                <h4 class="card-header-title">Projects</h4><a class="small " href="/project-overview ">View all</a>
                             </div>
                             <div class="card-body ">
                                 <div class="list-group-flush my-n3 list-group ">
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " src="/img/avatars/projects/project-1.jpg " alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-1.jpg"></a>
                                             </div>
                                             <div class="ms-n2 col ">
                                                 <h4 class="mb-1 "><a href="/project-overview ">Homepage Redesign</a>
@@ -253,7 +294,7 @@
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " src="/img/avatars/projects/project-2.jpg " alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-2.jpg " alt="... "></a>
                                             </div>
                                             <div class="ms-n2 col ">
                                                 <h4 class="mb-1 "><a href="/project-overview ">Travels &amp; Time</a>
@@ -278,7 +319,7 @@
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " src="/img/avatars/projects/project-3.jpg " alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-3.jpg" alt="... "></a>
                                             </div>
                                             <div class="ms-n2 col ">
                                                 <h4 class="mb-1 "><a href="/project-overview ">Safari Exploration</a>
@@ -303,7 +344,7 @@
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " src="/img/avatars/projects/project-5.jpg " alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-5.jpg" alt="... "></a>
                                             </div>
                                             <div class="ms-n2 col ">
                                                 <h4 class="mb-1 "><a href="/project-overview ">Personal Site</a></h4>
@@ -330,8 +371,11 @@
                     </div>
                     <div class="col-xl-8 col-12 ">
                         <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-header-title ">Sales</h4>
+                            <div class="card-header bg-white d-flex justify-content-between text-center align-items-center  ">
+                                <div>
+                                    <h4 class="card-header-title ">Sales</h4>
+                                </div>
+
                                 <div class="nav-tabs-sm nav card-header-tabs nav-tabs ">
                                     <div class="nav-item "><a role="button " class="nav-link active " tabindex="0 ">All</a>
                                     </div>
@@ -381,17 +425,23 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Update the API</td>
-                                            <td><span class="text-warning ">●</span>
-                                                <!-- -->In progress</td>
-                                            <td>55%</td>
-                                            <td><time datetime="2018-07-24 ">7/24/2018</time></td>
-                                            <td class="text-end ">
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                Update the API</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <span class="text-warning ">●</span>
+                                                <!-- -->In progress
+                                            </td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                55%</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <time datetime="2018-07-24 ">7/24/2018</time>
+                                            </td>
+                                            <td class="text-end">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-1.jpg " alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-2.jpg " alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-3.jpg " alt="Adolfo Hess "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-4.jpg " alt="Daniela Dewitt "></a>
+                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-4.jpg" alt="Daniela Dewitt "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -409,16 +459,22 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Release v1.2-Beta</td>
-                                            <td><span class="text-warning ">●</span>
-                                                <!-- -->In progress</td>
-                                            <td>25%</td>
-                                            <td><time datetime="2018-08-26 ">8/26/2018</time></td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                Release v1.2-Beta</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <span class="text-warning ">●</span>
+                                                <!-- -->In progress
+                                            </td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                25%</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <time datetime="2018-08-26 ">8/26/2018</time>
+                                            </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-1.jpg " alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-2.jpg " alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-3.jpg " alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 5%;" alt="Adolfo Hess "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -436,16 +492,22 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>GDPR Compliance</td>
-                                            <td><span class="text-success ">●</span>
-                                                <!-- -->Completed</td>
-                                            <td>100%</td>
-                                            <td><time datetime="2018-06-19 ">6/19/2018</time></td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                GDPR Compliance</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <span class="text-success ">●</span>
+                                                <!-- -->Completed
+                                            </td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                100%</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <time datetime="2018-06-19 ">6/19/2018</time>
+                                            </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-1.jpg " alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-2.jpg " alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-3.jpg " alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 5%;" alt="Adolfo Hess "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -463,15 +525,21 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>v1.2 Documentation</td>
-                                            <td><span class="text-danger ">●</span>
-                                                <!-- -->Cancelled</td>
-                                            <td>0%</td>
-                                            <td><time datetime="2018-06-25 ">6/25/2018</time></td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                v1.2 Documentation</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <span class="text-danger ">●</span>
+                                                <!-- -->Cancelled
+                                            </td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                0%</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <time datetime="2018-06-25 ">6/25/2018</time>
+                                            </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-1.jpg " alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-2.jpg " alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -489,17 +557,23 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Plan design offsite</td>
-                                            <td><span class="text-success ">●</span>
-                                                <!-- -->Completed</td>
-                                            <td>100%</td>
-                                            <td><time datetime="2018-06-30 ">6/30/2018</time></td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                Plan design offsite</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <span class="text-success ">●</span>
+                                                <!-- -->Completed
+                                            </td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                100%</td>
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                                <time datetime="2018-06-30 ">6/30/2018</time>
+                                            </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-1.jpg " alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-2.jpg " alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-3.jpg " alt="Adolfo Hess "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-4.jpg " alt="Daniela Dewitt "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 5%;" alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-4.jpg" style="width: 5%;" alt="Daniela Dewitt"></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -534,7 +608,7 @@
                                     <div class="list-group-item ">
                                         <div class="row ">
                                             <div class="col-auto ">
-                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-1.jpg " alt="Dianna Smiley ">
+                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 15%;" alt="Dianna Smiley ">
                                                 </div>
                                             </div>
                                             <div class="ms-n2 col ">
@@ -546,7 +620,7 @@
                                     <div class="list-group-item ">
                                         <div class="row ">
                                             <div class="col-auto ">
-                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-2.jpg " alt="Ab Hadley ">
+                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 15%;" alt="Ab Hadley ">
                                                 </div>
                                             </div>
                                             <div class="ms-n2 col ">
@@ -558,7 +632,7 @@
                                     <div class="list-group-item ">
                                         <div class="row ">
                                             <div class="col-auto ">
-                                                <div class="avatar avatar-sm avatar-offline "><img class="avatar-img rounded-circle " src="/img/avatars/profiles/avatar-3.jpg " alt="Adolfo Hess ">
+                                                <div class="avatar avatar-sm avatar-offline "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 15%;" alt="Adolfo Hess ">
                                                 </div>
                                             </div>
                                             <div class="ms-n2 col ">
