@@ -17,14 +17,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./bootstrap.js">
-    <link rel="stylesheet" href="../bootstrap-page/cerebri-sans-cufonfonts/Cerebri Sans Book.ttf">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./converted-fonts/styles.css">
+
 </head>
 
 <body style="background-color: #F8FBFD;">
-    <div class="justify-space-between d-flex start-fixed">
+    <div class="justify-space-between d-flex">
         <div class="nav nav-bar p-3 bg-white border-end d-flex  justify-content-center text-align center" style="width: 250px; min-width: 250px;">
-            <div class="nav-item" style="width: 250px; min-width: 250px;">
+            <div class="nav-item" style="position: fixed; width: 250px; min-width: 250px;">
                 <div class="nav-link">
                     <div class="nav-header" style="display: flex; justify-content: center; text-align: center;">
                         <a href="#"><img src="../bootstrap-page/b-images/logo.svg" class="m-2" style="width: 55px;"></a>
@@ -155,7 +156,7 @@
                                 <div class="align-items-center row ">
                                     <div class="col ">
                                         <h6 class="text-uppercase text-muted mb-2 " style="font-size: 10px; line-height: 11px; ">Value</h6>
-                                        <span class="h2 mb-0 " style="font-size: 20px; line-height: 22px; ">$24,500</span><span class="mt-n1 ms-2 badge bg-success-soft ">+3.5%</span>
+                                        <span class="h2 mb-0 " style="font-size: 20px; line-height: 22px; ">$24,500</span><span class="mt-n1 ms-2 badge bg-success">+3.5%</span>
                                     </div>
                                     <div class="col-auto "><svg width="20 " height="20 " viewBox="0 0 24 24 " fill="none " stroke="currentColor " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round " class="feather feather-dollar-sign text-muted ">
                                             <g>
@@ -220,39 +221,41 @@
                 <div class="row mb-4 ">
                     <div class="col-xl-8 col-12 ">
                         <div class="card " style="border: 1px solid #EDF2F8; ">
-                            <div class="card-header justify-content-between d-flex align-items-center p-3 " style="background-color: #fff; border-bottom:1px solid #EDF2F8; ">
-                                <h4 class="card-header-title" style="font-size: 15px; line-height: 17px; font-weight: 500; ">Conversions</h4>
-                                <div class="comp d-flex ">
-                                    <span class="text-muted me-3 ">Last year comparision:</span>
-                                    <div class="form-switch "><input type="checkbox " id="cardToggle " class="form-check-input "></div>
+                            <div class="card-header justify-content-between d-flex align-items-center p-4 " style="background-color: #fff; border-bottom:1px solid #EDF2F8; ">
+                                <h4 class="card-header-title bg-white" style=" font-size: 15px; line-height: 17px; font-weight: 500;">Conversions</h4>
+                                <div class=" comp d-flex ">
+                                    <span class=" text-muted me-3 ">Last year comparision:</span>
+                                    <div class=" form-switch "><input type=" checkbox " id="cardToggle " class="form-check-input ">
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-body ">
-
+                                <img src="../bootstrap-page/b-images/convers.png " width="100% ">
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-12 ">
                         <div class="card ">
-                            <div class="card-header bg-white d-flex justify-content-between">
-                                <h4 class="card-header-title " style="font-size: 15px; line-height: 17px; color: #12263f; font-weight: 500;">
+                            <div class="card-header p-3 bg-white d-flex justify-content-between ">
+                                <h4 class="card-header-title " style="font-size: 15px; line-height: 17px; color: #12263f; font-weight: 500; ">
                                     Traffic Channels</h4>
                                 <div class="nav-tabs-sm nav card-header-tabs nav-tabs ">
-                                    <div class="nav-item "><a role="button " class="nav-link active " tabindex="0 " style="color: #12263f; font-size: 13px; font-weight: 400; line-height: 20px;">All</a>
+                                    <div class="nav-item "><a role="button " class="nav-link active " tabindex="0 " style="border: 0; color: #12263f; font-size: 13px; font-weight: 400; line-height: 20px; ">All</a>
                                     </div>
-                                    <div class="nav-item "><a role="button " class="nav-link text-muted " tabindex="0 " style="font-size: 13px; font-weight: 400; line-height: 20px;">Direct</a>
+                                    <div class="nav-item "><a role="button " class="nav-link text-muted " tabindex="0 " style="font-size: 13px; font-weight: 400; line-height: 20px; ">Direct</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="card-body ">
-                                <div class="chart chart-appended "><canvas role="img " height="481 " width="477 " style="display: block; box-sizing: border-box; height: 240.5px; width: 238.5px; "></canvas>
+                                <div class="chart chart-appended ">
+                                    <img src="../bootstrap-page/b-images/surcle.png " width="100% ">
                                 </div>
-                                <div class="chart-legend d-flex justify-content-evenly">
-                                    <div class="chart-legend-item " style="font-size:13px; line-height: 20px; font-weight: 400;"><i class="fas fa-circle " style="color:#2C7BE5"></i>
+                                <div class="chart-legend d-flex ">
+                                    <div class="chart-legend-item " style="font-size:13px; line-height: 20px; font-weight: 400; "><i class="fas fa-circle " style="color:#2C7BE5 "></i>
                                         <!-- -->Direct</div>
-                                    <div class="chart-legend-item " style="font-size:13px; line-height: 20px; font-weight: 400;"><i class="fas fa-circle " style="color:#A6C5F7 "></i>
+                                    <div class="chart-legend-item " style="font-size:13px; line-height: 20px; font-weight: 400; "><i class="fas fa-circle " style="color:#A6C5F7 "></i>
                                         <!-- -->Organic</div>
-                                    <div class="chart-legend-item " style="font-size:13px; line-height: 20px; font-weight: 400;"><i class="fas fa-circle " style="color:#D2DDEC "></i>
+                                    <div class="chart-legend-item " style="font-size:13px; line-height: 20px; font-weight: 400; "><i class="fas fa-circle " style="color:#D2DDEC "></i>
                                         <!-- -->Referral</div>
                                 </div>
                             </div>
@@ -261,22 +264,23 @@
                 </div>
                 <div class="row mb-4 ">
                     <div class="col-xl-4 col-12 ">
-                        <div class="card">
+                        <div class="card ">
                             <div class="card-header bg-white d-flex justify-content-between text-center align-items-center ">
-                                <h4 class="card-header-title">Projects</h4><a class="small " href="/project-overview ">View all</a>
+                                <h4 class="card-header-title " style="font-size: 15px; line-height: 17px; font-weight: 500; ">
+                                    Projects</h4><a class="small " style="text-decoration: none; font-weight: 400; font-size: 13px; line-height: 20px; " href="/project-overview ">View all</a>
                             </div>
                             <div class="card-body ">
                                 <div class="list-group-flush my-n3 list-group ">
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-1.jpg"></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 20%; " src="../bootstrap-page/b-images/dashboard_files/project-1.jpg "></a>
                                             </div>
                                             <div class="ms-n2 col ">
-                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none;">Homepage
+                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none; ">Homepage
                                                         Redesign</a>
                                                 </h4>
-                                                <p class="small card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9">
+                                                <p class="small card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9 ">
                                                     <time datetime="2018-05-24 ">Updated 4hr ago</time>
                                                 </p>
                                             </div>
@@ -298,14 +302,15 @@
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-2.jpg " alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 20%; " src="../bootstrap-page/b-images/dashboard_files/project-2.jpg " alt="... "></a>
                                             </div>
                                             <div class="ms-n2 col ">
-                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none;">Travels
+                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none; ">Travels
                                                         &amp; Time</a>
                                                 </h4>
-                                                <p class="small  card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9">
-                                                    <time datetime="2018-05-24 ">Updated 4hr ago</time></p>
+                                                <p class="small card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9 ">
+                                                    <time datetime="2018-05-24 ">Updated 4hr ago</time>
+                                                </p>
                                             </div>
                                             <div class="col-auto ">
                                                 <div class="dropdown "><span class="dropdown-ellipses dropdown-toggle " id="react-aria1312535882-35 " aria-expanded="false " role="button "><svg width="17 " height="17 "
@@ -325,14 +330,15 @@
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-3.jpg" alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 20%; " src="../bootstrap-page/b-images/dashboard_files/project-3.jpg " alt="... "></a>
                                             </div>
                                             <div class="ms-n2 col ">
-                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none;">Safari
+                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none; ">Safari
                                                         Exploration</a>
                                                 </h4>
-                                                <p class="small  card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9">
-                                                    <time datetime="2018-05-24 ">Updated 4hr ago</time></p>
+                                                <p class="small card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9 ">
+                                                    <time datetime="2018-05-24 ">Updated 4hr ago</time>
+                                                </p>
                                             </div>
                                             <div class="col-auto ">
                                                 <div class="dropdown "><span class="dropdown-ellipses dropdown-toggle " id="react-aria1312535882-36 " aria-expanded="false " role="button "><svg width="17 " height="17 "
@@ -352,13 +358,14 @@
                                     <div class="list-group-item ">
                                         <div class="row align-items-center row ">
                                             <div class="col-auto ">
-                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 100%;" src="../bootstrap-page/b-images/dashboard_files/project-5.jpg" alt="... "></a>
+                                                <a class="avatar avatar-4by3 "><img class="avatar-img rounded " style="width: 20%; " src="../bootstrap-page/b-images/dashboard_files/project-5.jpg " alt="... "></a>
                                             </div>
                                             <div class="ms-n2 col ">
-                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none;">Personal
+                                                <h4 class="mb-1 "><a href="/project-overview " style="font-size: 15px; font-weight: 500; line-height: 17px; color:#1657af;text-decoration: none; ">Personal
                                                         Site</a></h4>
-                                                <p class="small  card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9">
-                                                    <time datetime="2018-05-24 ">Updated 4hr ago</time></p>
+                                                <p class="small card-text " style="line-height: 20px; font-size: 13px; font-weight: 400; color:#95aac9 ">
+                                                    <time datetime="2018-05-24 ">Updated 4hr ago</time>
+                                                </p>
                                             </div>
                                             <div class="col-auto ">
                                                 <div class="dropdown "><span class="dropdown-ellipses dropdown-toggle " id="react-aria1312535882-37 " aria-expanded="false " role="button "><svg width="17 " height="17 "
@@ -381,17 +388,17 @@
                     </div>
                     <div class="col-xl-8 col-12 ">
                         <div class="card ">
-                            <div class="card-header bg-white d-flex justify-content-between text-center align-items-center  ">
+                            <div class="card-header bg-white d-flex justify-content-between text-center align-items-center ">
                                 <div>
-                                    <h4 class="card-header-title ">Sales</h4>
+                                    <h4 class="card-header-title " style="font-size: 15px; font-weight: 500; line-height: 17px; ">Sales</h4>
                                 </div>
 
                                 <div class="nav-tabs-sm nav card-header-tabs nav-tabs ">
-                                    <div class="nav-item "><a role="button " class="nav-link active " tabindex="0 ">All</a>
+                                    <div class="nav-item "><a role="button " style="font-size: 13px; line-height:20px; font-weight: 400; border: none;" class="nav-link" tabindex="0 ">All</a>
                                     </div>
-                                    <div class="nav-item "><a role="button " class="nav-link " tabindex="0 ">Direct</a>
+                                    <div class="nav-item "><a role="button " style="font-size: 13px; line-height:20px; font-weight: 400; " class="nav-link " tabindex="0 ">Direct</a>
                                     </div>
-                                    <div class="nav-item "><a role="button " class="nav-link " tabindex="0 ">Organic</a>
+                                    <div class="nav-item "><a role="button " style="font-size: 13px; line-height:20px; font-weight: 400; " class="nav-link " tabindex="0 ">Organic</a>
                                     </div>
                                 </div>
                             </div>
@@ -418,24 +425,26 @@
                 <div class="row mb-4 ">
                     <div class="col-12 ">
                         <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-header-title ">Goals</h4><button type="button " class="btn btn-white btn-sm ">Export</button>
+                            <div class="card-header bg-white d-flex justify-content-between align-items-center text-center ">
+                                <h4 class="card-header-title " style="font-size: 15px; line-height: 17px; font-weight: 500; ">
+                                    Goals</h4><button type="button " style="font-size: 13px; line-height: 23px; font-weight: 400; border: 1px solid #EDF2F8; " class="btn btn-white btn-sm ">Export</button>
                             </div>
                             <div class="table-responsive ">
-                                <table class="table-nowrap card-table table table-sm ">
+                                <table class="table-nowrap card-table table ">
                                     <thead>
                                         <tr>
-                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer " class="is-sortable ">Goal</th>
-                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer " class="is-sortable ">Status</th>
-                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer " class="is-sortable ">Progress</th>
-                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer " class="is-sortable ">Due Date</th>
-                                            <th colspan="1 " class="text-end ">Team</th>
-                                            <th colspan="1 " class="text-end ">&nbsp;</th>
+                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer; font-size: 10px; line-height: 15px; font-weight: 600; color:#95aac9 " class="this-sortable p-3 ">Goal</th>
+                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer; font-size: 10px; line-height: 15px; font-weight: 600; color:#95aac9 " class="is-sortable p-3 ">Status</th>
+                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer; font-size: 10px; line-height: 15px; font-weight: 600; color:#95aac9 " class="is-sortable p-3 ">Progress</th>
+                                            <th colspan="1 " title="Toggle SortBy " style="cursor:pointer; font-size: 10px; line-height: 15px; font-weight: 600; color:#95aac9 " class="is-sortable p-3 ">Due Date</th>
+                                            <th colspan="1 " class="text-end p-3 " style="cursor:pointer; font-size: 10px; line-height: 15px; font-weight: 600; color:#95aac9 ">
+                                                Team</th>
+                                            <th colspan="1 " class="text-end p-3 ">&nbsp;</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
+                                            <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; " class="p-2 ">
                                                 Update the API</td>
                                             <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
                                                 <span class="text-warning ">●</span>
@@ -446,12 +455,12 @@
                                             <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
                                                 <time datetime="2018-07-24 ">7/24/2018</time>
                                             </td>
-                                            <td class="text-end">
+                                            <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" alt="Adolfo Hess "></a>
-                                                    <a class="avatar avatar-xs " href="#"><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-4.jpg" alt="Daniela Dewitt "></a>
+                                                    <a class="avatar avatar-xs " href="# "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 25px; " alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="# "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg " style="width: 25px; " alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="# "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg " style="width: 25px; " alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="# "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-4.jpg " style="width: 25px; " alt="Daniela Dewitt "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -482,9 +491,9 @@
                                             </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 5%;" alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 25px; " alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg " style="width: 25px; " alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg " style="width: 25px; " alt="Adolfo Hess "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -515,9 +524,9 @@
                                             </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 5%;" alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 25px; " alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg " style="width: 25px; " alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg " style="width: 25px; " alt="Adolfo Hess "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -548,8 +557,8 @@
                                             </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 25px; " alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg " style="width: 25px; " alt="Ab Hadley "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -567,6 +576,7 @@
                                             </td>
                                         </tr>
                                         <tr>
+
                                             <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
                                                 Plan design offsite</td>
                                             <td style="color: #12263f; font-size: 13px; line-height: 20px; font-weight: 400; ">
@@ -580,10 +590,10 @@
                                             </td>
                                             <td class="text-end ">
                                                 <div class="avatar-group ">
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 5%;" alt="Dianna Smiley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 5%;" alt="Ab Hadley "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 5%;" alt="Adolfo Hess "></a>
-                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-4.jpg" style="width: 5%;" alt="Daniela Dewitt"></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 25px; " alt="Dianna Smiley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg " style="width:25px; " alt="Ab Hadley "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg " style="width:25px; " alt="Adolfo Hess "></a>
+                                                    <a class="avatar avatar-xs " href="/profile-posts "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-4.jpg " style="width: 25px; " alt="Daniela Dewitt "></a>
                                                 </div>
                                             </td>
                                             <td class="text-end ">
@@ -609,8 +619,9 @@
                 <div class="row ">
                     <div class="col-xl-5 col-12 ">
                         <div class="card-fill card ">
-                            <div class="card-header ">
-                                <h4 class="card-header-title ">Recent Activity</h4><a class="small " href="#! ">View
+                            <div class="card-header d-flex justify-content-between ">
+                                <h4 class="card-header-title " style="font-size:15px; font-weight: 500; line-height: 17px; color: #12263f; ">Recent Activity
+                                </h4><a class="small " href="# " style="font-size: 13px; font-weight: 400;line-height: 20px;color: #1657af; ">View
                                     all</a>
                             </div>
                             <div class="card-body ">
@@ -618,7 +629,7 @@
                                     <div class="list-group-item ">
                                         <div class="row ">
                                             <div class="col-auto ">
-                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 15%;" alt="Dianna Smiley ">
+                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 15%; " alt="Dianna Smiley ">
                                                 </div>
                                             </div>
                                             <div class="ms-n2 col ">
@@ -630,19 +641,20 @@
                                     <div class="list-group-item ">
                                         <div class="row ">
                                             <div class="col-auto ">
-                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg" style="width: 15%;" alt="Ab Hadley ">
+                                                <div class="avatar avatar-sm avatar-online "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-2.jpg " style="width: 15%; " alt="Ab Hadley ">
                                                 </div>
                                             </div>
                                             <div class="ms-n2 col ">
                                                 <h5 class="mb-1 ">Ab Hadley</h5>
-                                                <p class="small text-gray-700 mb-0 ">Shared the "Why Dashkit? " post with 124 subscribers.</p><small class="text-muted ">1h ago</small>
+                                                <p class="small text-gray-700 mb-0 ">Shared the "Why Dashkit? " post with 124 subscribers.
+                                                </p><small class="text-muted ">1h ago</small>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="list-group-item ">
                                         <div class="row ">
                                             <div class="col-auto ">
-                                                <div class="avatar avatar-sm avatar-offline "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg" style="width: 15%;" alt="Adolfo Hess ">
+                                                <div class="avatar avatar-sm avatar-offline "><img class="avatar-img rounded-circle " src="../bootstrap-page/b-images/dashboard_files/avatar-3.jpg " style="width: 15%; " alt="Adolfo Hess ">
                                                 </div>
                                             </div>
                                             <div class="ms-n2 col ">
@@ -658,47 +670,49 @@
                     </div>
                     <div class="col-xl-7 col-12 ">
                         <div class="card ">
-                            <div class="card-header ">
-                                <h4 class="card-header-title ">Scratchpad Checklist</h4><span class="badge bg-secondary-soft ">23 Archived</span>
+                            <div class="card-header bg-white d-flex justify-content-between ">
+                                <h4 class=" card-header-title " style=" font-size: 15px; font-weight: 500; line-height: 17px; color: #12263f; ">
+                                    Scratchpad Checklist</h4><span class=" badge bg-secondary " style=" font-size: 11px; font-weight: 400;line-height: 11px; ">23 Archived</span>
                             </div>
-                            <div class="card-body ">
-                                <div class="checklist " data-rbd-droppable-id="tasks " data-rbd-droppable-context-id="0 ">
-                                    <div class="checklist-item " data-rbd-draggable-context-id="0 " data-rbd-draggable-id="task-1 ">
-                                        <div class=" "><input type="checkbox " id="task-1 " class="me-3 form-check-input "><label tabindex="0 " role="button " aria-describedby="rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id="task-1 " data-rbd-drag-handle-context-id="0 "
-                                                draggable="false " for="task-1 " class="form-check-label ">Delete the old mess in functions
+                            <div class=" card-body ">
+                                <div class=" checklist " data-rbd-droppable-id=" tasks " data-rbd-droppable-context-id=" 0 ">
+                                    <div class=" checklist-item " data-rbd-draggable-context-id=" 0 " data-rbd-draggable-id=" task-1 ">
+                                        <div class=" "><input type=" checkbox " id=" task-1 " class=" me-3 form-check-input "><label tabindex=" 0 " role=" button " aria-describedby=" rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id=" task-1 " data-rbd-drag-handle-context-id=" 0 "
+                                                draggable=" false " for=" task-1 " class=" form-check-label ">Delete the old mess in functions
                                                 files.</label>
                                         </div>
                                     </div>
-                                    <div class="checklist-item " data-rbd-draggable-context-id="0 " data-rbd-draggable-id="task-2 ">
-                                        <div class=" "><input type="checkbox " id="task-2 " class="me-3 form-check-input "><label tabindex="0 " role="button " aria-describedby="rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id="task-2 " data-rbd-drag-handle-context-id="0 "
-                                                draggable="false " for="task-2 " class="form-check-label ">Refactor the core social sharing
+                                    <div class=" checklist-item " data-rbd-draggable-context-id=" 0 " data-rbd-draggable-id=" task-2 ">
+                                        <div class=" "><input type=" checkbox " id=" task-2 " class=" me-3 form-check-input "><label tabindex=" 0 " role=" button " aria-describedby=" rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id=" task-2 " data-rbd-drag-handle-context-id=" 0 "
+                                                draggable=" false " for=" task-2 " class=" form-check-label ">Refactor the core social sharing
                                                 modules.</label></div>
                                     </div>
-                                    <div class="checklist-item " data-rbd-draggable-context-id="0 " data-rbd-draggable-id="task-3 ">
-                                        <div class=" "><input type="checkbox " id="task-3 " class="me-3 form-check-input "><label tabindex="0 " role="button " aria-describedby="rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id="task-3 " data-rbd-drag-handle-context-id="0 "
-                                                draggable="false " for="task-3 " class="form-check-label ">Create the release notes for the new pages so
+                                    <div class=" checklist-item " data-rbd-draggable-context-id=" 0 " data-rbd-draggable-id=" task-3 ">
+                                        <div class=" "><input type=" checkbox " id=" task-3 " class=" me-3 form-check-input "><label tabindex=" 0 " role=" button " aria-describedby=" rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id=" task-3 " data-rbd-drag-handle-context-id=" 0 "
+                                                draggable=" false " for=" task-3 " class=" form-check-label ">Create the release notes for the new pages so
                                                 customers get psyched.</label></div>
                                     </div>
-                                    <div class="checklist-item " data-rbd-draggable-context-id="0 " data-rbd-draggable-id="task-4 ">
-                                        <div class=" "><input type="checkbox " id="task-4 " class="me-3 form-check-input "><label tabindex="0 " role="button " aria-describedby="rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id="task-4 " data-rbd-drag-handle-context-id="0 "
-                                                draggable="false " for="task-4 " class="form-check-label ">Send Dianna those meeting notes.</label></div>
+                                    <div class=" checklist-item " data-rbd-draggable-context-id=" 0 " data-rbd-draggable-id=" task-4 ">
+                                        <div class=" "><input type=" checkbox " id=" task-4 " class=" me-3 form-check-input "><label tabindex=" 0 " role=" button " aria-describedby=" rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id=" task-4 " data-rbd-drag-handle-context-id=" 0 "
+                                                draggable=" false " for=" task-4 " class=" form-check-label ">Send Dianna those meeting notes.</label>
+                                        </div>
                                     </div>
-                                    <div class="checklist-item " data-rbd-draggable-context-id="0 " data-rbd-draggable-id="task-5 ">
-                                        <div class=" "><input type="checkbox " id="task-5 " class="me-3 form-check-input "><label tabindex="0 " role="button " aria-describedby="rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id="task-5 " data-rbd-drag-handle-context-id="0 "
-                                                draggable="false " for="task-5 " class="form-check-label ">Share the documentation for the new unified
+                                    <div class=" checklist-item " data-rbd-draggable-context-id=" 0 " data-rbd-draggable-id=" task-5 ">
+                                        <div class=" "><input type=" checkbox " id=" task-5 " class=" me-3 form-check-input "><label tabindex=" 0 " role=" button " aria-describedby=" rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id=" task-5 " data-rbd-drag-handle-context-id=" 0 "
+                                                draggable=" false " for=" task-5 " class=" form-check-label ">Share the documentation for the new unified
                                                 API.</label></div>
                                     </div>
-                                    <div class="checklist-item " data-rbd-draggable-context-id="0 " data-rbd-draggable-id="task-6 ">
-                                        <div class=" "><input type="checkbox " id="task-6 " class="me-3 form-check-input "><label tabindex="0 " role="button " aria-describedby="rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id="task-6 " data-rbd-drag-handle-context-id="0 "
-                                                draggable="false " for="task-6 " class="form-check-label ">Clean up the Figma file with all of the
+                                    <div class=" checklist-item " data-rbd-draggable-context-id=" 0 " data-rbd-draggable-id=" task-6 ">
+                                        <div class=" "><input type=" checkbox " id=" task-6 " class=" me-3 form-check-input "><label tabindex=" 0 " role=" button " aria-describedby=" rbd-hidden-text-0-hidden-text-0 " data-rbd-drag-handle-draggable-id=" task-6 " data-rbd-drag-handle-context-id=" 0 "
+                                                draggable=" false " for=" task-6 " class=" form-check-label ">Clean up the Figma file with all of the
                                                 avatars, buttons, and other components.</label></div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer ">
-                                <div class="align-items-center row ">
-                                    <div class="col "><textarea placeholder="Create a task " class="form-control-auto form-control-flush form-control " style="height: 15px !important; "></textarea></div>
-                                    <div class="col-auto "><button type="button " class="btn btn-primary btn-sm ">Add</button></div>
+                            <div class=" card-footer ">
+                                <div class=" align-items-center row ">
+                                    <div class=" col "><textarea placeholder=" Create a task " class=" form-control-auto form-control-flush form-control " style=" height: 15px !important; "></textarea></div>
+                                    <div class=" col-auto "><button type=" button " class=" btn btn-primary btn-sm ">Add</button></div>
                                 </div>
                             </div>
                         </div>

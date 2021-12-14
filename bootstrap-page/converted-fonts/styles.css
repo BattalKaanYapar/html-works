@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Cerebri Sans" sans-serif;
+    src: url(./Cerebri+Sans+Book.eot);
+    src: url(./Cerebri+Sans+Book.eot?#iefix) format('embedded-opentype'), url(./Cerebri+Sans+Book.otf) format('otf'), url(./Cerebri+Sans+Book.svg#Cerebri%20Sans%20Book) format('svg'), url(./Cerebri+Sans+Book.ttf) format('truetype'), url(./Cerebri+Sans+Book.woff) format('woff'), url(./Cerebri+Sans+Book.woff2) format('woff2');
+}
+
+* {
+    font-family: "Cerebri Sans" sans-serif;
+}
