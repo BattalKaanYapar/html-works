@@ -1,19 +1,97 @@
 @font-face {
-    font-family: 'Cerebri-medium';
+    font-family: 'Cerebri-Book';
     src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf);
 }
 
-@font-face {
-    font-family: 'Cerebri-regular';
-    src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Regular.ttf);
+* {
+    font-family: 'Cerebri-Book';
+    box-sizing: border-box;
 }
 
-.card-header-title {
-    font-family: 'Cerebri-medium';
+.table {
+    margin-bottom: 0 !important;
+    border: 1px solid #edf2f9;
+    border-top: none !important;
 }
 
+.text-uppercase {
+    letter-spacing: .08em !important;
+}
 
-/*Custom css*/
+.header-pretitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+}
+
+.header-title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #12263f;
+}
+
+.lift {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.first-values {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+    color: #95aac9;
+}
+
+.first-values-item {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #12263f;
+}
+
+.card>* {
+    flex-shrink: 0;
+}
+
+.navbar-vertical {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 250px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    overflow-y: auto;
+}
+
+.navbar[class*=fixed-] {
+    z-index: 1030;
+}
+
+@media (min-width:768px) {
+    .navbar-vertical .navbar-expand-md .navbar-brand-img {
+        max-height: 3rem;
+    }
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1rem;
+    font-size: 1.0625rem;
+    white-space: nowrap;
+}
+
+.navbar-brand-img,
+.navbar-brand>img {
+    max-width: 100%;
+    max-height: 1.5rem;
+}
 
 .card-header-title {
     margin-bottom: 0;
@@ -28,12 +106,14 @@
 }
 
 .card-header .btn-white {
-    border: 1px solid #e3ebf6;
+    border: 1px solid #edf2f9;
 }
 
 .card {
-    border: 1px solid #edf2f9;
     border-radius: 0.5rem !important;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+    border: none !important;
 }
 
 .btn-sm {
@@ -50,15 +130,11 @@
     height: 60px;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+    border: 1px solid #edf2f9;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: -.02em;
+.table-responsive {
+    border-top: none;
 }
 
 .card-header .card-header-title {
@@ -72,6 +148,17 @@ h6 {
     line-height: 15px;
     font-weight: 600;
     color: #95AAC9;
+}
+
+.chart-appended {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .table thead th {
