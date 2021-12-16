@@ -57,6 +57,22 @@
     flex-shrink: 0;
 }
 
+.fa-circle {
+    font-size: 8px;
+}
+
+.chart-legend-item {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #95aac9;
+}
+
+.chart {
+    position: relative;
+    height: max-content;
+}
+
 .navbar-vertical {
     display: block;
     position: fixed;
