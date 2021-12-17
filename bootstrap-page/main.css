@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Cerebri-Book';
+    font-family: 'Cerebri-Medium';
     src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf);
 }
 
@@ -8,9 +8,38 @@
     src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Regular.ttf);
 }
 
-* {
+@font-face {
     font-family: 'Cerebri-Book';
+    src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Book.ttf);
+}
+
+@font-face {
+    font-family: 'Cerebri-Thin';
+    src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Thin.ttf);
+}
+
+* {
+    font-family: 'Cerebri-Medium';
     box-sizing: border-box;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+}
+
+.mb-1 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #283e59;
+}
+
+.secondary-soft {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    line-height: 11px !important;
+    background-color: #DBE0E7 !important;
+    color: #6e84a3;
 }
 
 .table {
@@ -63,8 +92,33 @@
     flex-shrink: 0;
 }
 
+.ms-n2 a {
+    font-family: 'Cerebri-Regular';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #1657af;
+    text-decoration: none;
+}
+
+.ms-n2 p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #95aac9;
+}
+
 .fa-circle {
     font-size: 8px;
+}
+
+.card-header .small {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #1657af;
+    font-family: 'Cerebri-Book';
 }
 
 .chart-legend-item {
@@ -77,6 +131,13 @@
 .chart {
     position: relative;
     height: max-content;
+}
+
+.nav-tabs-sm {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #12263f;
 }
 
 .navbar-vertical {
@@ -104,22 +165,50 @@
 
 /*Değiştirilecek kodlar*/
 
-.container-two {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+.header {
+    margin-bottom: 2rem !important;
 }
 
-.header-content {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+.main-content .header .container-fluid {
+    padding: 0 2.25rem 0 2.25rem !important;
 }
 
-.btn-divider {
-    margin-bottom: 20px;
+.main-content .header .container-fluid .header-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e3ebf6;
+}
+
+.main-content .container-fluid {
+    padding-left: 2.25rem !important;
+    padding-right: 2.25rem !important;
 }
 
 
 /*Değiştirilecek kodlar*/
+
+.card-header span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.checklist .checklist-item label {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #12263f;
+}
+
+.form-check-input {
+    width: 1rem !important;
+    height: 1rem !important;
+    margin-top: calc((1.5 * 1em - 1rem)/2) !important;
+    cursor: pointer !important;
+    border-radius: 0.375rem !important;
+    background-color: #e3ebf6;
+    border: none;
+}
 
 .navbar-brand {
     padding-top: 0;
@@ -137,6 +226,15 @@
 
 .card-header-title {
     margin-bottom: 0;
+}
+
+.card-body {
+    flex: 1 1 auto !important;
+    padding: 1.5rem !important;
+}
+
+.card-header-tabs {
+    margin: -0.75rem 0 !important;
 }
 
 .is-sortable {
@@ -209,6 +307,32 @@
     text-transform: uppercase;
     font-weight: 600;
     color: #95AAC9;
+}
+
+.form-control-auto {
+    min-height: 0!important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.form-control:not(.form-select) {
+    padding-right: 0;
+}
+
+.form-control-flush {
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #12263f;
+}
+
+.card-footer {
+    border-bottom-left-radius: 5rem !important;
+    border-bottom-right-radius: 5rem !important;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border-top: 1px solid #edf2f9;
 }
 
 .table-sm> :not(caption)>*>* {
