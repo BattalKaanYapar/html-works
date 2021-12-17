@@ -3,6 +3,11 @@
     src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf);
 }
 
+@font-face {
+    font-family: 'Cerebri-Regular';
+    src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Regular.ttf);
+}
+
 * {
     font-family: 'Cerebri-Book';
     box-sizing: border-box;
@@ -36,7 +41,8 @@
     font-weight: 400;
     line-height: 23px;
     color: #fff;
-    padding: 0.5rem;
+    padding: .5rem 0.75rem .5rem 0.75rem;
+    font-family: 'Cerebri-Regular';
 }
 
 .first-values {
@@ -95,6 +101,26 @@
     }
 }
 
+
+/*Değiştirilecek kodlar*/
+
+.container-two {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+.header-content {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.btn-divider {
+    margin-bottom: 20px;
+}
+
+
+/*Değiştirilecek kodlar*/
+
 .navbar-brand {
     padding-top: 0;
     padding-bottom: 0;
@@ -127,7 +153,6 @@
 
 .card {
     border-radius: 0.5rem !important;
-    margin-bottom: 1.5rem;
     box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
     border: none !important;
 }
