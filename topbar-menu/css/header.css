@@ -2,39 +2,33 @@
     background: #414659;
     width: 100%;
     height: 75px;
+    left: 0px;
+    top: 0px;
     display: flex;
-    text-align: center;
     margin: 0 auto;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
 }
 
-.topbar-menu a {
-    color: #FFF;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 24px;
-    font-size: 14px;
-}
-
-.logsign-logo {
+.left-box {
     padding-left: 20px;
 }
 
-.top-nav-links {
+.center-box {
     display: flex;
 }
 
-.top-nav-links .icons {
+.center-box .icons {
     height: 22px;
     width: 24px;
 }
 
-.link-categories :hover {
+.link-box :hover {
     background-color: #262626;
 }
 
-.link-categories a {
+.link-box a {
     display: inline-block;
     width: 100px;
     height: 75px;
@@ -43,36 +37,30 @@
     padding-top: 1rem;
 }
 
-.link-categories a:active {
+.link-box a:active {
     color: #FFFFFF;
     border-bottom: 3px solid #547DF9;
 }
 
-.link-categories a:visited {
+.link-box a:visited {
     color: #FAFAFA;
 }
 
-.top-nav-switch-bar {
+.right-box {
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
 
-.top-nav-switch-bar a {
+.right-box a {
     text-decoration: none;
-    font-weight: 400;
-    line-height: 24px;
 }
 
-.top-nav-inside-item {
+.inside-right-box {
     margin-left: 20px;
 }
 
-.user-page {
-    border-radius: 25px;
-}
-
-.top-nav-switch-bar a:visited {
+.right-box a:visited {
     color: #FFFFFF;
 }
 
@@ -150,10 +138,6 @@ input:checked+.slider:before {
     display: inline-block;
 }
 
-.dropdown:hover {
-    background-color: #262626;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -169,6 +153,7 @@ input:checked+.slider:before {
 .dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
+    display: block;
     float: left;
     width: 200px;
     height: auto;
@@ -188,7 +173,6 @@ input:checked+.slider:before {
 }
 
 .dropdown-toggle {
-    position: absolute;
-    top: 52px;
-    left: 76px;
+    position: relative;
+    left: 10px;
 }
