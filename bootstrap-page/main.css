@@ -33,7 +33,20 @@
     padding: 0.5rem 1rem;
 }
 
-.nav-item a div {
+.links a {
+    font-family: 'CerebriSansPro-Thin';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.links a,
+i {
+    color: #6e84a3 !important;
+}
+
+
+/* .nav-item a div {
     font-family: 'Cerebri-Thin';
     font-size: 15px;
     line-height: 23px;
@@ -47,7 +60,7 @@ a {
 
 .nav-item:hover {
     cursor: pointer;
-}
+} */
 
 .mb-1 {
     font-size: 13px;
