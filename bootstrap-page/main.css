@@ -52,28 +52,15 @@ i {
     color: #95aac9;
 }
 
-
-/* .nav-item a div {
-    font-family: 'Cerebri-Thin';
-    font-size: 15px;
-    line-height: 23px;
-    font-weight: 400;
-}
-
-.nav-item,
-a {
-    color: #6e84a3 !important;
-}
-
-.nav-item:hover {
-    cursor: pointer;
-} */
-
 .mb-1 {
     font-size: 13px;
     font-weight: 500;
     line-height: 14px;
     color: #283e59;
+}
+
+.nav-item:only-child:hover {
+    cursor: pointer;
 }
 
 .bg-secondary-soft {
