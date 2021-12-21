@@ -30,7 +30,7 @@
 .links {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0 !important;
 }
 
 .links a {
@@ -176,10 +176,6 @@ i {
     color: #95aac9!important
 }
 
-.fa-circle {
-    font-size: 8px;
-}
-
 .card-header .small {
     text-decoration: none;
     font-weight: 400;
@@ -189,10 +185,30 @@ i {
     font-family: 'Cerebri-Book';
 }
 
+.chart-legend-item+.chart-legend-item {
+    margin-left: 1rem;
+}
+
 .chart-legend-item {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.fa-circle {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.375rem;
+    border-radius: 50%;
+    font-size: 8px;
+}
+
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    font-size: .8125rem;
+    text-align: center;
     color: #95aac9;
 }
 
@@ -250,8 +266,7 @@ i {
         bottom: 0;
         width: 100%;
         max-width: 250px;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        padding: 0.75rem 1.5rem 0.75rem 1.5rem;
         overflow-y: auto;
     }
 }
@@ -276,6 +291,17 @@ i {
 .main-content .container-fluid {
     padding-left: 2.25rem !important;
     padding-right: 2.25rem !important;
+}
+
+
+/*sidebar-silinecek*/
+
+.btn-toggle[aria-expanded="true"]::before {
+    transform: rotate( 90deg);
+}
+
+.btn-toggle::before .fa-angle-down {
+    transition: 180deg;
 }
 
 
@@ -440,11 +466,6 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.chart-legend {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .table thead th {
