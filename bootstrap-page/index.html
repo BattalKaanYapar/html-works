@@ -18,257 +18,172 @@
 
 <body style="background-color: #F8FBFD;">
     <div class="justify-space-between d-flex">
-        <!-- <div class="nav navbar-vertical expand-md bg-white border-end fixed-start navbar-light">
-            <div class="nav-item" style="width: 100%;">
-                <div class="nav-link">
-                    <div class="nav-header">
-                        <a href="#" class="navbar-brand">
-                            <img src="../bootstrap-page/b-images/logo.svg" class="navbar-brand-img">
-                        </a>
-                    </div>
-                </div>
-                <div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class=" fas fa-home ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Dashboards</a>
-                        </div>
+        <div style="position: relative; z-index: 1;width:100%; max-width: 250px;">
+            <div class="flex-shrink-0 p-3 bg-white border-end  fixed-start">
+                <a href="/ " class="d-flex align-items-center pb-3 mb-2 mt-3 link-dark text-decoration-none justify-content-center">
+                    <span class="fs-5 fw-semibold "><img src="../bootstrap-page/b-images/logo.svg " width="56px "
+                            height="50px "></span>
+                </a>
+                <ul class="list-unstyled ps-0 ">
+                    <li class="mb-1 ">
+                        <button class="btn btn-toggle align-items-center rounded collapsed pe-1 ps-1" data-bs-toggle="collapse " data-bs-target="#home-collapse " aria-expanded="true ">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li><a href="# " class="text-decoration-none text-muted "><i
+                                            class="fas fa-home pe-2 navbar-icons"></i>Dashnoards</a>
+                                </li>
+                                <li><a href="# " class="text-decoration-none text-muted "><i class="fas fa-angle-down "
+                                            style="font-size: 12px;"></i></a></li>
 
-                        <div class="dropdown-icons ">
-                            <a href="#"><i class="fas fa-angle-down"></i></a>
+                            </ul>
+                        </button>
+                        <div class="collapse " id="home-collapse ">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Default</a>
+                                </li>
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Project
+                                        Management</a></li>
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">E-Commerce</a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class="far fa-file ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Pages</a>
-                        </div>
+                    </li>
+                    <li class="mb-1 ">
+                        <button class="btn btn-toggle align-items-center rounded collapsed pe-1 ps-1" data-bs-toggle="collapse " data-bs-target="#dashboard-collapse " aria-expanded="false ">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li><a href="# " class="text-decoration-none text-muted "> <i
+                                            class="far fa-file pe-2 navbar-icons"></i>
+                                        Pages</a>
+                                </li>
+                                <li><a href="# " class="text-decoration-none text-muted "><i class="fas fa-angle-down "
+                                            style="font-size: 12px;"></i></a></li>
+                            </ul>
 
-                        <div class="dropdown-icons ">
-                            <a href="#"><i class="fas fa-angle-down"></i></a>
+                        </button>
+                        <div class="collapse " id="dashboard-collapse ">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Account</a>
+                                </li>
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Crm</a></li>
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Profile</a>
+                                </li>
+                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Project</a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class="fas fa-border-all ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Widgets</a>
-                        </div>
-
-                        <div class="dropdown-icons ">
-                            <a href="# "><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class="fas fa-user ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Authentication</a>
-                        </div>
-
-                        <div class="dropdown-icons">
-                            <a href="#"><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-3">
-                        <hr class="navbar-divider">
-                    </div>
-                    <div class="nav-header p-3">
-                        DOCUMENTATION
-                    </div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class="fas fa-border-all ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Basics</a>
-                        </div>
-
-                        <div class="dropdown-icons ">
-                            <a href="# "><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class="fas fa-border-all ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Components</a>
-                        </div>
-
-                        <div class="dropdown-icons ">
-                            <a href="# "><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                    <div class="nav-link links">
-                        <div>
-                            <i class="fas fa-border-all ps-1 pe-1"></i>
-                            <a href="#" class="text-decoration-none">Changelog</a>
-                        </div>
-
-                        <div class="dropdown-icons ">
-                            <a href="# "><i class="fas fa-angle-down"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-auto mb-md-4"></div>
-
-                <div class="navbar-user d-none d-md-flex" tabindex="0">
-                    <div>
-                        <i class="far fa-bell" style="width: 17px;"></i>
-                    </div>
-                    <div>
-                        <img src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg" style="width: 40px;" class="avatar-img rounded-circle">
-                    </div>
-                    <div>
-                        <a class="navbar-user-link" role="button">
-                            <div class="icon">
-                                <i class="fas fa-search" style="width: 17px; height: 17px;"></i>
+                    </li>
+                    <li class="mb-1 ">
+                        <button class="btn btn-toggle align-items-center rounded collapsed pe-1 ps-1" data-bs-toggle="collapse " data-bs-target="#orders-collapse " aria-expanded="false ">
+                            <ul class="list-unstyled d-flex ">
+                                <li><a href="# " class="text-decoration-none text-muted "><i
+                                            class="fas fa-border-all pe-2 navbar-icons"></i>
+                                        Widgets</a></li>
+                            </ul>
+                        </button>
+                    </li>
+                    <li class="mb-1 ">
+                        <button class="btn btn-toggle align-items-center rounded collapsed pe-1 ps-1" data-bs-toggle="collapse " data-bs-target="#orders-collapse " aria-expanded="false ">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li><a href="# " class="text-decoration-none text-muted "><i
+                                            class="fas fa-user pe-2 navbar-icons"></i>
+                                        Authentication</a></li>
+                                <li><a href="# " class="text-decoration-none text-muted "><i class="fas fa-angle-down "
+                                            style="font-size: 12px;"></i></a></li>
+                            </ul>
+                            <div class="collapse " id="orders-collapse ">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                    <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign
+                                            In</a>
+                                    </li>
+                                    <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign
+                                            Up</a>
+                                    </li>
+                                    <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Password
+                                            Reset</a></li>
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">Error</a>
+                                    </li>
+                                </ul>
                             </div>
+                        </button>
+                    </li>
+                    <li class="border-top my-3 "></li>
+                    <h6 class="navbar-heading text-muted">Documentation</h6>
+                    <li class=" mb-1 ">
+                        <button class=" btn btn-toggle align-items-center rounded collapsed pe-1 ps-1 " data-bs-toggle="collapse " data-bs-target="#account-collapse " aria-expanded="false ">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li><a href="# " class="text-decoration-none text-muted "> <i
+                                            class="far fa-clipboard pe-2 navbar-icons "></i>Basics </a></li>
+                                <li><a href="# " class="text-decoration-none text-muted "><i class="fas fa-angle-down "
+                                            style="font-size: 12px; "></i></a></li>
+                            </ul>
+                            <div class="collapse " id="account-collapse ">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">New...</a>
+                                    </li>
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">Profile</a>
+                                    </li>
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">Settings</a>
+                                    </li>
+                                    <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign
+                                            out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="mb-1 ">
+                        <button class="btn btn-toggle align-items-center rounded collapsed pe-1 ps-1 " data-bs-toggle="collapse " data-bs-target="#account-collapse " aria-expanded="false ">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li><a href="# " class="text-decoration-none text-muted "><i
+                                            class="fas fa-book-open pe-2 navbar-icons "></i>Components
+                                    </a></li>
+                                <li><a href="# " class="text-decoration-none text-muted "><i class="fas fa-angle-down "
+                                            style="font-size: 12px; "></i></a></li>
+                            </ul>
+                            <div class="collapse " id="account-collapse ">
+                                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">New...</a>
+                                    </li>
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">Profile</a>
+                                    </li>
+                                    <li><a href="# "
+                                            class="link-dark text-muted rounded text-decoration-none ">Settings</a>
+                                    </li>
+                                    <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign
+                                            out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </button>
+                    </li>
+                    <li class="mb-1 ">
+                        <button class="btn btn-toggle align-items-center rounded collapsed pe-1 ps-1 " data-bs-toggle="collapse " data-bs-target="#orders-collapse " aria-expanded="false ">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li><a href="# " class="text-decoration-none text-muted ">
+                                        Changelog
+                                    </a></li>
+                                <li><a href="# " class="text-decoration-none text-muted "></a></li>
+                            </ul>
+                        </button>
+                    </li>
+                    <li>
+                        <div style="margin-top: 280px; border-bottom: 1px solid #e3ebf6; margin-bottom: 20px; ">
+                        </div>
+                    </li>
+                    <li class="d-flex justify-content-evenly align-items-center "><i class="far fa-bell "></i>
+                        <img src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 40px; " class="avatar-img rounded-circle ">
+                        <a class="navbar-user-link " role="button ">
+                            <i class="fas fa-search "></i>
                         </a>
-                    </div>
-                </div>
+                    </li>
 
+                </ul>
             </div>
-        </div> -->
-        <div class="flex-shrink-0 p-3 bg-white border-end fixed-start" style=" width: 250px; ">
-            <a href="/ " class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none ">
-                <span class="fs-5 fw-semibold "><img src="../bootstrap-page/b-images/logo.svg " width="56px "
-                        height="50px "></span>
-            </a>
-            <ul class="list-unstyled ps-0 ">
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#home-collapse " aria-expanded="true ">
-                        <ul class="list-unstyled d-flex justify-content-between ">
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-home pe-2 "></i>Dashnoards</a>
-                            </li>
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-angle-down "></i></a></li>
-
-                        </ul>
-                    </button>
-                    <div class="collapse " id="home-collapse ">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Default</a></li>
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Project
-                                    Management</a></li>
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">E-Commerce</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#dashboard-collapse " aria-expanded="false ">
-                        <ul class="list-unstyled d-flex justify-content-between ">
-                            <li><a href="# " class="text-decoration-none text-muted "> <i class="fas fa-file pe-2 "></i>
-                                    Pages</a>
-                            </li>
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-angle-down "></i></a></li>
-                        </ul>
-
-                    </button>
-                    <div class="collapse " id="dashboard-collapse ">
-                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Account</a></li>
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Crm</a></li>
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Profile</a></li>
-                            <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Project</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#orders-collapse " aria-expanded="false ">
-                        <ul class="list-unstyled d-flex ">
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-border-all pe-2 "></i>
-                                    Widgets</a></li>
-                        </ul>
-                    </button>
-                </li>
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#orders-collapse " aria-expanded="false ">
-                        <ul class="list-unstyled d-flex justify-content-between ">
-                            <li><a href="# " class="text-decoration-none text-muted "><i class="fas fa-user pe-2 "></i>
-                                    Authentication</a></li>
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-angle-down "></i></a></li>
-                        </ul>
-                        <div class="collapse " id="orders-collapse ">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign In</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign Up</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Password
-                                        Reset</a></li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Error</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </button>
-                </li>
-                <li class="border-top my-3 "></li>
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#account-collapse " aria-expanded="false ">
-                        <ul class="list-unstyled d-flex justify-content-between ">
-                            <li><a href="# " class="text-decoration-none text-muted ">Basics </a></li>
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-angle-down "></i></a></li>
-                        </ul>
-                        <div class="collapse " id="account-collapse ">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">New...</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Profile</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Settings</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign out</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </button>
-                </li>
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#account-collapse " aria-expanded="false ">
-                        <ul class="list-unstyled d-flex justify-content-between ">
-                            <li><a href="# " class="text-decoration-none text-muted ">Components
-                                </a></li>
-                            <li><a href="# " class="text-decoration-none text-muted "><i
-                                        class="fas fa-angle-down "></i></a></li>
-                        </ul>
-                        <div class="collapse " id="account-collapse ">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ">
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">New...</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Profile</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Settings</a>
-                                </li>
-                                <li><a href="# " class="link-dark text-muted rounded text-decoration-none ">Sign out</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </button>
-                </li>
-                <li class="mb-1 ">
-                    <button class="btn btn-toggle align-items-center rounded collapsed " data-bs-toggle="collapse " data-bs-target="#orders-collapse " aria-expanded="false ">
-                        <ul class="list-unstyled d-flex justify-content-between ">
-                            <li><a href="# " class="text-decoration-none text-muted ">Changelog</a></li>
-                            <li><a href="# " class="text-decoration-none text-muted "></a></li>
-                        </ul>
-                    </button>
-                </li>
-                <li>
-                    <div style="margin-top: 200px; "></div>
-                </li>
-                <li class="border-top my-3 "></li>
-                <li class="d-flex justify-content-evenly align-items-center "><i class="far fa-bell "></i>
-                    <img src="../bootstrap-page/b-images/dashboard_files/avatar-1.jpg " style="width: 40px; " class="avatar-img rounded-circle ">
-                    <a class="navbar-user-link " role="button ">
-                        <i class="fas fa-search "></i>
-                    </a>
-                </li>
-
-            </ul>
         </div>
         <div class="main-content ">
             <div class="header ">

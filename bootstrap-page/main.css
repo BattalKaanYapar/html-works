@@ -18,6 +18,10 @@
     src: url(../bootstrap-page/Cerebri.Sans.Pro/CerebriSansPro-Thin.ttf);
 }
 
+.list-unstyled .mb-1 .rounded ul li a {
+    font-family: 'Cerebri-Regular';
+}
+
 * {
     font-family: 'Cerebri-Medium';
     box-sizing: border-box;
@@ -84,6 +88,36 @@
         border-top-width: 1px;
         border-top-style: solid;
     }
+}
+
+@media (min-width: 768px) {
+    .fixed-start {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        max-width: 250px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        overflow-y: auto;
+    }
+}
+
+.navbar-icons {
+    font-size: 14px;
+}
+
+.col-auto {
+    padding-bottom: 0.5rem !important;
+}
+
+.list-unstyled .navbar-heading {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: .625rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
 }
 
 .links {
@@ -192,6 +226,10 @@ i {
     color: #fff;
     padding: .5rem 0.75rem .5rem 0.75rem;
     font-family: 'Cerebri-Regular';
+    transition: box-shadow .25s ease, transform .25s ease;
+    background-color: #2c7be5;
+    border-color: #2c7be5;
+    border-radius: .375rem;
 }
 
 .first-values {
@@ -278,6 +316,7 @@ i {
     font-weight: 400;
     line-height: 20px;
     font-family: 'Cerebri-Book';
+    cursor: pointer;
 }
 
 .navbar-vertical {
