@@ -19,7 +19,12 @@
 }
 
 .list-unstyled .mb-1 .rounded ul li a {
-    font-family: 'Cerebri-Regular';
+    font-family: 'Cerebri-Regular', sans-serif;
+    color: #6e84a3;
+}
+
+.list-unstyled .mb-1 .rounded ul li a:hover {
+    color: #12263f;
 }
 
 * {
@@ -103,8 +108,16 @@
     }
 }
 
+
+/* .list-nav {
+    flex-direction: column;
+    margin-left: 0.550rem;
+    margin-right: -1.5rem;
+    margin-top: -0.550rem;
+} */
+
 .navbar-icons {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .col-auto {
@@ -117,6 +130,8 @@
     font-size: .625rem;
     text-transform: uppercase;
     letter-spacing: .04em;
+    overflow: auto;
+    color: #95aac9;
 }
 
 .links {
@@ -229,6 +244,10 @@ i {
     background-color: #2c7be5;
     border-color: #2c7be5;
     border-radius: .375rem;
+}
+
+.card-body .row .col-auto svg {
+    color: #95aac9;
 }
 
 .first-values {
@@ -387,10 +406,7 @@ i {
     color: #6e84a3;
     width: 200px;
     max-width: 200px;
-}
-
-.form-switch {
-    min-height: 1.5rem;
+    padding: 0 0 0.5rem 0.5rem;
 }
 
 .form-switch>.form-check-input {
@@ -398,21 +414,34 @@ i {
     margin-top: 0;
 }
 
-.form-check-input:focus:not(:checked) {
-    background-color: #cbdef9;
-}
-
 .form-switch .form-check-input {
     width: 3rem;
     background-position: 0;
-    border-radius: 3rem;
 }
 
-.form-check-input[type=checkbox] {
-    border-radius: 0.375rem;
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #e3ebf6;
     background-repeat: no-repeat;
-    background: #e3ebf6;
-    border: none;
+    background-position: 50%;
+    background-size: contain;
+    border: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    margin-top: calc((1.5 * 1em - 1rem)/2);
+    cursor: pointer;
+}
+
+.form-check-input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none !important;
 }
 
 .container-rows {
@@ -439,6 +468,17 @@ i {
 
 .mt-auto {
     margin-top: auto!important;
+}
+
+.footer-nav {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    max-width: 250px;
+    bottom: 0;
+    border-top: 1px solid #e3ebf6;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .navbar-brand-img,
