@@ -341,9 +341,6 @@ i {
     overflow-y: auto;
 }
 
-
-/*Değiştirilecek kodlar*/
-
 .header {
     margin-bottom: 2rem !important;
 }
@@ -363,9 +360,6 @@ i {
     padding-right: 2.25rem !important;
 }
 
-
-/*sidebar-silinecek*/
-
 .btn-toggle[aria-expanded="true"]::before {
     transform: rotate( 90deg);
 }
@@ -373,9 +367,6 @@ i {
 .btn-toggle::before .fa-angle-down {
     transition: 180deg;
 }
-
-
-/*Değiştirilecek kodlar*/
 
 .card-header span {
     font-weight: 400;
