@@ -31,7 +31,9 @@
     font-family: 'Cerebri-Medium';
     box-sizing: border-box;
 }
-
+*, :after, :before {
+    box-sizing: border-box;
+}
 @media (min-width: 768px) {
     .nav[class*=fixed-] {
         z-index: 1030;
