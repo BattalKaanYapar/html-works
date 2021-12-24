@@ -379,6 +379,10 @@ i {
     font-weight: 400;
     line-height: 23px;
     color: #12263f;
+    font-family: 'Cerebri-Regular';
+}
+.card-footer .row .col input{
+    font-family: 'Cerebri-Book';
 }
 
 .mb-1 button {
