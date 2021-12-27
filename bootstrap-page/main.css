@@ -30,6 +30,7 @@
 * {
     font-family: 'Cerebri-Medium';
     box-sizing: border-box;
+    color: #12263f;
 }
 *, :after, :before {
     box-sizing: border-box;
@@ -107,6 +108,7 @@
         max-width: 250px;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        overflow: auto;
     }
 }
 
