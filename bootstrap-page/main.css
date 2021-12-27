@@ -40,64 +40,6 @@
         z-index: 1030;
     }
 }
-
-@media (min-width: 768px) {
-    .navbar-vertical.expand-md.fixed-start:not([style*="display: none"])~.main-content {
-        margin-left: 250px;
-    }
-}
-
-@media (min-width:768px) {
-    .expand-md .navbar-brand-img {
-        max-height: 3rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .expand-md {
-        display: block;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        max-width: 250px;
-        padding: 0.75rem 1.5rem 0.75rem 1.5rem;
-        overflow-y: auto;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar-vertical.expand-md .navbar-collapse>* {
-        min-width: 100%;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar-vertical.expand-md .navbar-brand {
-        display: block;
-        text-align: center;
-        padding-top: 1.25rem;
-        padding-bottom: 1.25rem;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar-vertical.expand-md.fixed-start {
-        left: 0;
-        border-width: 0 1px 0 0;
-    }
-}
-
-@media (min-width: 768px) {
-    .navbar-vertical.expand-md .navbar-user {
-        margin-left: -1.5rem;
-        margin-right: -1.5rem;
-        padding: 1.5rem 1.5rem 0.75rem;
-        border-top-width: 1px;
-        border-top-style: solid;
-    }
-}
-
 @media (min-width: 768px) {
     .fixed-start {
         display: block;
@@ -407,20 +349,9 @@ i {
 }
 
 .form-check-input {
-    width: 1em;
-    height: 1em;
-    margin-top: 0.25em;
-    vertical-align: top;
     background-color: #e3ebf6;
-    background-repeat: no-repeat;
     background-position: 50%;
-    background-size: contain;
     border: transparent;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    -webkit-print-color-adjust: exact;
-    color-adjust: exact;
     margin-top: calc((1.5 * 1em - 1rem)/2);
     cursor: pointer;
 }
@@ -430,8 +361,6 @@ i {
 }
 
 .form-check-input:focus {
-    border-color: #86b7fe;
-    outline: 0;
     box-shadow: none !important;
 }
 
@@ -476,16 +405,6 @@ i {
 .navbar-brand>img {
     max-width: 100%;
     max-height: 3rem;
-}
-
-.expand-md .nav-item .nav-link .nav-header {
-    display: block;
-    text-align: center;
-    padding: 1.25rem 0 1.25rem 0;
-}
-
-.card-header-title {
-    margin-bottom: 0;
 }
 
 .card-body {
@@ -542,6 +461,7 @@ i {
     font-size: 15px;
     font-weight: 500;
     line-height: 17px;
+    margin-bottom: 0;
 }
 
 .card thead tr {
