@@ -4,7 +4,7 @@
 ####  Jr.Software Developer (Frontend) 
 
 
-Tech I Use:  CSS / HTML / Bootstrap v5.1.3 <br>
+### Tech I Use:  CSS / HTML / Bootstrap v5.1.3 <br>
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" width="55px" height="55px">
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" width="55px" height="55px">
 <img src="https://pbs.twimg.com/profile_images/1273081551354396672/-Tzadxix_400x400.jpg" width="45px" height="45px">
@@ -19,4 +19,18 @@ Tech I Use:  CSS / HTML / Bootstrap v5.1.3 <br>
 ![Dashboard-home](https://user-images.githubusercontent.com/93512418/147351951-eda41010-d7ac-4fd7-a295-7d2301bef866.jpg)
 ![dashboard-home2](https://user-images.githubusercontent.com/93512418/147352053-9d4ad4f5-97fb-4a4d-bd67-2388f4138fd0.jpg)
 ![dashboard-home3](https://user-images.githubusercontent.com/93512418/147352356-a39a94ca-8abf-4adf-b021-e49335e0bf6a.jpg)
+
+
+<details>
+    <summary>
+        Github Stats 
+    </summary>
+    <img src="https://github-readme-stats.vercel.app/api?username=BattalKaanYapar&theme=radical" width="450px" height="250px">
+</details>
+<details>
+    <summary>
+        Most Used Languages
+    </summary>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BattalKaanYapar&layout=compact&theme=radical" width="450px" height="250px">
+</details>
 
