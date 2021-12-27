@@ -5,9 +5,9 @@
 
 
 ### Tech I Use:  CSS / HTML / Bootstrap v5.1.3 <br>
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" width="55px" height="55px">
-<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" width="55px" height="55px">
-<img src="https://pbs.twimg.com/profile_images/1273081551354396672/-Tzadxix_400x400.jpg" width="45px" height="45px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" width="40px" height="40px">
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"  width="40px" height="40px">
+<img src="https://pbs.twimg.com/profile_images/1273081551354396672/-Tzadxix_400x400.jpg" width="35px" height="35px">
 
 ## Reach out to me :
 - 📫 How to reach me: battalkaan.ypr@gmail.com 
@@ -31,6 +31,6 @@
     <summary>
         Most Used Languages
     </summary>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BattalKaanYapar&layout=compact&theme=radical" width="450px" height="250px">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BattalKaanYapar&layout=compact&theme=radical" width="350px" height="250px">
 </details>
 
