@@ -24,7 +24,7 @@
 }
 
 .list-unstyled .mb-1 .rounded ul li a:hover {
-    color: #12263f;
+    color: #12263f !important;
 }
 
 * {
@@ -403,11 +403,7 @@ i {
 .form-switch>.form-check-input {
     height: 1.5rem;
     margin-top: 0;
-}
-
-.form-switch .form-check-input {
     width: 3rem;
-    background-position: 0;
 }
 
 .form-check-input {
@@ -427,6 +423,10 @@ i {
     color-adjust: exact;
     margin-top: calc((1.5 * 1em - 1rem)/2);
     cursor: pointer;
+}
+.comp .text-muted {
+    color: #95aac9!important;
+    font-family: 'Cerebri-Regular';
 }
 
 .form-check-input:focus {
