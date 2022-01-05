@@ -8,7 +8,7 @@ console.log(document.URL)
 
 console.log(document.baseURI)
 
-document.body.style.backgroundColor = "black"
+document.body.style.backgroundColor = "green"
 
 let value;
 
