@@ -1,9 +1,9 @@
-//let user = "Magleron" 
-//localStorage.setItem('userInfo', user)
-//let userStatus = {userName: 'kodluyoruz', isActive: true}
-//localStorage.setItem('user', userStatus)
-//let userStatus = {userName: 'kodluyoruz', isActive: true}
-//localStorage.setItem('user', JSON.stringify(userStatus))
+let user = "Magleron" 
+localStorage.setItem('userInfo', user)
+let userStatus = {userName: 'kodluyoruz', isActive: true}
+localStorage.setItem('user', userStatus)
+let userStatus = {userName: 'kodluyoruz', isActive: true}
+localStorage.setItem('user', JSON.stringify(userStatus))
 
 
 //Bölüm Sonu Örnekleri
