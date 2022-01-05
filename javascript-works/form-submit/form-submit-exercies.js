@@ -6,7 +6,6 @@
 3:Form içindeki bilgiyi sıfırlar
 4:Eğer forma bilgi girilmezse kullaniciyi uyar
 */
-/*
 let userFormDOM = document.querySelector("#userForm");
 userFormDOM.addEventListener("submit", formHandler);
 
@@ -50,37 +49,37 @@ const addItem = (userName, score) => {
     "align-items-center"
   );
   userListDOM.append(liDOM);
- };*/
+ };
 
  //**** Ödev Kısmı *****/
 
-const userForm = document.querySelector("#userForm");
-const userName = document.querySelector("#userName");
-const userSurname = document.querySelector("#userSurname");
-const userAge = document.querySelector("#userAge");
-const subContainer = document.querySelector("#.sub-container");
-const submitHandler = (e) => {
+//const userForm = document.querySelector("#userForm");
+//const userName = document.querySelector("#userName");
+//const userSurname = document.querySelector("#userSurname");
+//const userAge = document.querySelector("#userAge");
+//const subContainer = document.querySelector("#.sub-container");
+//const submitHandler = (e) => {
     /*1*/ //form submit edildiğinde tarayıcının yenilenmesini önleyen fonksiyon
-    if (userName.value && userSurname.value /* && 2 */ ){
+ //   if (userName.value && userSurname.value /* && 2 */ ){
         //Age değerinin 18'den büyük veya eşit olmasını kontrol eden değer.
-        showInfos(userName.value, userSurname.value, userAge.value);
-        userName.value = "";
-        userSurname.value = "";
-        userAge.value = "";
+  //      showInfos(userName.value, userSurname.value, userAge.value);
+  //      userName.value = "";
+  //      userSurname.value = "";
+  //      userAge.value = "";
 
-    } else {
-        alert("Hatalı giriş, lütfen tekrar deneyin!");
-    }
-};
+ //   } else {
+   //     alert("Hatalı giriş, lütfen tekrar deneyin!");
+   // }
+//};
 //input değerlerinin fonksiyon içerisinde kullanılması ve create edilen "li" elementine eklenmesi
-const showInfos = (/* 3*//*4 *//*5 */) =>{
-    const liDom = document.createElement("li");
-    liDom.innerHTML = `Your Information: ${userName} ${userSurname} ${userAge}`;
-    liDom.classList.add("user-info");
-    subContainer.append(liDom);
-    if (subContainer.firstChild){
-        subContainer.style.display ="flex";
-    }
-}
+//const showInfos = (/* 3*//*4 *//*5 */) =>{
+  //  const liDom = document.createElement("li");
+   // liDom.innerHTML = `Your Information: ${userName} ${userSurname} ${userAge}`;
+   // liDom.classList.add("user-info");
+  //  subContainer.append(liDom);
+   // if (subContainer.firstChild){
+   //     subContainer.style.display ="flex";
+    //}
+//}
 //formun gönderildiğinde gerçekleşek olan eventin ismi
-userForm.addEventListener(submitHandler)
+//userForm.addEventListener(submitHandler)
