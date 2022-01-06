@@ -1,6 +1,6 @@
-const LOREM_LIST = [
-    'lorem','ipsum','dolor','amet','consectetur','adipisicing','elit'
-]
+// const LOREM_LIST = [
+//     'lorem','ipsum','dolor','amet','consectetur','adipisicing','elit'
+// ]
 //index bilgisini içeride döndürmek
 
 let counter = 0
