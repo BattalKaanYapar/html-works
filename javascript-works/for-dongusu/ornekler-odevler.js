@@ -51,7 +51,7 @@ animals.forEach((value , index , array) => {
 });
 */
 /** Array-Filter Örnekleri **/
-const person = [{
+/*const person = [{
   name: "Adem", 
   age: 25,
   languages: ["JavaScript", "CSS"],
@@ -64,3 +64,4 @@ const person = [{
 ];
 const newPerson =person.filter(item => item.length < 30)
 console.log(newPerson)
+*/
