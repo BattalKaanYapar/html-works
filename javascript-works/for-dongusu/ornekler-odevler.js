@@ -16,3 +16,18 @@
 //         console.log(i);
 //     };
 // };
+
+/**While Döngüsü**/
+let cars = ['bmw','mercedes','ferrari','lamborgini','dodge']
+while(cars <= cars.length){
+    console.log(cars);
+}
+console.log(cars);
+cars.reverse();
+console.log(cars);
+cars.unshift('Bugatti');
+console.log(cars);
+cars.push('Vosvos')
+console.log(cars);
+cars [2] = 'Muscle';
+console.log(cars);
