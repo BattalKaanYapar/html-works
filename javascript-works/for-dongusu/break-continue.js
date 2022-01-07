@@ -31,3 +31,10 @@ let counter = 0
 //     LI_DOM.innerHTML = LOREM_LIST[index]
 //     UL_DOM.append(LI_DOM)
 // }
+// var kullaniciSayisi = prompt("1'den 100'e kadar bir sayı giriniz. Ben bu sayıyı 100'e kadar yazdıracağım.", "");
+//     for (var i = kullaniciSayisi; i < 100; i++) {
+//         if (i >= 80 && i < 90) {
+//             continue;
+//         }
+//         document.write(i + "<br>");
+//     }

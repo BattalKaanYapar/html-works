@@ -27,3 +27,16 @@ for (var i=0; i<50;i++){
         console.log(i);
     }
 };
+// function topla() {
+//     var kullaniciSayisi1 = prompt("Lütfen ilk sayıyı giriniz:", "");
+//     var kullaniciSayisi2 = prompt("Lütfen ikinci sayıyı giriniz:", "");
+//     alert(parseInt(kullaniciSayisi1) + parseInt(kullaniciSayisi2));
+// }
+// topla();
+function topla(ilkSayi, ikinciSayi) {
+    alert(Number(ilkSayi) + Number(ikinciSayi));
+}
+topla("4", "5");
+var a = 12;
+    var b = "8";
+    document.write(a + eval(b));
