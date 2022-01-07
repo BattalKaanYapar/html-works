@@ -11,3 +11,9 @@
 //     console.log(userName);
 // }
 // console.log(userName);
+// var kullaniciSayisi = prompt("1'den 100'e kadar bir sayı giriniz. Ben bu sayıyı 100'e kadar yazdıracağım.", "");
+//     var i = kullaniciSayisi;
+//     do {
+//         document.write(i + " ");
+//         i++;
+//     } while (i < 100);
