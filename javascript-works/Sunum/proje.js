@@ -1,25 +1,14 @@
-let price = 100;
-let tax = 0.1;
-let priceTax = price * tax;
-let total = price + priceTax;
-console.log(
-  "Fiyat : " + price,
-  "KDV :" + tax,
-  "KDV Tutari :" + priceTax,
-  "Toplam Fiyatı : " + total
-);
-let counter = 0;
 
-counter ++;
-counter --;
-counter ++;
-counter *=10;
-console.log(counter)
+let users = ["Kaan","Hasan","Oğuzhan","Muro","Deniz","Onur","Didem"]
+var numbers = 20.3;
+users.pop(); 
+users.push("Ecem");
+users.reverse();
+users.sort();
+users.unshift("İki Deli");
+console.log(users.length)
+console.log(users);
+document.write(users)
 
-function merhaba(name, age) {
-    console.log(` İsim ${name} Yaş:${age}`);
-  }
-  
-  if (typeof name === "undefined") name = "Bilgi Yok";
-  if (typeof age === "undefined") age = "Bilgi Yok"; // undifend olursa yazdırılacak bilgi.
-  console.log(` İsim ${name} Yaş:${age}`);
+numbers = true;
+document.write(numbers)
