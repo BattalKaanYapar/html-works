@@ -98,41 +98,41 @@ animals.forEach((value , index , array) => {
 /** Array Filter Örnekleri **/
 /**Switch - Break Örnekler **/
 
-// var kullaniciSayisi = prompt(
-//   "Aklımdan 1'den 10'a kadar hangi sayıyı tutuyorum, bil bakalım.",
-//   ""
-// );
-// switch (kullaniciSayisi) {
-//   case "1":
-//     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
-//     break;
-//   case "2":
-//     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
-//     break;
-//   case "3":
-//     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
-//     break;
-//   case "4":
-//     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
-//     break;
-//   case "5":
-//     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
-//     break;
-//   case "6":
-//     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
-//     break;
-//   case "7":
-//     alert("Tebrikler, doğru tahmin!");
-//     break;
-//   case "8":
-//     alert("Üzgünüm tuttuğum sayı daha küçüktü.");
-//     break;
-//   case "9":
-//     alert("Üzgünüm tuttuğum sayı daha küçüktü.");
-//     break;
-//   default:
-//     alert("1'den 10'a kadar bir sayı girmeliydiniz.");
-// }
-// console.log(kullaniciSayisi)
+ var kullaniciSayisi = prompt(
+   "Aklımdan 1'den 10'a kadar hangi sayıyı tutuyorum, bil bakalım.",
+   ""
+ );
+ switch (kullaniciSayisi) {
+   case "1":
+     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
+     break;
+   case "2":
+     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
+     break;
+   case "3":
+     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
+     break;
+   case "4":
+     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
+     break;
+   case "5":
+    alert("Üzgünüm tuttuğum sayı daha büyüktü.");
+    break;
+   case "6":
+     alert("Üzgünüm tuttuğum sayı daha büyüktü.");
+     break;
+   case "7":
+     alert("Tebrikler, doğru tahmin!");
+    break;
+   case "8":
+     alert("Üzgünüm tuttuğum sayı daha küçüktü.");
+     break;
+  case "9":
+     alert("Üzgünüm tuttuğum sayı daha küçüktü.");
+     break;
+   default:
+     alert("1'den 10'a kadar bir sayı girmeliydiniz.");
+ }
+ console.log(kullaniciSayisi)
 
 /**Switch - Break Örnekler **/
