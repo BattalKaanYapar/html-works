@@ -1,12 +1,14 @@
-// var tuttugumSayi = 28;
-// var kullanici = prompt("Aklımdan 1'den 100'e kadar sayı tuttum, bil bakam");
+let tutulanSayi = 28;
 
-// if (tuttugumSayi == kullanici) {
-//   alert("Tebrikler doğru tahmin");
-// } else if (tuttugumSayi > kullanici) {
-//   alert("Üzgünüm. Tuttuğum sayı sizin sayınızdan daha büyüktü.");
-// } else if (tuttugumSayi < kullanici) {
-//   alert("Üzgünüm. Tuttuğum sayı sizin sayınızdan daha küçüktü.");
-// }
-
-
+function uyari(value){
+   
+    if (tahmin > tutulanSayi){
+        alert("sayınız tutulan sayıdan büyük")
+    }
+    else if (tahmin < tutulanSayi){
+        alert("Sayınız tutulan sayıdan küçük")
+    }
+    else(tahmin === tutulanSayi)
+        alert("Ben daha fazla çalışmak istemiyorum")
+    
+}
