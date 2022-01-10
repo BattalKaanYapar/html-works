@@ -9,9 +9,7 @@ function formHandler(event) {
     USER_NAME.value = "";
   } else {
     alertDOM.innerHTML = alertFunction(
-      "Başlık Bilgisi ",
       "Eksik Bilgi Girdiniz",
-      "primary" //bonus ${warning 'den geldi}
     );
   }
 }
