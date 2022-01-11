@@ -17,11 +17,6 @@ let userListDOM = document.querySelector("#userList");
 const addItem = (userName) => {
   let liDOM = document.createElement("li");
   liDOM.innerHTML = `${userName}`;
-  liDOM.classList.add(
-    "list-group-item",
-    "d-flex",
-    "justify-content-between",
-    "align-items-center"
-    );
+
   userListDOM.append(liDOM);
  };

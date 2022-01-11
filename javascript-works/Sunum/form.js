@@ -26,3 +26,34 @@
 //  }
 // };
 
+var tuttugumSayi =28
+//var kullanici = prompt("1'den 100'e kadar bir sayı tuttum,sence kaçtır?")
+
+//if (kullanici == tuttugumSayi){
+//    alert("Tebrikler Doğru Tahmin")
+//}else if (kullanici < tuttugumSayi){
+//    alert("Girdiğiniz sayı, tuttuğum sayıdan daha küçüktü")
+//}else if (kullanici > tuttugumSayi){
+//    alert("Girdiğiniz sayı, tuttuğum sayıdan daha büyüktü")
+    
+//}
+// let userFormDOM = document.querySelector("#userForm");
+// userFormDOM.addEventListener("submit", formHandler);
+
+function formHandler(){
+    var girilenDeger =document.querySelector("#userValue");
+    if (girilenDeger.value > tuttugumSayi){
+        alert("Girilen Değer tutulan sayıdan büyüktür.")
+    }else if(girilenDeger.value < tuttugumSayi){
+        alert("Girilen Değer tutulan sayıdan küçüktür")
+    }else{
+        alert("Doğru tahmin")
+    }
+
+    console.log(girilenDeger.value)
+}
+
+// function gonder(){
+//     console.log("hde"); //fonksiyon çağırmak
+//     formHandler()
+// }

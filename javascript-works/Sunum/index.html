@@ -16,10 +16,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8 offset2-sm-2 mt-5">
-                <form id="userForm">
+                <form id="userForm" action="javascript:console.log('success!');">
                     <label>Bir değer giriniz :</label>
-                    <input type="number" name="onayla" id="onayla">
-                    <button type="submit" class="btn btn-success">Gönder</button>
+                    <input type="number" name="userValue" id="userValue">
+                    <button type="button" onClick="formHandler()" class="btn btn-success">Gönder</button>
                 </form>
             </div>
         </div>
