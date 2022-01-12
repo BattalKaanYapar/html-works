@@ -1,0 +1,10 @@
+.jumbotron{
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding:20px 20px;
+    margin: 20px 0 20px 0;
+}
+.clearfix{
+    display:flex;
+}

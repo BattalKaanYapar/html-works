@@ -91,3 +91,34 @@ var player3 = {
     }
 };
 console.log(player3.fullName());
+
+var fullName = function(){
+
+}
+
+var library = [
+    {
+        title : 'İnce Memed',
+        author: 'Yaşar Kemal',
+        status : true
+    },
+    {
+        title : 'Kuyucaklı Yusuf',
+        author : 'Sabahattin Ali',
+        status:true
+    },
+    {
+        title : 'Memleketimden İnsan Manzaraları',
+        author : 'Nazım Hikmet Ran',
+        status : false
+    }
+];
+
+for(var i =0;i < library.length;i++){
+    var book = library[i].title + " Yazarı" + library[i].author + " . ";
+    if(library[i].status){
+        console.log(book + " Okundu");
+    }else {
+        console.log(book + " Okunmadı");
+    }
+}
