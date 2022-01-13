@@ -1,13 +1,13 @@
 
-// function findX(t, v){
-//     var x = t * v;
-//     return x;
-// }
-// var yol = findX (4,50);
-// console.log(yol);
+function findX(t, v){
+    var x = t * v;
+    return x;
+}
+var yol = findX (4,50);
+console.log(yol);
 
-// var yol2 = findX (34,2);
-// console.log(yol2);
+var yol2 = findX (34,2);
+console.log(yol2);
 
 // var yol3 = findX (37,5);
 // console.log(yol3);

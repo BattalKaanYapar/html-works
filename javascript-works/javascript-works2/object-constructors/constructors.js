@@ -1,15 +1,15 @@
-var player1 = {
-    name :"Ricardo",
-    surname : "Quaresma",
-    age : 34
-}
-console.log(player1);
-var player2 = {
-    name :"Kaan",
-    surname : "Yapar",
-    age : 25
-}
-console.log(player2);
+// var player1 = {
+//     name :"Ricardo",
+//     surname : "Quaresma",
+//     age : 34
+// }
+// console.log(player1);
+// var player2 = {
+//     name :"Kaan",
+//     surname : "Yapar",
+//     age : 25
+// }
+// console.log(player2);
 
 function Player(name , surname, age) {
     this.name =name;
@@ -29,4 +29,5 @@ var players = [
     new Player("Striker", "Witch",31)
 ];
 
-console.log(players[0].name);
+console.log(players);
+console.log(players[1].surname);
