@@ -1,7 +1,7 @@
-console.log(document.URL)
-console.log(document.dir)
-console.log(document.title)
-console.log(document.domain)
+// console.log(document.URL)
+// console.log(document.dir)
+// console.log(document.title)
+// console.log(document.domain)
 
 // document.title = 'Uygulamalı Javascript';
 // console.log(document.title);
@@ -12,7 +12,7 @@ console.log(document.domain)
 
 // console.log(document.doctype)
 /** 2**/
-console.log(document.getElementById('myHeader'));
+// console.log(document.getElementById('myHeader'));
 
 // let yourHeader = document.getElementById('myHeader');
 
@@ -31,3 +31,16 @@ console.log(document.getElementById('myHeader'));
 // var myClass = document.getElementsByClassName('nav-link');
 // var myId = document.getElementById('')
 // console.log(myClass);
+
+window.onload = function(){
+    var beforeButton = document.querySelector = ('#beforeButton');
+    beforeButton.addEventListener('click', function() {
+
+        var newNode = document.createElement("p");
+        newNode.innerHTML = "<strong>New Paragraph Element</strong>"
+        newNode.setAttribute("id","myNode");
+
+        var myArray = document.getElementsByClassName('.col-lg-6');
+        myArray[0].insertBefore(newNode,myArray[0].firstElementChild);
+    });
+}
