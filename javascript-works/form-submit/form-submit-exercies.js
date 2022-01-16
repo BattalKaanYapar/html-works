@@ -11,7 +11,7 @@ userFormDOM.addEventListener("submit", formHandler);
 
 const alertDOM = document.querySelector("#alert");
 
-const alertFunction = (title, message, className="warning") => `
+const alertFunction = (title, message, className = "warning") => `
   <div class="alert alert-${className} alert-dismissible fade show" role="alert">
 <strong>${title}</strong>${message}
 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -39,8 +39,6 @@ const addItem = (userName, score) => {
   let liDOM = document.createElement("li");
   liDOM.innerHTML = `
     ${userName} 
-    <span class="badge bg-primary rounded-pill">${score}</span>
-    
     `;
   liDOM.classList.add(
     "list-group-item",
@@ -49,9 +47,9 @@ const addItem = (userName, score) => {
     "align-items-center"
   );
   userListDOM.append(liDOM);
- };
+};
 
- //**** Ödev Kısmı *****/
+//**** Ödev Kısmı *****/
 
 //const userForm = document.querySelector("#userForm");
 //const userName = document.querySelector("#userName");
@@ -59,27 +57,27 @@ const addItem = (userName, score) => {
 //const userAge = document.querySelector("#userAge");
 //const subContainer = document.querySelector("#.sub-container");
 //const submitHandler = (e) => {
-    /*1*/ //form submit edildiğinde tarayıcının yenilenmesini önleyen fonksiyon
- //   if (userName.value && userSurname.value /* && 2 */ ){
-        //Age değerinin 18'den büyük veya eşit olmasını kontrol eden değer.
-  //      showInfos(userName.value, userSurname.value, userAge.value);
-  //      userName.value = "";
-  //      userSurname.value = "";
-  //      userAge.value = "";
+/*1*/ //form submit edildiğinde tarayıcının yenilenmesini önleyen fonksiyon
+//   if (userName.value && userSurname.value /* && 2 */ ){
+//Age değerinin 18'den büyük veya eşit olmasını kontrol eden değer.
+//      showInfos(userName.value, userSurname.value, userAge.value);
+//      userName.value = "";
+//      userSurname.value = "";
+//      userAge.value = "";
 
- //   } else {
-   //     alert("Hatalı giriş, lütfen tekrar deneyin!");
-   // }
+//   } else {
+//     alert("Hatalı giriş, lütfen tekrar deneyin!");
+// }
 //};
 //input değerlerinin fonksiyon içerisinde kullanılması ve create edilen "li" elementine eklenmesi
 //const showInfos = (/* 3*//*4 *//*5 */) =>{
-  //  const liDom = document.createElement("li");
-   // liDom.innerHTML = `Your Information: ${userName} ${userSurname} ${userAge}`;
-   // liDom.classList.add("user-info");
-  //  subContainer.append(liDom);
-   // if (subContainer.firstChild){
-   //     subContainer.style.display ="flex";
-    //}
+//  const liDom = document.createElement("li");
+// liDom.innerHTML = `Your Information: ${userName} ${userSurname} ${userAge}`;
+// liDom.classList.add("user-info");
+//  subContainer.append(liDom);
+// if (subContainer.firstChild){
+//     subContainer.style.display ="flex";
+//}
 //}
 //formun gönderildiğinde gerçekleşek olan eventin ismi
 //userForm.addEventListener(submitHandler)
