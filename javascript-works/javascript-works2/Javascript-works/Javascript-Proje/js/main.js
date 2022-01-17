@@ -1,3 +1,16 @@
+// 1-Html form oluştur.
+// 2-Bir adet buton olsun
+// 3-buton'a basıldığı zaman , console'a butona basıldı yazılsın
+// 4-buton'a basıldında formdaki inputun değeri console'a yazılsın
+// 5-html de bir adet boş ul oluşturulacak.ID=myList 
+// 6-inputta yazılan değeri bir adet li çevireceğiz ve ul nin içerisine göndereceğiz
+// 7-Eklenen ul içinde bir adet sil button 'u olacak,
+// 8-Sil butonuna basıldığı zaman basılan li index'ini console yazdırılacak (func)
+// 9-Li'nin Sil'ine basıldığı zaman hangi li 'ye basıldı ise o benim ul'emden silinecek
+// 
+
+
+
 var myNodelist = document.getElementsByTagName("li");
 var index;
 for (index = 0; index < myNodelist.length; index++) {
