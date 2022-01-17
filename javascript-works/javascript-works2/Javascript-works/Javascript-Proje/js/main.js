@@ -1,9 +1,70 @@
-let userJobsDOM = document.querySelector('#userJobs')
-userJobsDOM.addEventListener('submit', jobsHandler)
+var myNodelist = document.getElementsByTagName("li");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("span");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
 
-function jobsHandler(event){
-  event.preventDefault();
-  console.log("İşlem gerçekleşti")
-  const USER_JOBS = document.querySelector('#username')
-  addItem(USER_JOBS.value)
+
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+
+
+for (i = 0; i < myNodelist.length; i++) {
+    localStorage.setItem(`eleman ${i+1}`,myNodelist[i].innerText)
+  }
+
+
+
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("task").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("Bir şeyler yazmalısın!!");
+  } else {
+    document.getElementById("list").appendChild(li);
+  }
+  document.getElementById("task").value = "";
+
+ 
+
+  var span = document.createElement("span");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+  $("#liveToast").toast("show");
+
+
+  
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+
+
+  localStorage.setItem(`eleman ${localStorage.length+1}`,li.innerText)
+
 }
