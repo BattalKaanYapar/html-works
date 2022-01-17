@@ -1,18 +1,18 @@
 var myNodelist = document.getElementsByTagName("li");
-var i;
-for (i = 0; i < myNodelist.length; i++) {
+var index;
+for (index = 0; index < myNodelist.length; index++) {
   var span = document.createElement("span");
-  var txt = document.createTextNode("\u00D7");
+  var txt = document.createTextNode("");
   span.className = "close";
   span.appendChild(txt);
-  myNodelist[i].appendChild(span);
+  myNodelist[index].appendChild(span);
 }
 
 
 var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
+var index;
+for (index = 0; index < close.length; index++) {
+  close[index].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
   }
@@ -20,8 +20,8 @@ for (i = 0; i < close.length; i++) {
 
 
 
-for (i = 0; i < myNodelist.length; i++) {
-    localStorage.setItem(`eleman ${i+1}`,myNodelist[i].innerText)
+for (index = 0; index < myNodelist.length; index++) {
+    localStorage.setItem(`eleman ${index+1}`,myNodelist[index].innerText)
   }
 
 
@@ -57,8 +57,8 @@ function newElement() {
 
 
   
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
+  for (index = 0; index < close.length; index++) {
+    close[index].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
     }
