@@ -1,18 +1,18 @@
 var myNodelist = document.getElementsByTagName("li");
-var index;
-for (index = 0; index < myNodelist.length; index++) {
+var i;
+for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("span");
-  var txt = document.createTextNode("");
+  var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
-  myNodelist[index].appendChild(span);
+  myNodelist[i].appendChild(span);
 }
 
 
 var close = document.getElementsByClassName("close");
-var index;
-for (index = 0; index < close.length; index++) {
-  close[index].onclick = function() {
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
     var div = this.parentElement;
     div.style.display = "none";
   }
@@ -20,8 +20,8 @@ for (index = 0; index < close.length; index++) {
 
 
 
-for (index = 0; index < myNodelist.length; index++) {
-    localStorage.setItem(`eleman ${index+1}`,myNodelist[index].innerText)
+for (i = 0; i < myNodelist.length; i++) {
+    localStorage.setItem(`eleman ${i+1}`,myNodelist[i].innerText)
   }
 
 
@@ -40,7 +40,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("Bir şeyler yazmalısın!!");
+    alert("Bir şeyler yazmalısın!");
   } else {
     document.getElementById("list").appendChild(li);
   }
@@ -57,8 +57,8 @@ function newElement() {
 
 
   
-  for (index = 0; index < close.length; index++) {
-    close[index].onclick = function() {
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
     }
