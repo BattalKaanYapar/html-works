@@ -77,13 +77,3 @@ console.log(fruits);
 fruits.forEach(function(ici){
     console.log(ici)
 })
-function fruitsItem(){
-    if(fruits.length<10){
-        prompt("Fruits değişkeninin uzunluğu küçükmüdür 10'dan")
-        console.log(prompt)
-        alert("fruits değişkeninin uzunluğu küçüktür 10'dan")
-    }else{
-        document.write("Küçük değildir 10'dan")
-    }
-}
-fruitsItem();
