@@ -23,3 +23,29 @@ const myObj = Object.create({},{
 });
 myObj.benimobjem = 1;
 console.log(Object.keys(myObj));
+
+let user1 ={
+    firstName:"Kaan",
+    lastName:"Peder",
+    score:[1,2,3,4],
+    shortName: function(){
+        return `${this.firstName[0].toUpperCase()}. ${this.lastName}`
+        
+    }
+}
+console.log(user1);
+
+let settings = {
+    userName:"loremIpsum",
+    password:"BadPassword",
+    isActive: false,
+    ip:"123.64.213.2",
+    serverName:"Logsign.tr"
+}
+
+let {userName,password,isActive,ip,serverName}= settings;
+console.log(settings);
+console.log(password);
+
+let {userName:userName2, password:password2,isActive:isActive2,...newSettings}=settings;
+console.log(userName2,password2,isActive2,newSettings);

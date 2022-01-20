@@ -10,15 +10,27 @@
   </head>
   <body>
     <form id="calisanlar" class="container mt-5 form-control">
-      <div class="col-sm">
+      <div class="col-sm-2">
         <label for="fistname" class="form-label">Adınız :</label>
         <input type="text" class="firstname input-group" /><br />
         <button class="btn btn-success">Gönder</button><br />
         <label for="lastname" class="form-label">Soy Adınız :</label>
         <input type="text" class="lastname input-group" />
       </div>
-      <table id="samples"></table>
     </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <table id="samples">
+            <tr id="firstname"></tr>
+            <tr id="lastname"></tr>
+            <tr id="identification"></tr>
+            <tr id="wage"></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
