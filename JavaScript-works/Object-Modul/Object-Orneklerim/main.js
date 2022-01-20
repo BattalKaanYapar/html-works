@@ -49,3 +49,20 @@ console.log(password);
 
 let {userName:userName2, password:password2,isActive:isActive2,...newSettings}=settings;
 console.log(userName2,password2,isActive2,newSettings);
+
+let settings2 = {...settings}
+let score =[100,200,500,12000]
+//let settings2 = settings
+// settings2.userName = "Değişen bilgi"  //tehlikeli , olmaz!!
+// console.log("settings",settings)
+// console.log("settings2", settings2);
+settings2.userName = "Değişen bilgi"  //tehlikeli , olmaz!!
+console.log("settings",settings)
+console.log("settings2", settings2);
+
+let [score1,score2,...otherScore]=score;
+
+console.log(score1,score2,otherScore);
+
+let copyOfScore= [...score];
+console.log(score);
