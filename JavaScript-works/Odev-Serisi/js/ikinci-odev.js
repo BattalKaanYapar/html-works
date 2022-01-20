@@ -20,28 +20,13 @@ employess[0]={
     lastName:"Yapar",
     identification:"5875985958",
     wage:4000
-},
-employess[1]={
-    firstName:"Berkay",
-    lastName:"Ozen",
-    identification:"4875985213",
-    wage:6000
 }
-employess[2]={
-    firstName:"Fahreddin",
-    lastName:"Yapar",
-    identification:"9876575958",
-    wage:12000
-}
-employess[3]={
-    firstName:"Havva",
-    lastName:"Yapar",
-    identification:"7421985958",
-    wage:4230
-}
-for(var i=0;i<employess.length;i++){
+
+for(var i=0;i<employess;i++){
     console.log(employess);
 }
+
+
 
 // var employess = ["Kaan Yapar", "Berkay Özen", "Fahreddin Yapar", "Havva Yapar"];
 // var firstName = ["Kaan", "Berkay", "Fahreddin", "Havva"];

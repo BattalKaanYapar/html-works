@@ -66,3 +66,29 @@ console.log(score1,score2,otherScore);
 
 let copyOfScore= [...score];
 console.log(score);
+
+function yoo(){
+    this.isim = "Kaan";
+    this.yas = 25;
+    this.dogumGunu =() =>{
+        return "Ben : " + this.isim + " Yaşım : " + this.yas;
+    }
+}
+
+const nove = new yoo();
+
+console.log(nove.isim);
+
+console.log(nove.dogumGunu());
+
+function Boo(e,c){
+    this.car = e;
+    this.model = c;
+}
+
+const boom = new Boo("Honda",2013);
+const boom_2 = new Boo("Vista",2023);
+
+console.log(boom);
+console.log(boom.model)
+console.log(boom_2.model);
