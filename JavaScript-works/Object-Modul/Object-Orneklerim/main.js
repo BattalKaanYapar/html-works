@@ -92,3 +92,14 @@ const boom_2 = new Boo("Vista",2023);
 console.log(boom);
 console.log(boom.model)
 console.log(boom_2.model);
+
+const a = function(){
+    return 5 * 5;
+};
+const b = new Object({ isim : "Kaan"})
+
+console.log(a());
+console.log( " TypeOf" + typeof a)
+console.log(b);
+console.log(typeof b + " TypeOf");
+

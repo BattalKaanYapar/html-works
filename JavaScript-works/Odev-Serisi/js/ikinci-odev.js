@@ -1,30 +1,75 @@
-/** 2.Odev Kurallari **/
-// html form yapılacak bootstrap kullanılabilir.
-// form ismi = calisanlar olacak
-// formda isim, soyisim,tcno,maaslar olacak
-// form gönderildiğinde assağıda ki bir tabloda gösterilecek
-// tüm çalışanlar employess isminde bir array içerisinde tutulucak
-// array içerisinde çalışana ait object olacak // her çalışanın kendisi içine giricek
-// or :
-// employess =[ {
-//    name , surname,citizenshipNumber,maas="",
-//}]
-//tablonun her satırında sil butonu olacak sil ' e basıldığında tablodan silinecek//
-var employess = ["Kaan Yapar", "Berkay Özen", "Fahreddin Yapar", "Havva Yapar"];
-var firstName = ["Kaan", "Berkay", "Fahreddin", "Havva"];
-var lastName = ["Yapar", "Özen", "Yapar", "Yapar"];
-var identification = ["5875985958", "4875985213", "9876575958", "7421985958"];
-var wage = [4000, 6000, 12000, 4000];
-employess[0]={
-    firstName:"Kaan",
-    lastName:"Yapar",
-    identification:"5875985958",
-    wage:4000
-}
+//html form yapilacak bootstrap kullanabilirsin
+// Form ismi calisanlar olacak
+// Formda isim, soyisim, tcno, maas
+//form gonderildiginde assagidaki bir tabloda gosterilecek
+// tum calisanlar employess isminde bir array icerisinde tutulacak
+//array icerisinde calisana ait object olacak
+// Or:
+// employess = [
+//   {
+//     name:"sss",
+//     surname:"sas",
+//     citizenshipNumber:1231231,
+//     maas:1300
+//   },
+//   {
+//     name:"sss",
+//     surname:"sas",
+//     citizenshipNumber:1231231,
+//     maas:1300
+//   },
+//   {
+//     name:"sss",
+//     surname:"sas",
+//     citizenshipNumber:1231231,
+//     maas:1300
+//   }
+// ]
 
-for(var i=0;i<employess;i++){
-    console.log(employess);
-}
+// tablonun her satirinda sil butonu olacak sil basildiginda tablodan silinecek
+var text = "<th>";
+var text2 = "<td>";
+var text3 = "<tr>";
+
+
+let employess = [
+    {
+        name:"Kaan",
+        surName:"Yapar",
+        identification:"4769231920",
+        wage:"3900"
+
+    },
+    {
+        name:"Selin",
+        surName:"Yordel",
+        identification:"0983904582",
+        wage:"21232"
+    },
+    {
+        name:"Havva",
+        surName:"Gündar",
+        identification:"3485009312",
+        wage:"3900"
+    },
+    {
+        name:"Arat",
+        surName:"Kızıldağ",
+        identification:"6545690812",
+        wage:"6000"
+    }
+];
+
+let firstNameDOM = document.getElementById('firstname');
+firstNameDOM.innerHTML=employess[0].name;
+let lastNameDOM = document.getElementById('lastname')
+lastNameDOM.innerHTML=employess[1].name;
+let identificationDOM = document.getElementById('identification')
+identificationDOM.innerHTML=employess[2].name;
+let wageDOM = document.getElementById('wage')
+wageDOM.innerHTML=employess[3].name;
+
+console.log(firstNameDOM)
 
 
 
