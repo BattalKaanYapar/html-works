@@ -31,47 +31,55 @@ var text = "<th>";
 var text2 = "<td>";
 var text3 = "<tr>";
 
-
 let employess = [
-    {
-        name:"Kaan",
-        surName:"Yapar",
-        identification:"4769231920",
-        wage:"3900"
-
-    },
-    {
-        name:"Selin",
-        surName:"Yordel",
-        identification:"0983904582",
-        wage:"21232"
-    },
-    {
-        name:"Havva",
-        surName:"Gündar",
-        identification:"3485009312",
-        wage:"3900"
-    },
-    {
-        name:"Arat",
-        surName:"Kızıldağ",
-        identification:"6545690812",
-        wage:"6000"
-    }
+  {
+    name: "Kaan",
+    surName: "Yapar",
+    identification: "4769231920",
+    wage: "3900",
+  },
+  {
+    name: "Selin",
+    surName: "Yordel",
+    identification: "0983904582",
+    wage: "21232",
+  },
+  {
+    name: "Havva",
+    surName: "Gündar",
+    identification: "3485009312",
+    wage: "3900",
+  },
+  {
+    name: "Arat",
+    surName: "Kızıldağ",
+    identification: "6545690812",
+    wage: "6000",
+  },
 ];
 
-let firstNameDOM = document.getElementById('firstname');
-firstNameDOM.innerHTML=employess[0].name;
-let lastNameDOM = document.getElementById('lastname')
-lastNameDOM.innerHTML=employess[1].name;
-let identificationDOM = document.getElementById('identification')
-identificationDOM.innerHTML=employess[2].name;
-let wageDOM = document.getElementById('wage')
-wageDOM.innerHTML=employess[3].name;
+let firstNameDOM = document.getElementById("firstname");
 
-console.log(firstNameDOM)
+console.log(
+  employess[0].name + employess[1].name + employess[2].name + employess[3].name
+);
+for(var i=0;i<employess[0].name.length;i++){
+    firstNameDOM.innerHTML=employess[i];
+    
+}
 
 
+
+// let firstNameDOM = document.getElementById('firstname');
+// firstNameDOM.innerHTML=employess[0].name;
+// let lastNameDOM = document.getElementById('lastname')
+// lastNameDOM.innerHTML=employess[1].name;
+// let identificationDOM = document.getElementById('identification')
+// identificationDOM.innerHTML=employess[2].name;
+// let wageDOM = document.getElementById('wage')
+// wageDOM.innerHTML=employess[3].name;
+
+// console.log(firstNameDOM)
 
 // var employess = ["Kaan Yapar", "Berkay Özen", "Fahreddin Yapar", "Havva Yapar"];
 // var firstName = ["Kaan", "Berkay", "Fahreddin", "Havva"];
@@ -82,14 +90,12 @@ console.log(firstNameDOM)
 // var i=0;
 // var textTD = "<td>"
 
-
 // for(i;i<wage.length;i++){
-//     textTD += wage[i]; 
+//     textTD += wage[i];
 // }
 
 // document.getElementById('wage').innerHTML = wage;
 // console.log(wage);
-
 
 // var text = "<th>";
 // var textTD = "<td>";
