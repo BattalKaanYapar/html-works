@@ -55,3 +55,10 @@ console.log(deneme1);
 // console.log(deneme4);
 
 
+<<<<<<< Updated upstream
+=======
+const schoolList = ["Ümraniye","Maltepe","Atakent"]
+
+var nameList = 0;
+
+>>>>>>> Stashed changes
