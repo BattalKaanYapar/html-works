@@ -27,101 +27,60 @@
 // ]
 
 // tablonun her satirinda sil butonu olacak sil basildiginda tablodan silinecek
-var text = "<th>";
-var text2 = "<td>";
-var text3 = "<tr>";
-
-let employess = [
-  {
-    name: "Kaan",
-    surName: "Yapar",
-    identification: "4769231920",
-    wage: "3900",
-  },
-  {
-    name: "Selin",
-    surName: "Yordel",
-    identification: "0983904582",
-    wage: "21232",
-  },
-  {
-    name: "Havva",
-    surName: "Gündar",
-    identification: "3485009312",
-    wage: "3900",
-  },
-  {
-    name: "Arat",
-    surName: "Kızıldağ",
-    identification: "6545690812",
-    wage: "6000",
-  },
-];
-
-let firstNameDOM = document.getElementById("firstname");
+let firstNameDOM = document.getElementById("deneme");
 let surNameDOM = document.getElementById('lastname');
 let identDOM = document.getElementById('identification');
 let wageDOM = document.getElementById('wage');
+let calisanlarDOM =document.getElementById('calisanlar');
+calisanlarDOM.addEventListener('submit',formSubmit)
 
-for(var i=0;i<employess[0].name.length;i++){
-    firstNameDOM.innerHTML+= "<td>" + employess[i].name + "</td>";
-
-}
-for(var i=0;i<employess[1].surName.length;i++){
-    surNameDOM.innerHTML+= "<td>" + employess[i].surName + "</td>";
-
-}
-for(var i=0;i<employess[2].identification.length;i++){
-    identDOM.innerHTML+= "<td>" + employess[i].identification + "</td>";
-
-}
-for(var i=0;i<employess[3].wage.length;i++){
-    wageDOM.innerHTML+= "<td>" + employess[i].wage + "</td>";
-
+function formSubmit(event){
+  event.preventDefault()
+  console.log("İşlem gerçekleşti")
 }
 
+// let employess = [
+//   {
+//     name: "Kaan",
+//     surName: "Yapar",
+//     identification: "4769231920",
+//     wage: "3900",
+//   },
+//   {
+//     name: "Selin",
+//     surName: "Yordel",
+//     identification: "0983904582",
+//     wage: "21232",
+//   },
+//   {
+//     name: "Havva",
+//     surName: "Gündar",
+//     identification: "3485009312",
+//     wage: "3900",
+//   },
+//   {
+//     name: "Arat",
+//     surName: "Kızıldağ",
+//     identification: "6545690812",
+//     wage: "6000",
+//   },
+// ];
+// submit dinle fonksiyon tetiklet
+//<tr><td>kaan</td><td>yapar</td><td>yasdapar</td><td>sadad</td></tr>
+// function addEmployess(){
+//   employess.push({
+//     name: "Arat",
+//     surName: "Kızıldağ",
+//     identification: "6545690812",
+//     wage: "6000",
+//   })
+// }
+// addEmployess();
 
 
-// let firstNameDOM = document.getElementById('firstname');
-// firstNameDOM.innerHTML=employess[0].name;
-// let lastNameDOM = document.getElementById('lastname')
-// lastNameDOM.innerHTML=employess[1].name;
-// let identificationDOM = document.getElementById('identification')
-// identificationDOM.innerHTML=employess[2].name;
-// let wageDOM = document.getElementById('wage')
-// wageDOM.innerHTML=employess[3].name;
-
-// console.log(firstNameDOM)
-
-// var employess = ["Kaan Yapar", "Berkay Özen", "Fahreddin Yapar", "Havva Yapar"];
-// var firstName = ["Kaan", "Berkay", "Fahreddin", "Havva"];
-// var lastName = ["Yapar", "Özen", "Yapar", "Yapar"];
-// var identification = ["5875985958", "4875985213", "9876575958", "7421985958"];
-// var wage = [4000, 6000, 12000, 4000];
-// var formDOM = document.getElementById("calisanlar");
-// var i=0;
-// var textTD = "<td>"
-
-// for(i;i<wage.length;i++){
-//     textTD += wage[i];
+// for(var i=0;i<employess.length;i++){
+//   firstNameDOM.innerHTML+= "<tr><td>" + employess[i].name + "</td><td>yapar</td><td>yasdapar</td><td>sadad</td></tr>";
+//     //firstNameDOM.innerHTML+= "<tr>" + employess[i].name + "</tr>"; 
+//     console.log(employess[i].name);
 // }
 
-// document.getElementById('wage').innerHTML = wage;
-// console.log(wage);
-
-// var text = "<th>";
-// var textTD = "<td>";
-// var i = 0;
-// console.log(formDOM);
-// for (i = 0; i < employess.length; i++) {
-//   text += employess[i] + " ";
-// }
-// text += "</th>";
-// for (i = 0; i < identification.length; i++) {
-//   textTD += identification[i] + " ";
-// }
-// for (i = 0; i < wage.length; i++) {
-//   textTD += wage[i] + " ";
-// }
-// document.getElementById("employess").innerHTML = text;
-// document.getElementById('identification').innerHTML = textTD;
