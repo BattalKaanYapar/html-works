@@ -59,13 +59,25 @@ let employess = [
 ];
 
 let firstNameDOM = document.getElementById("firstname");
+let surNameDOM = document.getElementById('lastname');
+let identDOM = document.getElementById('identification');
+let wageDOM = document.getElementById('wage');
 
-console.log(
-  employess[0].name + employess[1].name + employess[2].name + employess[3].name
-);
 for(var i=0;i<employess[0].name.length;i++){
-    firstNameDOM.innerHTML=employess[i];
-    
+    firstNameDOM.innerHTML+= "<td>" + employess[i].name + "</td>";
+
+}
+for(var i=0;i<employess[1].surName.length;i++){
+    surNameDOM.innerHTML+= "<td>" + employess[i].surName + "</td>";
+
+}
+for(var i=0;i<employess[2].identification.length;i++){
+    identDOM.innerHTML+= "<td>" + employess[i].identification + "</td>";
+
+}
+for(var i=0;i<employess[3].wage.length;i++){
+    wageDOM.innerHTML+= "<td>" + employess[i].wage + "</td>";
+
 }
 
 
