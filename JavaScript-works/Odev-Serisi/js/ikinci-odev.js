@@ -9,14 +9,16 @@
 
 let employess =document.getElementById('calisanlar');
 employess.addEventListener('submit',formSubmit)
-function formSubmit(a,b,c,d){
+function formSubmit(e){
+    e.preventDefault();
     const USER_NAME=document.querySelector('#user');
     const USER_LAST=document.querySelector('#userLast');
     const USER_IDENT=document.querySelector('#identification');
     const USER_WAGE=document.querySelector('#wages');
     addItem(USER_NAME.value,USER_LAST.value,USER_IDENT.value,USER_WAGE.value);
-
+  
   }
+  
 
 
 let employessDOM =document.querySelector('#deneme')
@@ -28,8 +30,6 @@ const addItem = (userName,userLastName,identification,wage)=>{
   employessDOM.append(tdDOM);
 
 }
-addItem();
-
 
 // let employess = [
 //   {
