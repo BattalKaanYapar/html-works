@@ -11,10 +11,12 @@ let employess =document.getElementById('calisanlar');
 employess.addEventListener('submit',formSubmit)
 function formSubmit(e){
     e.preventDefault();
-    const USER_NAME=document.querySelector('#user');
-    const USER_LAST=document.querySelector('#userLast');
-    const USER_IDENT=document.querySelector('#identification');
-    const USER_WAGE=document.querySelector('#wages');
+    console.log("işlem gerçekleşti")
+    let USER_NAME=document.querySelector('#user');
+    let USER_LAST=document.querySelector('#userLast');
+    let USER_IDENT=document.querySelector('#identification');
+    let USER_WAGE=document.querySelector('#wages');
+    console.log(USER_NAME.value)
     addItem(USER_NAME.value,USER_LAST.value,USER_IDENT.value,USER_WAGE.value);
   
   }
@@ -24,10 +26,18 @@ function formSubmit(e){
 let employessDOM =document.querySelector('#deneme')
 
 const addItem = (userName,userLastName,identification,wage)=>{
-  return false;
   let tdDOM =document.createElement('td')
-  tdDOM.innerHTML = `${userName}${userLastName}${identification}${wage}`
+  let userSurName=document.createElement('td')
+  let identificationDOM=document.createElement('td')
+  let wageDOM=document.createElement('td')
+  tdDOM.innerHTML = `${userName}`
+  userSurName.innerHTML = `${userLastName}`
+  identificationDOM.innerHTML = `${identification}`
+  wageDOM.innerHTML = `${wage}`
   employessDOM.append(tdDOM);
+  employessDOM.append(userSurName);
+  employessDOM.append(identificationDOM);
+  employessDOM.append(wageDOM);
 
 }
 
