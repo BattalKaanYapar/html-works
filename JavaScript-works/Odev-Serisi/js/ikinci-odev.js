@@ -4,40 +4,32 @@
 //form gonderildiginde assagidaki bir tabloda gosterilecek
 // tum calisanlar employess isminde bir array icerisinde tutulacak
 //array icerisinde calisana ait object olacak
-// Or:
-// employess = [
-//   {
-//     name:"sss",
-//     surname:"sas",
-//     citizenshipNumber:1231231,
-//     maas:1300
-//   },
-//   {
-//     name:"sss",
-//     surname:"sas",
-//     citizenshipNumber:1231231,
-//     maas:1300
-//   },
-//   {
-//     name:"sss",
-//     surname:"sas",
-//     citizenshipNumber:1231231,
-//     maas:1300
-//   }
-// ]
-
 // tablonun her satirinda sil butonu olacak sil basildiginda tablodan silinecek
-let firstNameDOM = document.getElementById("deneme");
-let surNameDOM = document.getElementById('lastname');
-let identDOM = document.getElementById('identification');
-let wageDOM = document.getElementById('wage');
-let calisanlarDOM =document.getElementById('calisanlar');
-calisanlarDOM.addEventListener('submit',formSubmit)
+/**                              **/
 
-function formSubmit(event){
-  event.preventDefault()
-  console.log("İşlem gerçekleşti")
+let employess =document.getElementById('calisanlar');
+employess.addEventListener('submit',formSubmit)
+function formSubmit(a,b,c,d){
+    const USER_NAME=document.querySelector('#user');
+    const USER_LAST=document.querySelector('#userLast');
+    const USER_IDENT=document.querySelector('#identification');
+    const USER_WAGE=document.querySelector('#wages');
+    addItem(USER_NAME.value,USER_LAST.value,USER_IDENT.value,USER_WAGE.value);
+
+  }
+
+
+let employessDOM =document.querySelector('#deneme')
+
+const addItem = (userName,userLastName,identification,wage)=>{
+  return false;
+  let tdDOM =document.createElement('td')
+  tdDOM.innerHTML = `${userName}${userLastName}${identification}${wage}`
+  employessDOM.append(tdDOM);
+
 }
+addItem();
+
 
 // let employess = [
 //   {
