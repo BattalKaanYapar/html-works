@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:16px;
 }
 body{
     background-color: rgb(228, 228, 228);
@@ -15,14 +17,21 @@ a:hover{
     color: rgb(49, 82, 83);
 }
 .menu{
-    margin-left: 20px;
+    display: flex;
 }
 .header{
-    background-color: rgb(41, 21, 21);
-    height: 100px;
+    background-color: #414659;
+    height: 75px;
 }
 .logo{
-    width: 90px;
-    height: 50px;
+    width: 100px;
+    height: 34px;
     margin: 20px 0 0 20px;
+}
+.navbar-brand{
+    line-height: 30px;
+    width: 200px;
+}
+.table{
+    border: 1px solid black;
 }
