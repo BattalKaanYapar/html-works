@@ -12,32 +12,64 @@ employess.addEventListener('submit',formSubmit)
 function formSubmit(e){
     e.preventDefault();
     console.log("işlem gerçekleşti")
-    let USER_NAME=document.querySelector('#user');
-    let USER_LAST=document.querySelector('#userLast');
-    let USER_IDENT=document.querySelector('#identification');
-    let USER_WAGE=document.querySelector('#wages');
-    console.log(USER_NAME.value)
-    addItem(USER_NAME.value,USER_LAST.value,USER_IDENT.value,USER_WAGE.value);
+    // let USER_NAME=document.querySelector('#user');
+    // let USER_LAST=document.querySelector('#userLast');
+    // let USER_IDENT=document.querySelector('#identification');
+    // let USER_WAGE=document.querySelector('#wages');
+    // console.log(USER_NAME.value)
+    // addItem(USER_NAME.value,USER_LAST.value,USER_IDENT.value,USER_WAGE.value);
+    addItem();
   
   }
   
+  let fieldList =["user","userLast","identification","wages"]
+
 
 
 let employessDOM =document.querySelector('#deneme')
 
-const addItem = (userName,userLastName,identification,wage)=>{
-  let tdDOM =document.createElement('td')
-  let userSurName=document.createElement('td')
-  let identificationDOM=document.createElement('td')
-  let wageDOM=document.createElement('td')
-  tdDOM.innerHTML = `${userName}`
-  userSurName.innerHTML = `${userLastName}`
-  identificationDOM.innerHTML = `${identification}`
-  wageDOM.innerHTML = `${wage}`
-  employessDOM.append(tdDOM);
-  employessDOM.append(userSurName);
-  employessDOM.append(identificationDOM);
-  employessDOM.append(wageDOM);
+const addItem = ()=>{
+  let trDOM =document.createElement('tr')
+
+  fieldList.forEach((item) => {
+    let tdDOM =document.createElement('td')
+    let fieldValue=document.querySelector(`#${item}`);
+    tdDOM.innerHTML=fieldValue.value
+    console.log(fieldValue.value)
+    trDOM.appendChild(tdDOM)
+  })
+  employessDOM.appendChild(trDOM);
+
+  
+  // let tdDOM =document.createElement('td')
+  // tdDOM.innerHTML = `${userName}`
+  // trDOM.appendChild(tdDOM)
+
+  // let userSurNameDOM =document.createElement('td')
+  // userSurNameDOM.innerHTML = `${userLastName}`
+  // trDOM.appendChild(userSurNameDOM)
+
+  // let identDOM =document.createElement('td')
+  // identDOM.innerHTML = `${identification}`
+  // trDOM.appendChild(identDOM)
+
+  // let wageDOM =document.createElement('td')
+  // wageDOM.innerHTML = `${wage}`
+  // trDOM.appendChild(wageDOM)
+
+ 
+  // <tr></tr>
+  // let userSurName=document.createElement('td')
+  // let identificationDOM=document.createElement('td')
+  // let wageDOM=document.createElement('td')
+  // tdDOM.innerHTML = `${userName}`
+  // userSurName.innerHTML = `${userLastName}`
+  // identificationDOM.innerHTML = `${identification}`
+  // wageDOM.innerHTML = `${wage}`
+
+  // employessDOM.append(userSurName);
+  // employessDOM.append(identificationDOM);
+  // employessDOM.append(wageDOM);
 
 }
 
