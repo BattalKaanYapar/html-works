@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+a:hover{
+    color: rgb(49, 82, 83);
+}
+.menu{
+    margin-left: 20px;
+}
+.header{
+    background-color: rgb(41, 21, 21);
+    height: 100px;
+}
+.logo{
+    width: 90px;
+    height: 50px;
+    margin: 20px 0 0 20px;
+}
