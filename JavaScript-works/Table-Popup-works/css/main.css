@@ -35,3 +35,13 @@ a:hover{
 .table{
     border: 1px solid black;
 }
+.footer{
+    width: 250px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 5px;
+    float: right;
+}
