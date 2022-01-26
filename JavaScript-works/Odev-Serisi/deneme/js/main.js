@@ -26,7 +26,7 @@ window.addEventListener('load',()=>{
         taskInputElement.type= "text";
         taskInputElement.value= task;
         taskInputElement.setAttribute("readonly","readonly")
-
+    
         taskContentElement.appendChild(taskInputElement);
 
         const taskActionsElement = document.createElement("div")
