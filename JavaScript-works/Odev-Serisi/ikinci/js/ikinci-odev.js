@@ -93,17 +93,14 @@ const addList = () => {
       '<button type="button" class="btn btn-danger" id="removeButton">Sil<button>';
     trDOM.appendChild(removeDOM);
 
-    removeDOM.addEventListener('click' , removeItem);
     
-    const removeList =()=>{
-        userList
+
+    removeDOM.onclick=function(e){
+        employessDOM.removeChild(trDOM)
+        
     }
 
-    // removeDOM.addEventListener('click',()=>{
-    //         trDOM.removeChild(removeDOM);
-            
-    //     })
-    
+   
     employessDOM.appendChild(trDOM);
   }
 
