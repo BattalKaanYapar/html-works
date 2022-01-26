@@ -95,7 +95,7 @@ const addList = () => {
 
     
 
-    removeDOM.onclick=function(e){
+    removeDOM.onclick=function(){
         employessDOM.removeChild(trDOM)
         
     }
