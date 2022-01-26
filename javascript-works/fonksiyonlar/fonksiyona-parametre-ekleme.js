@@ -27,11 +27,12 @@ console.log(greetingsInfo)
 
 function domIdWriteInfo(id, info){
     let domObject = document.querySelector(`#${id}`) // id alabilmek için
-    domObject.innerHTML = info
-}
+    domObject.innerHTML = id
 
 let htmlInfo = `<span style="color:red;">Color ReDDDDD</span>`
 domIdWriteInfo('header',htmlInfo) //html içindeki id'si list olanı al
 
 domIdWriteInfo('greeting',htmlInfo)
 domIdWriteInfo('battal-link',greetings2("Lorem", "Ipsum"))
+
+}

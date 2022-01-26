@@ -29,4 +29,18 @@ switch(process2){
         break;
     
 }
+var job = "polis";
+
+switch (job) {
+  case "doctor":
+    console.log("Ben bir doktorum.");
+    break;
+  case "komutan":
+    console.log("Ben komutanım");
+  case "teacher":
+    console.log("Ben bir öğretmenim.");
+    break;
+    default:
+        console.log("Ben bir işsizim")
+}
 

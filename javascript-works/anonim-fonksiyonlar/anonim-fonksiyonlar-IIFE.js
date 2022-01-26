@@ -1,12 +1,3 @@
-//Fonksiyon Tanımlama
-// İkinci Örnek /  Varsayılan Değerlerimiz.
-//function merhaba(name = "Bilgi Yok",age = "Bilgi Yok"){
-//    console.log(`İsim:${name} Yaş:${age}`);
-//}
-
-//merhaba("Kaan");
-// İkinci Örnek /
-//İlk Örnek
 function merhaba(name, age) {
   console.log(` İsim ${name} Yaş:${age}`);
 }
@@ -20,7 +11,7 @@ merhaba(); // Fonksiyon Çağrısı (Function Call)
 merhaba();
 
 merhaba(); // İsim Undifend Yaş Undifend
-//İlk Örnek
+
 
 //Square ***Return Uygulamarı ***
 //function square(x) {
@@ -46,23 +37,23 @@ merhaba(); // İsim Undifend Yaş Undifend
 
 //console.log(a);
 
-//Java script te direkt yazdırılabiliyor.
-//function merhaba() {
+// Java script te direkt yazdırılabiliyor.
+// function merhaba() {
 //  return "Merhaba";
-//}
-//console.log(merhaba());
+// }
+// console.log(merhaba());
 
 // bir değişkene bir fonksiyonu eklemiş veya atamış olduk sıkça kullanılır.
-const merhaba = function (name) {
-  console.log("Merhaba" + name); // fonksiyon objesi
-};
-merhaba("Murat")(
+// const merhaba = function (name) {
+//   console.log("Merhaba" + name); // fonksiyon objesi
+// };
+// merhaba("Murat")(
   // olarak kullanılabilir.
 
   //Immediately Invoked Function Expression (IIFE)
   //** TANIMLANDIĞI YERDE ÇALIŞAN FONKSİYONLAR ANLAMINA GELİYOR.(IIFE) **/
   //IIFE ÖRNEĞİ
-  function (name) {
-    console.log("Merhaba: " + name);
-  }
-)("Kaan");
+//   function (name) {
+//     console.log("Merhaba: " + name);
+//   }
+// )("Kaan");
