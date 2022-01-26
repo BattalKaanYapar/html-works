@@ -23,7 +23,7 @@ Boolean(22) // true
 Boolean(0) // false
 Boolean(-1) // true
 Boolean(0 === 0) // true hakkında konuşmadı örnek olarak gösterildi ileride anlatılacak
-// Not: Karar yapilar kısmında tekrar anlatılacak.
+// Not: Karar yapilar kısmında tekrar anlatılacak..
 Boolean(userName.length > 0) 
 
 
