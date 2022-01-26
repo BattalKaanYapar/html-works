@@ -59,8 +59,10 @@ var car = {
         return this.name + " " + this.model + " durduruldu";
     }
 };
-document.getElementById('result').innerHTML= car.start() + "<br>" +
+let pandora = document.getElementById('result')
+    pandora= car.start() + "<br>" +
     car.drive() + "<br>" +
     car.brake() + "<br>" +
     car.stop() + "<br>" ;
 
+    console.log(pandora)

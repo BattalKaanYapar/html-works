@@ -43,22 +43,7 @@ yeniSayliar= "0","1","25","216","49","512","13000"
 
 var meyve = "elma, armut, portakal";
 var deneme1= meyve.slice();//parametre girilmezse hepsini kopyalar
-// var deneme1= meyve.slice(7,13);// 7 den başlar 13 karaktere kadar kopyalar
-// var deneme2= meyve.slice(-12,-6);// sondan 12. karakterden başlar sondan 6 ya kadar kopyalar
-// var deneme3= meyve.slice(7,-6);// baştan 7 den başlar sonuna kadar hepsi kopyalar
-// var deneme4= meyve.slice(-12);//sondan 12. den başlar sonuna kadar hepsi kopyalar
 let armut = meyve.slice(6,11)
 console.log(armut);
 console.log(deneme1);
-// console.log(deneme2);
-// console.log(deneme3);
-// console.log(deneme4);
 
-
-<<<<<<< Updated upstream
-=======
-const schoolList = ["Ümraniye","Maltepe","Atakent"]
-
-var nameList = 0;
-
->>>>>>> Stashed changes

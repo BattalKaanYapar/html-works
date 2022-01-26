@@ -18,20 +18,4 @@ function ekle (e){
 // ekle();
 console.log(USERS)
 
-for(var i=0;i<USERS.length;i++){
-    console.log("Çalışıyor",USERS[i])
-    let trDOM =document.createElement('tr')
-   fieldList.forEach((item) => {
-     let tdDOM =document.createElement('td')
-     let fieldValue=document.querySelector(`#${item}`);
-     tdDOM.innerHTML=fieldValue.value
-     trDOM.appendChild(tdDOM)
-   })
-   let closeButton= document.createElement('td')
-   closeButton.innerHTML='<button type="button" class="btn btn-danger" onClick="removeItem()">Sil<button>' 
-   trDOM.appendChild(closeButton);
-   employessDOM.appendChild(trDOM);
-}
 
-
-//add 'e basıldığı zaman
