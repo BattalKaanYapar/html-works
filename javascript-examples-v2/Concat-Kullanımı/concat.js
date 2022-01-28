@@ -24,3 +24,4 @@ var alpha = ['a','b','c'],
 var alphaNumeric = alpha.concat(numeric);
 
 console.log(alphaNumeric);
+
