@@ -25,3 +25,7 @@ function userAge (){
 
 document.write(" <br> <br> Users Filtrelendi : " + userAges.filter(userAge) + "<br>")
 
+
+for (var i =0;i<users.length;i++){
+    document.write(users[i] + " <br>");
+}
