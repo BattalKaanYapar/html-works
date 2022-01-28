@@ -140,6 +140,7 @@
     border-radius: 6px;
     justify-content: space-between;
     display: flex;
+    
 }
 
 .search-btn input[type=text] {
@@ -149,12 +150,27 @@
     border: none;
     height: 40px;
     display: inline-block;
+<<<<<<< Updated upstream:dashboard-page/css/dashboards.css
     background-image: url('../images/search-vector.png');
     background-repeat: no-repeat;
     background-position: calc(100% - 16px);
     border: 1px solid #AFB5B9;
     border-radius: 5px;
 }
+=======
+    border-left: 1px solid #AFB5B9;
+    border-radius: 6px;
+  }
+.search-btn button {
+    background: #FFF;
+    color: #A2A5A7;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 50px;
+    border-right:1px solid #AFB5B9;
+    border-radius: 6px;
+>>>>>>> Stashed changes:topbar-menu/css/dashboards.css
 
 .filter-box-btn {
     font-weight: 700;
