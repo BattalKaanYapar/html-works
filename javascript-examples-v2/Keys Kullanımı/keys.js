@@ -13,3 +13,39 @@ for (number of key){
 list[0] = "Karpuz";
 
 document.write(list + "<br><br>");
+
+
+list [3] = "28"
+
+document.write(list + "<br><br>");
+
+
+list[4] +=" : Lord Of The Rings";
+
+document.write(list +  "<br><br>")
+
+var fruits = ["Banana","Orange","Apple","Mango"]
+
+var x = fruits.keys();
+
+document.getElementById("demo").innerHTML = x.next().value;
+
+
+var arr = ['a','b','c']
+
+var sparseKeys = Object.keys(arr);
+
+var denseKeys = [...arr.keys()]
+
+console.log(sparseKeys);
+console.log(denseKeys);
+
+var a = ['pisagor','barışManço','csgo','lol'," "];
+
+var it = a.keys();
+
+for(let key of it){
+    document.write(key + ' ')
+    console.log(" Dizimin index numarası = " + key + " Dizimin içeriği = " + a)
+}
+
