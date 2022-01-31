@@ -76,3 +76,7 @@ yeniYazMeyveleri.forEach(function(kp){
     document.write("Yeni Yaz Sebzeleri =" + kp.sebze + " <br> ");
     document.write("<br>")
 })
+
+diziler.unshift({meyve: "Kiraz",  mevsim:"yaz" },{meyve:"kavun",mevsim:"yaz"})
+
+console.log(diziler)
