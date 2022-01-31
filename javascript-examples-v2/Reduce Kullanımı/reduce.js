@@ -27,3 +27,5 @@ document.write("<br><br>"+array1.reduce(reducer))
 console.log(array1.reduce(reducer));
 document.write("<br><br>"+array1.reduce(reducer,5))
 console.log(array1.reduce(reducer,5));
+
+
