@@ -24,3 +24,5 @@ toplam.reverse();
 console.log(toplam);
 
 console.log(toplam.join());
+
+
