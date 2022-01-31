@@ -12,9 +12,13 @@
     
     <div class="main row" style="justify-content: space-between;">
         <div class="footer col-sm-8" id="employees">
-            <p>Çalışanların takvimi / Vardiya sistemi</p>
+            <div>
+                <input type="search" class="form-control" placeholder="Aramak istediğiniz nedir ?">
+                <button class="btn btn-success m-2">Ara</button>
+        </div>
+            
             <div class="employees form-control">
-                <input type="text" class="input form-control m-3" name="users" id="users" placeholder="Yeni Çalışan" style="border-radius: 5px; border: none;">
+                <input type="text" class="form-control mb-2" name="users" id="users" placeholder="Yeni Çalışan">
                 <button type="button" class="btn btn-dark text-light m-3">Aktar</button>
                 <div class="employee-calendar m-3" id="calendar">
                     <p>Tablo halinde gösterilecek</p>
@@ -40,7 +44,7 @@
                                  Buraya konulan buton ile pop-up açılacak bilgiler girildiğinde 
                                 tablo içerisinde yeni bir tr içerisinde td olarak yazılacak sırası ile
                                 filter özelliği kullanılacak 
-                                
+
                             -->
                         </tbody>
                     </table>
