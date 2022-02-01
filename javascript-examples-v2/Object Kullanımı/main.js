@@ -43,3 +43,24 @@ document.write(human2.surName);
 human2.boy=190;
 
 document.write("<br>"+"boy :"+human2.boy);
+
+let ilkObjem =[{
+
+    name:"Kaan",
+    surName:"Yapar",
+    age:25,
+    departmant:"Jr.Software Dev"
+}] 
+let ikinciObjem ={
+    name:"Hasan",
+    surName:"Hayer",
+    age:19,
+    departmant:"FullDev"
+}
+
+let ikisiBirArada=ilkObjem.concat(ikinciObjem);
+
+console.log(ikisiBirArada);
+
+console.log(ikisiBirArada.length);
+
