@@ -54,3 +54,4 @@ var daysName = date1.getDate();
 
 document.write(month[monthName]+"<br>");
 document.write(day[daysName]+"<br>");
+
