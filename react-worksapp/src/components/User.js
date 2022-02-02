@@ -3,10 +3,11 @@ import React, { Component } from 'react';
 class User extends Component {
   render() {
     return <div>
-        <form>
-            <input type="text"></input>
-            <button>Gönder</button>
-        </form>
+        <ul>
+            <li>İsim : Battal Kaan Yapar</li>
+            <li>Departman : Bilişim</li>
+            <li>Maaş : 5000</li>
+        </ul>
     </div>;
   }
 }
