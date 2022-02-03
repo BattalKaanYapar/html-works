@@ -19,12 +19,11 @@
 
 // export default User;
 
-const User = ({name,surName})=>{
+const User = ({todo,task})=>{
   return (
     <div>
-      {name}{surName}
+      {todo}{task}
     </div>
   )
 }
-
 export default User;
