@@ -1,26 +1,17 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import User from './components/User';
-import Navbar2 from './components/Navbar2';
-function App() {
+import React,{useState} from 'react';
+const App=()=> {
+  const [name,setName] = useState() // useState tanımlaması bu şekilde yapılmaktadır.
+  const [surName,setSurName] = React.useState() //
   return (
     <div  className='container'>
-      <Navbar title="User App 2"></Navbar>
-      <User 
-      name = "Battal Kaan"
-      surName="Yapar"
-      salary = "5000"
-      department= "Bilişim"
-      
+      <input onChange={event => setName(event.target.value)}/>
+      <input onChange={event => setSurName(event.target.value)}/>
+      <User
+        name = {name}
+        surName = {surName}
       />
-      <User 
-      name = "Oğuzhan"
-      surName="Bedir"
-      salary = "9000"
-      department= "Bilişim"
-      
-      />
-      
     </div>
   );
 }
