@@ -10,21 +10,11 @@
 //         <ul>
 //             <li>Name: {name}</li>
 //             <li>SurName:{surName}</li>
-//             <li>Salary:{salary}</li>
-//             <li>Depart:{surName}</li>
+//             <li>Salary:{this.props.salary}</li>
+//             <li>Depart:{this.props.department}</li>
 //         </ul>
 //     </div>;
 //   }
 // }
 
 // export default User;
-
-const User = (name,surName)=>{
-  return (
-    <div>
-      {name}{surName}
-    </div>
-  )
-}
-
- export default User;
