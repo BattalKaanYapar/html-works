@@ -1,20 +1,17 @@
 import './App.css';
-import List from './components/List';
 import User from './components/User';
 import React,{useState} from 'react';
 const App=()=> {
-  const [task,setTask] = useState() // useState tanımlaması bu şekilde yapılmaktadır.
-  const [todo,setTodo] = React.useState() //
+  const [name,setName] = useState() // useState tanımlaması bu şekilde yapılmaktadır.
+  const [surName,setSurName] = React.useState() //
   return (
     <div  className='container'>
+      <input onChange={event => setName(event.target.value)}/>
+      <input onChange={event => setSurName(event.target.value)}/>
       <User
-        task = {task}
-        todo = {todo}
+        name = {name}
+        surName = {surName}
       />
-      <input onChange={event => setTask(event.target.value)}/>
-      
-      <button onChange={event => setTodo(event.target.value)}>Add Todo</button>
-      <List></List>
     </div>
   );
 }
