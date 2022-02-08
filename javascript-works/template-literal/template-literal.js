@@ -20,12 +20,12 @@ function a() {
     return "Merhaba";
 }
  const html = `
-            <ul>
-                <li>${Name}</li>
-                <li>${department}</li>
-                <li>${salary}</li>
-                <li>${10 / 4}</li>
-                <li>${a()}</li>
-            </ul>
+ <ul>
+ <li>${Name}</li>
+ <li>${department}</li>
+ <li>${salary}</li>
+ <li>${10 / 4}</li>
+ <li>${a()}</li>
+</ul>
             `; // daha kolay yöntemi
 document.body.innerHTML = html;
